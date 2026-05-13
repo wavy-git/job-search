@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0F1C"/>
+      <stop offset="100%" stop-color="#11203A"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#D4AF37"/>
+      <stop offset="100%" stop-color="#F0D67A"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#FFFFFF" stroke-opacity="0.04" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1584" height="396" fill="url(#bg)"/>
+  <rect width="1584" height="396" fill="url(#grid)"/>
+
+  <!-- right-side abstract circuit nodes -->
+  <g stroke="#D4AF37" stroke-opacity="0.35" fill="none" stroke-width="1.2">
+    <circle cx="1280" cy="120" r="4" fill="#D4AF37"/>
+    <circle cx="1380" cy="200" r="4" fill="#D4AF37"/>
+    <circle cx="1460" cy="100" r="4" fill="#D4AF37"/>
+    <circle cx="1500" cy="280" r="4" fill="#D4AF37"/>
+    <circle cx="1320" cy="300" r="4" fill="#D4AF37"/>
+    <line x1="1280" y1="120" x2="1380" y2="200"/>
+    <line x1="1380" y1="200" x2="1460" y2="100"/>
+    <line x1="1380" y1="200" x2="1500" y2="280"/>
+    <line x1="1380" y1="200" x2="1320" y2="300"/>
+  </g>
+
+  <!-- gold accent bar -->
+  <rect x="700" y="150" width="4" height="100" fill="url(#gold)"/>
+
+  <!-- text -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FFFFFF">
+    <text x="724" y="180" font-size="34" font-weight="600" letter-spacing="1">Technology Leader</text>
+    <text x="724" y="215" font-size="20" fill="#D4AF37" letter-spacing="3" font-family="Helvetica, Arial, sans-serif">AI-AUGMENTED OPS  ·  REGULATED PLATFORMS</text>
+    <text x="724" y="260" font-size="18" fill="#C8D1E0" font-family="Helvetica, Arial, sans-serif" font-style="italic">Building what doesn't exist yet, solving problems others miss.</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <defs>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0F1B2D" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#1E3A5F" stop-opacity="0.10"/>
+    </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="#FFFFFF"/>
+  <rect x="500" width="9" height="396" fill="#0F1B2D"/>
+  <g fill="none" stroke="url(#wave)" stroke-width="1.6">
+    <path d="M520,80 C700,30 900,130 1100,80 S1400,30 1584,80"/>
+    <path d="M520,130 C700,80 900,180 1100,130 S1400,80 1584,130"/>
+    <path d="M520,180 C700,130 900,230 1100,180 S1400,130 1584,180"/>
+    <path d="M520,230 C700,180 900,280 1100,230 S1400,180 1584,230"/>
+    <path d="M520,280 C700,230 900,330 1100,280 S1400,230 1584,280"/>
+    <path d="M520,330 C700,280 900,380 1100,330 S1400,280 1584,330"/>
+  </g>
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="560" y="130" font-size="64" font-weight="800" fill="#0F1B2D" letter-spacing="-1.4">Technology Leader</text>
+    <text x="564" y="172" font-size="20" font-weight="700" fill="#0F1B2D" letter-spacing="2.5">PRODUCT &amp; PROGRAM MANAGEMENT OFFICE</text>
+    <text x="564" y="204" font-size="20" font-weight="700" fill="#0F1B2D" letter-spacing="2.5">AI-AUGMENTED OPS  ·  REGULATED PLATFORMS</text>
+    <text x="564" y="270" font-size="22" fill="#1A1F26" font-weight="500">Building what doesn't exist yet,</text>
+    <text x="564" y="300" font-size="22" fill="#1A1F26" font-weight="500">and solving problems others miss.</text>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <rect width="1584" height="396" fill="#FFFFFF"/>
+  <rect x="500" width="6" height="396" fill="#5B2A4A"/>
+  <g fill="none" stroke="#5B2A4A" stroke-width="1.2">
+    <path d="M520,80 C700,30 900,130 1100,80 S1400,30 1584,80" stroke-opacity="0.30"/>
+    <path d="M520,130 C700,80 900,180 1100,130 S1400,80 1584,130" stroke-opacity="0.22"/>
+    <path d="M520,180 C700,130 900,230 1100,180 S1400,130 1584,180" stroke-opacity="0.16"/>
+    <path d="M520,230 C700,180 900,280 1100,230 S1400,180 1584,230" stroke-opacity="0.11"/>
+    <path d="M520,280 C700,230 900,330 1100,280 S1400,230 1584,280" stroke-opacity="0.07"/>
+  </g>
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="560" y="130" font-size="60" font-weight="800" fill="#1A1F26" letter-spacing="-1.2">Technology Leader</text>
+    <text x="564" y="172" font-size="20" font-weight="600" fill="#5B2A4A" letter-spacing="2.5">PRODUCT &amp; PROGRAM MANAGEMENT OFFICE</text>
+    <text x="564" y="204" font-size="20" font-weight="600" fill="#5B2A4A" letter-spacing="2.5">AI-AUGMENTED OPS  ·  REGULATED PLATFORMS</text>
+    <text x="564" y="270" font-size="22" fill="#3D3530" font-weight="400">Building what doesn't exist yet,</text>
+    <text x="564" y="300" font-size="22" fill="#3D3530" font-weight="400">and solving problems others miss.</text>
+  </g>
+</svg>

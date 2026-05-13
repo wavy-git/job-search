@@ -1,0 +1,256 @@
+/Users/mmavvaj/Projects/dev-wavygull/job-search/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+[scrape] Payabli via ashby (payabli)
+  -> 11 postings
+[scrape] Finix via lever (finix)
+  -> 9 postings
+[scrape] Moov Financial via html (https://moov.io/careers)
+  -> 0 postings
+[scrape] Stax Payments via html (https://staxpayments.com/careers)
+  -> 0 postings
+[scrape] Xplor Technologies via smartrecruiters (Xplor)
+  -> 234 postings
+[scrape] Rainforest via lever (rainforestpay)
+  FAILED: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/rainforestpay?mode=json
+[scrape] Adyen via greenhouse (adyen)
+  -> 285 postings
+[scrape] Checkout.com via html (https://www.checkout.com/careers)
+  -> 0 postings
+[scrape] Stripe via greenhouse (stripe)
+  -> 493 postings
+[scrape] Marqeta via greenhouse (marqeta)
+  -> 33 postings
+[scrape] Alloy via greenhouse (alloy)
+  -> 17 postings
+[scrape] Modern Treasury via ashby (moderntreasury)
+  -> 5 postings
+[scrape] Unit via html (https://www.unit.co/careers)
+  -> 0 postings
+[scrape] Ramp via ashby (ramp)
+  -> 128 postings
+[scrape] Brex via greenhouse (brex)
+  -> 249 postings
+[scrape] Mercury via greenhouse (mercury)
+  -> 66 postings
+[scrape] Plaid via lever (plaid)
+  -> 92 postings
+[scrape] Sardine via ashby (sardine)
+  -> 21 postings
+[scrape] Persona via ashby (persona)
+  -> 21 postings
+[scrape] Middesk via ashby (middesk)
+  -> 14 postings
+[scrape] SQUIRE via lever (getsquire)
+  -> 9 postings
+[scrape] Toast via workday (https://toasttab.wd5.myworkdayjobs.com/toasttab)
+  -> 0 postings
+[scrape] Mindbody via greenhouse (mindbody)
+  -> 34 postings
+[scrape] GlossGenius via greenhouse (glossgenius)
+  -> 32 postings
+[scrape] Vagaro via html (https://sales.vagaro.com/careers)
+  -> 0 postings
+[scrape] ServiceTitan via workday (https://servicetitan.wd1.myworkdayjobs.com/ServiceTitan)
+  -> 0 postings
+[scrape] Jobber via ashby (jobber)
+  -> 27 postings
+[scrape] Housecall Pro via html (https://www.housecallpro.com/careers)
+  -> 0 postings
+[scrape] Procore via html (https://careers.procore.com)
+  -> 0 postings
+[scrape] Tebra via greenhouse (tebra)
+  -> 26 postings
+[scrape] Affirm via greenhouse (affirm)
+  -> 167 postings
+[scrape] Block via greenhouse (block)
+  -> 145 postings
+[scrape] Chime via greenhouse (chime)
+  -> 76 postings
+[scrape] SoFi via greenhouse (sofi)
+  -> 209 postings
+[scrape] Rippling via html (https://www.rippling.com/careers/open-roles)
+  FAILED: RuntimeError: playwright listing fetch failed: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.rippling.com/careers/open-roles", waiting until "networkidle"
+
+[scrape] Gusto via smartrecruiters (Gusto)
+  -> 0 postings
+[scrape] Bill.com via greenhouse (billcom)
+  -> 49 postings
+[scrape] Airwallex via ashby (airwallex)
+  -> 627 postings
+[scrape] Deel via ashby (deel)
+  -> 255 postings
+[scrape] NMI via greenhouse (nmi)
+  -> 16 postings
+[scrape] Apple via html (https://jobs.apple.com/en-us/search)
+  -> 0 postings
+[scrape] Amazon via html (https://www.amazon.jobs/en/search)
+  -> 0 postings
+[scrape] Google via html (https://www.google.com/about/careers/applications/jobs/results)
+  -> 0 postings
+[scrape] Microsoft via html (https://careers.microsoft.com)
+  FAILED: RuntimeError: playwright listing fetch failed: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://careers.microsoft.com/", waiting until "networkidle"
+
+[scrape] Meta via html (https://www.metacareers.com/jobs)
+  -> 0 postings
+[scrape] Uber via html (https://www.uber.com/us/en/careers)
+  -> 0 postings
+[scrape] DoorDash via html (https://careersatdoordash.com)
+  -> 0 postings
+[scrape] Airbnb via greenhouse (airbnb)
+  -> 231 postings
+[scrape] Mastercard via html (https://careers.mastercard.com)
+  -> 1 postings
+[scrape] Visa via smartrecruiters (Visa)
+  -> 218 postings
+[scrape] PayPal via html (https://careers.pypl.com/home/)
+  -> 0 postings
+[scrape] Fiserv via html (https://careers.fiserv.com)
+  -> 0 postings
+[scrape] FIS via html (https://careers.fisglobal.com)
+  -> 0 postings
+[scrape] Global Payments via html (https://www.globalpaymentsinc.com/en-us/careers)
+  -> 0 postings
+[scrape] American Express via html (https://careers.americanexpress.com)
+  -> 0 postings
+[scrape] GE Vernova via html (https://careers.gevernova.com)
+  -> 0 postings
+[scrape] VertexOne via html (https://www.vertexone.ai/careers)
+  -> 0 postings
+[scrape] Itron via html (https://careers.itron.com)
+  -> 0 postings
+[scrape] Enverus via html (https://www.enverus.com/careers)
+  -> 0 postings
+[scrape] Uplight via html (https://uplight.com/careers)
+  -> 0 postings
+[scrape] AutoGrid via html (https://www.auto-grid.com/about/careers)
+  -> 0 postings
+[scrape] Kraken Technologies via html (https://kraken.tech/careers)
+  -> 0 postings
+[scrape] Arcadia via lever (arcadia)
+  -> 15 postings
+[scrape] Span via ashby (span)
+  -> 26 postings
+[scrape] Veeva Systems via lever (veeva)
+  -> 1045 postings
+[scrape] Athenahealth via html (https://careers.athenahealth.com)
+  -> 0 postings
+[scrape] Oscar Health via greenhouse (oscar)
+  -> 284 postings
+[scrape] Komodo Health via greenhouse (komodohealth)
+  -> 39 postings
+[scrape] Cedar via ashby (cedar)
+  -> 8 postings
+[scrape] Datavant via html (https://www.datavant.com/careers)
+  -> 0 postings
+[scrape] Datadog via greenhouse (datadog)
+  -> 430 postings
+[scrape] PagerDuty via greenhouse (pagerduty)
+  -> 52 postings
+[scrape] Splunk via html (https://www.splunk.com/en_us/careers.html)
+  -> 0 postings
+[scrape] New Relic via greenhouse (newrelic)
+  -> 62 postings
+[scrape] HashiCorp via html (https://www.hashicorp.com/careers)
+  -> 0 postings
+[scrape] Atlassian via html (https://www.atlassian.com/company/careers/all-jobs)
+  -> 0 postings
+[scrape] ServiceNow via smartrecruiters (ServiceNow)
+  -> 540 postings
+[scrape] CrowdStrike via html (https://www.crowdstrike.com/careers)
+  -> 0 postings
+[scrape] Palo Alto Networks via html (https://www.paloaltonetworks.com/company/careers)
+  -> 0 postings
+[scrape] Okta via greenhouse (okta)
+  -> 371 postings
+[scrape] Cloudflare via greenhouse (cloudflare)
+  -> 458 postings
+[scrape] SentinelOne via html (https://www.sentinelone.com/careers)
+  -> 0 postings
+[scrape] Salesforce via html (https://www.salesforce.com/company/careers)
+  -> 0 postings
+[scrape] Snowflake via ashby (snowflake)
+  -> 424 postings
+[scrape] Databricks via greenhouse (databricks)
+  -> 839 postings
+[scrape] Anthropic via greenhouse (anthropic)
+  -> 453 postings
+[scrape] OpenAI via ashby (openai)
+  -> 654 postings
+[scrape] Scale AI via greenhouse (scaleai)
+  -> 172 postings
+[scrape] Glean via ashby (glean)
+  FAILED: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/glean?includeCompensation=true
+[scrape] Harvey via ashby (harvey)
+  -> 241 postings
+[scrape] Linear via ashby (linear)
+  -> 22 postings
+[scrape] Vercel via greenhouse (vercel)
+  -> 84 postings
+[scrape] Retool via html (https://retool.com/careers)
+  -> 1 postings
+[scrape] Notion via ashby (notion)
+  -> 141 postings
+[scrape] Zapier via ashby (zapier)
+  -> 23 postings
+[scrape] Webflow via greenhouse (webflow)
+  -> 55 postings
+[scrape] Hex via greenhouse (hextechnologies)
+  -> 33 postings
+[scrape] Census via html (https://www.getcensus.com/careers)
+  -> 0 postings
+[scrape] Workhuman via html (https://www.workhuman.com/careers)
+  -> 0 postings
+[scrape] Granicus via html (https://granicus.com/about/careers)
+  -> 0 postings
+[scrape] RELEX Solutions via greenhouse (relex)
+  -> 24 postings
+[scrape] iCIMS via html (https://www.icims.com/about-icims/careers)
+  FAILED: RuntimeError: playwright listing fetch failed: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.icims.com/about-icims/careers", waiting until "networkidle"
+
+[scrape] Kajabi via html (https://kajabi.com/careers)
+  -> 0 postings
+[scrape] Ashby via ashby (ashby)
+  -> 64 postings
+[scrape] Mercoa via html (https://www.mercoa.com/careers)
+  -> 0 postings
+[scrape] Puzzle via html (https://puzzle.io/careers)
+  -> 0 postings
+[scrape] Default via html (https://www.default.com/careers)
+  -> 0 postings
+[scrape] Clay via html (https://www.clay.com/careers)
+  -> 0 postings
+
+=== Summary ===
+Companies scraped: 103/108
+Total postings found: 10360
+Matched after filters: 50
+Output: /Users/mmavvaj/Projects/dev-wavygull/job-search/jobs_2026-04-25.md, /Users/mmavvaj/Projects/dev-wavygull/job-search/jobs_2026-04-25.json
+
+Errors (5):
+  - Rainforest: HTTPError: 404 Client Error: Not Found for url: https://api.lever.co/v0/postings/rainforestpay?mode=json
+  - Rippling: RuntimeError: playwright listing fetch failed: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.rippling.com/careers/open-roles", waiting until "networkidle"
+
+  - Microsoft: RuntimeError: playwright listing fetch failed: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://careers.microsoft.com/", waiting until "networkidle"
+
+  - Glean: HTTPError: 404 Client Error: Not Found for url: https://api.ashbyhq.com/posting-api/job-board/glean?includeCompensation=true
+  - iCIMS: RuntimeError: playwright listing fetch failed: Page.goto: Timeout 60000ms exceeded.
+Call log:
+navigating to "https://www.icims.com/about-icims/careers", waiting until "networkidle"
+
+
+Top 5 by score:
+  [9] Director, Product Management - Next Gen Platform -- Marqeta
+  [9] Director, Product Marketing -- Brex
+  [9] Director of Product Marketing, Lending -- Chime
+  [9] Director of Product Marketing, Spending, Saving and Investing -- Chime
+  [9] Director, Product Management, MyPay -- Chime

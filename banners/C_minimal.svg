@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="100%" stop-color="#FF8A50"/>
+    </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="#F5F2EC"/>
+
+  <!-- thin top/bottom rules -->
+  <line x1="80" y1="60" x2="1504" y2="60" stroke="#1A1A1A" stroke-opacity="0.12" stroke-width="1"/>
+  <line x1="80" y1="336" x2="1504" y2="336" stroke="#1A1A1A" stroke-opacity="0.12" stroke-width="1"/>
+
+  <!-- right-side minimal mark -->
+  <g transform="translate(1280,140)">
+    <circle cx="60" cy="60" r="60" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+    <circle cx="60" cy="60" r="40" fill="none" stroke="#1A1A1A" stroke-width="1.5"/>
+    <circle cx="60" cy="60" r="20" fill="url(#accent)"/>
+  </g>
+
+  <!-- accent slab -->
+  <rect x="700" y="186" width="48" height="6" fill="url(#accent)"/>
+
+  <!-- text -->
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#1A1A1A">
+    <text x="700" y="170" font-size="38" font-weight="600">Technology Leader</text>
+    <text x="700" y="225" font-size="18" font-family="Helvetica, Arial, sans-serif" letter-spacing="3" fill="#555">AI-AUGMENTED OPS  ·  REGULATED PLATFORMS</text>
+    <text x="700" y="265" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#333">Building what doesn't exist yet.</text>
+    <text x="700" y="290" font-size="18" font-family="Helvetica, Arial, sans-serif" fill="#333">Solving problems others miss.</text>
+  </g>
+</svg>

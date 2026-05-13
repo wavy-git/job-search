@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <rect width="1584" height="396" fill="#FFFFFF"/>
+  <g fill="none" stroke="#2A2E33" stroke-width="1.2">
+    <path d="M0,90 C300,30 600,150 900,90 S1300,30 1584,90" stroke-opacity="0.16"/>
+    <path d="M0,140 C300,80 600,200 900,140 S1300,80 1584,140" stroke-opacity="0.12"/>
+    <path d="M0,190 C300,130 600,250 900,190 S1300,130 1584,190" stroke-opacity="0.09"/>
+    <path d="M0,240 C300,180 600,300 900,240 S1300,180 1584,240" stroke-opacity="0.07"/>
+    <path d="M0,290 C300,230 600,350 900,290 S1300,230 1584,290" stroke-opacity="0.05"/>
+    <path d="M0,340 C300,280 600,400 900,340 S1300,280 1584,340" stroke-opacity="0.03"/>
+  </g>
+  <rect x="540" y="180" width="60" height="6" fill="#A05A2A"/>
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="540" y="160" font-size="72" font-weight="800" fill="#1A1F26" letter-spacing="-1.8">Technology Leader</text>
+    <text x="544" y="220" font-size="24" font-weight="600" fill="#A05A2A" letter-spacing="3">AI-AUGMENTED OPS  ·  REGULATED PLATFORMS</text>
+    <text x="544" y="280" font-size="22" fill="#3D3530" font-weight="400">Building what doesn't exist yet,</text>
+    <text x="544" y="310" font-size="22" fill="#3D3530" font-weight="400">and solving problems others miss.</text>
+  </g>
+</svg>

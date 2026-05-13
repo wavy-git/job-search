@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1742 396" width="1742" height="396">
+  <rect width="1742" height="396" fill="#FFFFFF"/>
+  <rect x="658" width="8" height="396" fill="#3D4654"/>
+  <g fill="none" stroke="#9C7A2E" stroke-width="1.4">
+    <path d="M678,80 C858,30 1058,130 1258,80 S1558,30 1742,80" stroke-opacity="0.42"/>
+    <path d="M678,130 C858,80 1058,180 1258,130 S1558,80 1742,130" stroke-opacity="0.30"/>
+    <path d="M678,180 C858,130 1058,230 1258,180 S1558,130 1742,180" stroke-opacity="0.20"/>
+    <path d="M678,230 C858,180 1058,280 1258,230 S1558,180 1742,230" stroke-opacity="0.14"/>
+    <path d="M678,280 C858,230 1058,330 1258,280 S1558,230 1742,280" stroke-opacity="0.09"/>
+  </g>
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="718" y="130" font-size="64" font-weight="800" fill="#3D4654" letter-spacing="-1.4">Technology Leader</text>
+    <text x="722" y="172" font-size="20" font-weight="700" fill="#9C7A2E" letter-spacing="2.5">PRODUCTS &amp; PROGRAM MANAGEMENT OFFICE</text>
+    <text x="722" y="204" font-size="20" font-weight="700" fill="#9C7A2E" letter-spacing="2.5">AI-AUGMENTED OPS  ·  REGULATED PLATFORMS</text>
+    <text x="722" y="270" font-size="22" fill="#3D4654" font-weight="500">Building what doesn't exist yet,</text>
+    <text x="722" y="300" font-size="22" fill="#3D4654" font-weight="500">and solving problems others miss...</text>
+  </g>
+</svg>

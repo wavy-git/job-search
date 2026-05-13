@@ -1,0 +1,93 @@
+# LinkedIn Alerts Snapshot, 2026-04-25 (test run, fired 13:05 EDT)
+
+Senders scanned: jobs-listings@linkedin.com, jobalerts-noreply@linkedin.com, jobs-noreply@linkedin.com
+Time window: last 24 hours
+Folders searched: ALL (search_emails spans all Fastmail folders, including Ignore)
+
+## Scan totals
+
+| Sender | Emails parsed | Postings extracted | Last-seen receipt |
+|---|---|---|---|
+| jobs-listings@linkedin.com | 0 | 0 | n/a (no emails in window; most recent overall: 2026-04-22T22:26:18Z) |
+| jobalerts-noreply@linkedin.com | 13 | 78 | 2026-04-25T16:30:13Z |
+| jobs-noreply@linkedin.com | 1 | 4 | 2026-04-25T15:31:28Z |
+| Totals | 14 | 82 | |
+
+After dedupe by LinkedIn job ID: 71 unique postings.
+After hard filters: 61 roles passed.
+
+## Postings (sorted by company)
+
+| Company | Title | Location | Posted Date | Apply Link | Source Sender | Source Subject |
+|---|---|---|---|---|---|---|
+| ACI Worldwide | Director of Technical Product Ownership | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4382488772/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product  Payments Remote Posted In The Past Week in United States has been created |
+| Abbott | Product and Experiences Director | Alameda, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405283492/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in San Francisco Bay Area has been created |
+| Adyen | Head of Product, Credit | San Francisco, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4323210563/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in San Francisco Bay Area has been created |
+| Affirm | Senior Director, Product Management | Philadelphia, PA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4366092124/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in Greater Philadelphia has been created |
+| Affirm | Senior Director, Product Management | San Jose, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4366400073/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in San Francisco Bay Area has been created |
+| Affirm | Senior Director, Product Management | Seattle, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4366093132/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product in Greater Seattle Area has been created |
+| Anaplan | Director Product Manager, Applications (FP&A) | Philadelphia, PA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405445072/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product in Greater Philadelphia has been created |
+| Argano | PMO Director - Oracle | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4382072579/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in United States has been created |
+| Benepass | Product Operations Manager | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4402823958/ | jobalerts-noreply@linkedin.com | Head of Program Management at G-P |
+| Capital One | Senior Director, Product Managment | Philadelphia, PA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404932344/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in Greater Philadelphia has been created |
+| Clarivate | Senior Director, Product Management | Philadelphia, PA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4403554291/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in Greater Philadelphia has been created |
+| Cobalt | Director of Product Management | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4376429062/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in United States has been created |
+| Customer.io | Director, Product Management | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4397157730/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in United States has been created |
+| DNV | Managing Director, Product | Oakland, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4401975987/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in San Francisco Bay Area has been created |
+| DNV | Managing Director, Product | Seattle, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4401990754/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product in Greater Seattle Area has been created |
+| Davies North America | Head of Technology Products (Remote) | United States (Remote) | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405808649/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in United States has been created |
+| Early Warning | Sr. Director, Product - Digital Assets | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404849071/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product  Payments Remote Posted In The Past Week in United States has been created |
+| Electronic Arts (EA) | Head of Product Development | Kirkland, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4287161816/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product in Greater Seattle Area has been created |
+| ElectronX | Head of Product | New York, NY, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4392197135/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in New York City Metropolitan Area has been created |
+| Fastly | Senior Program Manager | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405035006/ | jobalerts-noreply@linkedin.com | Head of Program Management at G-P |
+| Florida Blue | Senior Director - Infrastructure & Operations Delivery | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405456603/ | jobalerts-noreply@linkedin.com | Senior Director, Federal Program Management Office at Oracle |
+| G-P | Head of Program Management | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4382715166/ | jobalerts-noreply@linkedin.com | Head of Program Management at G-P |
+| GovCIO | Director of Software Product Delivery (Remote) | United States (Remote) | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404995468/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in United States has been created |
+| HCLTech | Transformation Leader | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404111264/ | jobs-noreply@linkedin.com | Explore new jobs for "director pmo" |
+| Hologic, Inc. | Program Director, R&D PMO | Newark, DE, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4391283455/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in Greater Philadelphia has been created |
+| Inizio Evoke | Director, Project Management | Philadelphia, PA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4401692380/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in United States has been created |
+| JPMorganChase | Product Operations Executive Director | Wilmington, DE, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4395325418/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in Greater Philadelphia has been created |
+| Jade Biosciences | Director, Program Management | Seattle, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4382181617/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in Greater Seattle Area has been created |
+| Jefferson Health | Director, Platform and Product Management (Full-Time/Day) | Fort Washington, PA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404492326/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in Greater Philadelphia has been created |
+| Jobgether | Director, Technology Product Management | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404742777/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in United States has been created |
+| Joveo AI | Technical Program Manager (Remote) | United States (Remote) | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405634344/ | jobalerts-noreply@linkedin.com | Head of Program Management at G-P |
+| Kraken | Director, Product & GM - Embed, Payward Services | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4393823317/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product  Payments Remote Posted In The Past Week in United States has been created |
+| Ladders | Director of Product Management, Growth | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4403734077/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in United States has been created |
+| Lakeview Loan Servicing, LLC. | VP, PRODUCT & STRATEGY | New York, NY, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4398572862/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in New York City Metropolitan Area has been created |
+| Lantana Consulting Group | Associate Director, Delivery & Portfolio Management | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4378643100/ | jobalerts-noreply@linkedin.com | Senior Director, Federal Program Management Office at Oracle |
+| Leidos | Program Management Office Manager | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4403260295/ | jobalerts-noreply@linkedin.com | Head of Program Management at G-P |
+| Liberty Personnel Services, Inc. | Director Product Management | Philadelphia, PA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4366542359/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in Greater Philadelphia has been created |
+| Mastercard | Director, Product Management | New York, NY, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4382734091/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product  Payments Remote Posted In The Past Week in United States has been created |
+| Mediavine | VP, Product Management | New York, NY, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4391748261/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in New York City Metropolitan Area has been created |
+| Microsoft | Director, E+D Strategy | Redmond, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4396587753/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product in Greater Seattle Area has been created |
+| Microsoft | Principal Group Product Manager | Redmond, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4394635259/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product in Greater Seattle Area has been created |
+| Moloco | Director of Product Management - App Category Expansion | Seattle, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4344113260/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product in Greater Seattle Area has been created |
+| Nava | Director of Product | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4406645184/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in United States has been created |
+| Nue.io | Director, Program Management Office (PMO - Implementation) | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404831247/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in United States has been created |
+| Nue.io | Director of Program Management Office (PMO - Implementation) | San Mateo, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404983821/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in United States has been created |
+| Oracle | Senior Director, Federal Program Management Office | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4396178081/ | jobalerts-noreply@linkedin.com | Senior Director, Federal Program Management Office at Oracle |
+| Pinterest | Director, Technical Program Management, Pinner Journeys | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405471124/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in United States has been created |
+| Sago | Associate Director, Project Management | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405688319/ | jobalerts-noreply@linkedin.com | Head of Program Management at G-P |
+| Salesforce | Senior Director, Technical Program Management | Bellevue, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404987433/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in Greater Seattle Area has been created |
+| Salesforce | Senior Director, Technical Program Management | Palo Alto, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404975660/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in San Francisco Bay Area has been created |
+| Salesforce | Senior Director, Technical Program Management | San Francisco, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404979679/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in San Francisco Bay Area has been created |
+| Salesforce | Senior Director, Technical Program Management | Seattle, WA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404988382/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in Greater Seattle Area has been created |
+| Sourgum | Head of Product | Jersey City, NJ, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4380615020/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in New York City Metropolitan Area has been created |
+| Spencer's | Director, IT Project Management | Egg Harbor, NJ, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4363993033/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in Greater Philadelphia has been created |
+| Stealth Startup | Head of Program Management | San Francisco, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4403721391/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Pmo in San Francisco Bay Area has been created |
+| Transaction Network Services (TNS) | Sr. Director - PMO, Eng & CTO Initiatives | Pennsylvania, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4402497363/ | jobalerts-noreply@linkedin.com | Senior Director, Federal Program Management Office at Oracle |
+| Valeris | Director, Project Management | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405387494/ | jobs-noreply@linkedin.com | Explore new jobs for "director pmo" |
+| Walmart | Group Director, Product Management | Hoboken, NJ, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4382489238/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in New York City Metropolitan Area has been created |
+| Wayoh | Head of Product (AI FinTech Start-Up) | San Francisco, CA, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4404877608/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in San Francisco Bay Area has been created |
+| Wells Fargo | Head of Financial Institutions Product | New York, NY, US | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405213893/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Head Of Product in New York City Metropolitan Area has been created |
+| Zone & Co | Director, Product Management, Quote to Cash | United States | proxy 2026-04-25 (email date) | https://www.linkedin.com/jobs/view/4405255857/ | jobalerts-noreply@linkedin.com | Maz: your job alert for Director Product  Payments Remote Posted In The Past Week in United States has been created |
+
+## Reminders
+
+- Collect-only run. Postings have not been scored, ranked, bucket-tagged, or pushed through Rubric 1 stages 2-4.
+- Posted Date column shows the email receipt date as a proxy because LinkedIn alert digests do not embed posting dates in the per-job blocks. JD-level posted dates would require fetching each LinkedIn URL.
+- 0 emails received from jobs-listings@linkedin.com in the 24-hour window. Most recent message from that sender overall arrived 2026-04-22T22:26:18Z, so this is normal cadence rather than a delivery failure.
+- 11 of the 13 jobalerts-noreply emails were "your job alert has been created" confirmations triggered by saved-search setup activity. Each confirmation still embeds a list of matching postings, so they were parsed alongside the 2 standard digest emails.
+- 10 raw rows were dropped by the title filter: VP/Director Program Controls (no required keyword), Director IT Business Systems, DVP Business Solutions Owner, Director Payments Growth PLG, Adyen Head of Product Developer Experience (excluded by "developer"), Arm Technical Program Director AI, Affirm SD Technical Programs, BioSpace Sr Dir Project Operating Model, J&J MES Program Lead. The Adyen Developer Experience drop is the only one driven by the exclusion list; the rest failed the required-keyword check.
+- Several titles include the substring "Technical" but are retained because the exclusion terms are "technical lead" and "tech lead" rather than "technical" alone.
+- TNS title "Sr. Director - PMO, Eng & CTO Initiatives" was retained because the literal substring "engineer" does not appear in the title (only the abbreviation "Eng").

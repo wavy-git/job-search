@@ -1,0 +1,474 @@
+{
+  "schema_version": 1,
+  "last_updated": "2026-04-29",
+  "notes": "Closed-out candidates. Roles tracked but did not advance to application. Kept so they aren't re-evaluated when they reappear in scans. Prior content preserved at archive/2026-04-28-pre-rework/archive.md.",
+  "row_schema": {
+    "date_archived": "YYYY-MM-DD",
+    "url": "string",
+    "company": "string",
+    "title": "string",
+    "source": "linkedin | scanner | manual | recruiter-fronted",
+    "status": "rejected | stale",
+    "reason": "string"
+  },
+  "entries": [
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4366869912/",
+      "company": "Accenture",
+      "title": "Infrastructure & Capital Projects - Program Controls Director, ANS",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: program controls / PMO function knock-out (item 2 + agency consulting PMO)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4384866071/",
+      "company": "Amazon",
+      "title": "Manager Program Management, DA Lifecycle Experience and Services",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Re-screened post-rule-fix. Comp Bellevue $127.2-172.1K is entirely below $180K floor (item 4 hard knock-out). 'Manager' altitude also below Sr Mgr threshold for big-tech program mgmt (item 3)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4406862797/",
+      "company": "Bessemer Venture Partners India",
+      "title": "Director, Revenue Accounting Operations - Program Management",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: revenue accounting domain knock-out (item 5) + program management function knock-out."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4405368788/",
+      "company": "Biblioso",
+      "title": "Agile PMO",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: PMO function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4375192670/",
+      "company": "City of Philadelphia",
+      "title": "OIT Operations Project and Portfolio Manager",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: project/portfolio manager function knock-out (item 2) + likely below altitude/comp floor."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4375866085/",
+      "company": "Cresta",
+      "title": "Program Director, Strategic Accounts",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Re-screened post-rule-fix. JD body is professional services / customer-implementation leadership (manages Implementation Managers, Conversation Design, Customer Engineering for >$5M ARR enterprise customers) — Customer Success/Implementation function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4407425717/",
+      "company": "Envestnet",
+      "title": "Senior Product Manager - Tamarac",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: Tamarac specialist Boolean knock-out (item 12)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4333759624/",
+      "company": "F5",
+      "title": "Director of Product Management - BIG-IP Security",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: security domain knock-out (item 5, BIG-IP Security)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4314178999/",
+      "company": "Fred Hutch",
+      "title": "Program Operations Director",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: program operations function knock-out (item 2) + biotech/research domain (item 12 biotech/pharma)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4397578666/",
+      "company": "Gen II Fund Services",
+      "title": "Director Program Management/ Senior Portfolio Manager",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: program/portfolio management function knock-out (item 2) + fund admin financial accounting domain (item 5)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4374078337/",
+      "company": "GridCARE",
+      "title": "Industry Solutions Implementation Director",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: Implementation/Professional Services function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4404111264/",
+      "company": "HCLTech",
+      "title": "Transformation Leader",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: IT services consulting transformation generalist; not Product Management (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4384548059/",
+      "company": "JPMorganChase",
+      "title": "Tech Risk and Controls Lead-(PMO)",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Re-screened post-rule-fix. JD body confirms role sits 'within the Cybersecurity Technology and Controls, Governance Risk and Controls division' — security/cybersec domain knock-out (item 5). Hard cap at 1."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4406811725/",
+      "company": "Northrop Grumman",
+      "title": "CIDO Program Manager (T3/T4) - R10230179",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: defense program manager — likely active clearance required (item 12) + program mgmt function (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4397571918/",
+      "company": "Olympus Corporation",
+      "title": "IT Transformation Project Portfolio Manager, Global",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Re-screened post-rule-fix. 'Portfolio Manager' altitude is below Director and Olympus is not big-tech (item 3 — for project/portfolio mgmt the altitude floor is Director / Head / VP at any size, OR Sr Mgr / Principal at big-tech). Healthcare/medical-device employer adds domain-pedigree friction."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4324419371/",
+      "company": "Razorfish",
+      "title": "Vice President, Program Management",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: agency program management knock-out (item 2 + item 5 agency/marketing PMO)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4405757602/",
+      "company": "RemoteHunter",
+      "title": "Senior Manager Program/Project Managment",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: program/project management function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4405760401/",
+      "company": "RemoteHunter",
+      "title": "Senior Manager, IT Operations Delivery, PMP - (Remote worker role)",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: IT operations delivery / project management function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4405923346/",
+      "company": "RemoteHunter",
+      "title": "Senior Manager Program/Project Managment",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: program/project management function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4404645295/",
+      "company": "SNS Fintech",
+      "title": "Vice President, Technical Project Management",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: technical project management function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4397803183/",
+      "company": "Sound Transit",
+      "title": "Director-Business Transformation",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: public-agency business transformation generalist; not Product Management (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4407152482/",
+      "company": "Usermind",
+      "title": "Principal Product Operations Lead (PDLC)",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: Product Operations function knock-out (item 2 explicitly excludes Product Ops)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4405387494/",
+      "company": "Valeris",
+      "title": "Director, Project Management",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: project management function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4403782530/",
+      "company": "Villanova University",
+      "title": "Assistant Vice President, Digital Strategy & IT Governance",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: IT governance / academic admin function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4373383586/",
+      "company": "WSP in the U.S.",
+      "title": "Senior Vice President, Program Management",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Re-screened post-rule-fix. JD requires '25+ years of relevant experience, including 5+ years of international experience in the delivery of CBTC projects' (Communications-Based Train Control mega rail), 5 days SF onsite, and Engineering BS — no defensible bridge from Maz's payments/utility-platform background (item 13) plus relocation/onsite friction."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4375030544/",
+      "company": "WSP in the U.S.",
+      "title": "Senior Vice President, Program Management",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: engineering/infra agency program management knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4375865271/",
+      "company": "Withum",
+      "title": "Senior Manager, Product Management- Tax Technology",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: Tax technology domain knock-out (item 5)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4405303539/",
+      "company": "Emeritus",
+      "title": "Associate Director - Academic Delivery",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: academic delivery / professional services function knock-out (item 2)."
+    },
+    {
+      "date_archived": "2026-04-28",
+      "url": "https://www.linkedin.com/jobs/view/4406869794/",
+      "company": "Jack & Jill (vedaya)",
+      "title": "Co-founding Head of Product / CPO",
+      "source": "linkedin",
+      "status": "stale",
+      "reason": "JD pulled — LinkedIn shows 'No longer accepting applications.' Posting closed."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4367015670/",
+      "company": "Adobe",
+      "title": "Sales Transformation Portfolio Manager",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: Sales Transformation = GTM/sales-ops adjacency (item 2 grey) and 'Portfolio Manager' below Director altitude floor (item 3, Adobe is not on the big-tech list)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4407150248/",
+      "company": "Aha!",
+      "title": "Product Manager",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: 'Product Manager' below Sr PM altitude floor (item 3)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4405153763/",
+      "company": "Compass",
+      "title": "Group Product Manager (Seattle)",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: real-estate Boolean knock-out (item 12) — Compass is real-estate brokerage platform."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4407150300/",
+      "company": "Compass",
+      "title": "Group Product Manager (NYC)",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: real-estate Boolean knock-out (item 12)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4406885719/",
+      "company": "Deloitte",
+      "title": "AI and Emerging Technologies Product Manager (Consultant level)",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: 'Consultant level' below Sr PM altitude (item 3) and big-4 consulting PM is agency PMO adjacent (item 2)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4405992920/",
+      "company": "Google",
+      "title": "Product Manager II, Google Workspace",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: PM II below Sr PM altitude floor (item 3)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4384607761/",
+      "company": "HUMAN",
+      "title": "VP, Product Management",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: HUMAN Security = bot-detection / cybersecurity domain knock-out (item 5)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4359981216/",
+      "company": "insitro",
+      "title": "Senior Director, Project & Portfolio Management",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: biotech/pharma R&D domain knock-out (item 5) + project/portfolio management function (item 2)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4384617120/",
+      "company": "Maven Clinic",
+      "title": "Senior Product Manager, Payments, Claims, Payer Integrations & Clinic Experience",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: telehealth/healthcare-product domain knock-out (item 5) — Maven is women's & family telehealth."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4356595334/",
+      "company": "Netflix",
+      "title": "Product Manager - HR Technology",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: HR-tech internal HRIS systems (no pillar match) + PM altitude below Sr PM floor (item 3)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4405995907/",
+      "company": "Terrakotta",
+      "title": "Product Manager",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Pre-filter: PM altitude below Sr PM floor (item 3) at small startup."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4406645184/",
+      "company": "Nava",
+      "title": "Director of Product",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Duplicate of submitted application: same Nava Director of Product role tracked in applications.md (Greenhouse URL https://job-boards.greenhouse.io/navapbc/jobs/4210653009, applied 2026-04-27). LinkedIn surface of the same posting."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4406223761/",
+      "company": "Waymo",
+      "title": "Project Delivery PMO Lead (Mountain View)",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "Duplicate of Waymo SF posting 4406218852 (same role — construction PMO knock-out per JD: requires Construction Management/Civil Engineering degree + Procore/Primavera, item 12 + 13 no defensible bridge)."
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4376191333/",
+      "company": "Capital One",
+      "title": "Manager, Product Manager - Enterprise Payments - Payment Data",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "JD pulled. Comp $149.8K-$171K is entirely below $180K floor (item 4 hard knock-out).",
+      "jd_file": "outputs/jds/2026-04-29-capitalone-mgr-pm-payment-data.md"
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4380491948/",
+      "company": "hackajob (J.P. Morgan)",
+      "title": "Full Stack Observability Product Manager - Vice President",
+      "source": "linkedin",
+      "status": "rejected",
+      "reason": "JD pulled. Comp $120K-$170K is entirely below $180K floor (item 4 hard knock-out).",
+      "jd_file": "outputs/jds/2026-04-29-hackajob-jpmc-vp-observability.md"
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4405920175/",
+      "company": "Haystack",
+      "title": "Director Product Manager",
+      "source": "linkedin",
+      "status": "stale",
+      "reason": "JD pulled — LinkedIn shows 'No longer accepting applications.' Posting closed.",
+      "jd_file": "outputs/jds/2026-04-29-haystack-director-pm.md"
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4375893426/",
+      "company": "Roku",
+      "title": "Senior Product Manager, Account Foundations",
+      "source": "linkedin",
+      "status": "stale",
+      "reason": "JD pulled — LinkedIn shows 'No longer accepting applications.' Posting closed.",
+      "jd_file": "outputs/jds/2026-04-29-roku-srpm-account-foundations.md"
+    },
+    {
+      "date_archived": "2026-04-29",
+      "url": "https://www.linkedin.com/jobs/view/4407450426/",
+      "company": "TE Connectivity",
+      "title": "Director, Product Management - Backplane",
+      "source": "linkedin",
+      "status": "stale",
+      "reason": "JD pulled — LinkedIn shows 'No longer accepting applications.' Posting closed.",
+      "jd_file": "outputs/jds/2026-04-29-teconnectivity-director-pm-backplane.md"
+    }
+  ],
+  "rejected": [
+    {
+      "score": 1,
+      "url": "https://www.linkedin.com/comm/jobs/view/4384783133/",
+      "company": "BDO USA",
+      "title": "Tax Senior Manager, Digital Transformation & Innovation Product Management (SALT)",
+      "size": "L",
+      "source": "linkedin",
+      "posted": "2026-05-02",
+      "first_seen": "2026-05-02",
+      "last_seen": "2026-05-02",
+      "status": "rejected",
+      "jd_file": "",
+      "notes": "BDO USA Tax Sr Mgr Digital Transformation Innovation Product Mgmt SALT; tax domain knock-out per screening_criteria; Philly."
+    },
+    {
+      "score": 1,
+      "url": "https://www.linkedin.com/comm/jobs/view/4407860417/",
+      "company": "GEMMA Biotherapeutics",
+      "title": "Director, CMC Program Management",
+      "size": "S",
+      "source": "linkedin",
+      "posted": "2026-05-01",
+      "first_seen": "2026-05-02",
+      "last_seen": "2026-05-02",
+      "status": "rejected",
+      "jd_file": "",
+      "notes": "GEMMA biotech CMC Program Mgmt; biotech/pharma R&D domain knock-out; Philly."
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Cache
+.cache/
+
+# Claude local settings (may contain machine-specific paths)
+.claude/settings.local.json

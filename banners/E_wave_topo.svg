@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" width="1584" height="396">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0F2A3F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1584" height="396" fill="url(#bg)"/>
+
+  <!-- topographic wave field, dense -->
+  <g fill="none" stroke="#7DD3FC" stroke-width="0.8" stroke-opacity="0.22">
+    <path d="M-50,80 Q200,40 400,90 T800,90 T1200,90 T1640,90"/>
+    <path d="M-50,110 Q200,70 400,120 T800,120 T1200,120 T1640,120"/>
+    <path d="M-50,140 Q200,100 400,150 T800,150 T1200,150 T1640,150"/>
+    <path d="M-50,170 Q200,130 400,180 T800,180 T1200,180 T1640,180"/>
+    <path d="M-50,200 Q200,160 400,210 T800,210 T1200,210 T1640,210"/>
+    <path d="M-50,230 Q200,190 400,240 T800,240 T1200,240 T1640,240"/>
+    <path d="M-50,260 Q200,220 400,270 T800,270 T1200,270 T1640,270"/>
+    <path d="M-50,290 Q200,250 400,300 T800,300 T1200,300 T1640,300"/>
+    <path d="M-50,320 Q200,280 400,330 T800,330 T1200,330 T1640,330"/>
+    <path d="M-50,350 Q200,310 400,360 T800,360 T1200,360 T1640,360"/>
+  </g>
+
+  <!-- dark scrim behind text for legibility -->
+  <rect x="740" y="120" width="800" height="180" fill="#0B1426" fill-opacity="0.55"/>
+
+  <g font-family="Georgia, 'Times New Roman', serif" fill="#FFFFFF">
+    <text x="780" y="180" font-size="40" font-weight="600">Technology Leader</text>
+    <text x="780" y="215" font-size="18" fill="#7DD3FC" letter-spacing="3" font-family="Helvetica, Arial, sans-serif">AI-AUGMENTED OPS  ·  REGULATED PLATFORMS</text>
+    <text x="780" y="258" font-size="18" fill="#D1D5DB" font-family="Helvetica, Arial, sans-serif" font-style="italic">Building what doesn't exist yet,</text>
+    <text x="780" y="282" font-size="18" fill="#D1D5DB" font-family="Helvetica, Arial, sans-serif" font-style="italic">and solving problems others miss.</text>
+  </g>
+</svg>
