@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 436" width="1584" height="436">
+  <rect width="1584" height="436" fill="#F5EFE2"/>
+  <rect x="500" width="14" height="436" fill="#C24914"/>
+  <line x1="540" y1="80" x2="1540" y2="80" stroke="#1B4332" stroke-width="1.2" stroke-opacity="0.4"/>
+  <line x1="540" y1="370" x2="1540" y2="370" stroke="#1B4332" stroke-width="1.2" stroke-opacity="0.4"/>
+  <g font-family="Georgia, 'Times New Roman', serif">
+    <text x="560" y="170" font-size="72" font-weight="700" fill="#1B4332" letter-spacing="-1">Business &amp; Technology Leader</text>
+  </g>
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="564" y="218" font-size="22" font-weight="700" fill="#C24914" letter-spacing="3">PRODUCTS  <tspan font-size="18">•</tspan>  OPERATIONS  <tspan font-size="18">•</tspan>  ENGINEERING  <tspan font-size="18">•</tspan>  MONETIZATION</text>
+    <text x="564" y="252" font-size="18" font-weight="600" fill="#1B4332" letter-spacing="2">AI-AUGMENTED OPS  <tspan font-size="14">•</tspan>  REGULATED PLATFORMS  <tspan font-size="14">•</tspan>  FINTECH  <tspan font-size="14">•</tspan>  TELECOM  <tspan font-size="14">•</tspan>  ENERGY</text>
+  </g>
+  <g font-family="Georgia, serif" font-style="italic" fill="#1B4332">
+    <text x="564" y="310" font-size="26" font-weight="400">Building what doesn&apos;t exist yet,</text>
+    <text x="564" y="345" font-size="26" font-weight="400">and solving problems others miss.</text>
+  </g>
+</svg>

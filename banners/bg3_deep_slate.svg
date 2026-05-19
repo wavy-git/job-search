@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 436" width="1584" height="436">
+  <rect width="1584" height="436" fill="#FFFFFF"/>
+  <rect x="508" y="0" width="1076" height="436" fill="#3D4654"/>
+  <rect x="500" width="8" height="436" fill="#9C7A2E"/>
+  <g fill="none" stroke="#9C7A2E" stroke-width="1.4">
+    <path d="M-100,120 C100,40 400,200 520,120 C700,40 900,200 1100,120 S1400,40 1700,120" stroke-opacity="0.55"/>
+    <path d="M-100,170 C100,90 400,250 520,170 C700,90 900,250 1100,170 S1400,90 1700,170" stroke-opacity="0.42"/>
+    <path d="M-100,220 C100,140 400,300 520,220 C700,140 900,300 1100,220 S1400,140 1700,220" stroke-opacity="0.30"/>
+    <path d="M-100,270 C100,190 400,350 520,270 C700,190 900,350 1100,270 S1400,190 1700,270" stroke-opacity="0.20"/>
+    <path d="M-100,320 C100,240 400,400 520,320 C700,240 900,400 1100,320 S1400,240 1700,320" stroke-opacity="0.13"/>
+  </g>
+  <g font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+    <text x="560" y="160" font-size="68" font-weight="800" fill="#FFFFFF" letter-spacing="-1.4">Business &amp; Technology Leader</text>
+    <text x="564" y="208" font-size="25" font-weight="700" fill="#D4A84A" letter-spacing="3.5">PRODUCTS  <tspan font-size="20">•</tspan>  OPERATIONS  <tspan font-size="20">•</tspan>  ENGINEERING  <tspan font-size="20">•</tspan>  MONETIZATION</text>
+    <text x="564" y="244" font-size="20" font-weight="700" fill="#D4A84A" letter-spacing="1.5">AI-AUGMENTED OPS  <tspan font-size="16">•</tspan>  REGULATED PLATFORMS  <tspan font-size="16">•</tspan>  FINTECH  <tspan font-size="16">•</tspan>  TELECOM  <tspan font-size="16">•</tspan>  ENERGY</text>
+    <text x="564" y="302" font-size="26" fill="#E5E9EE" font-weight="500">Building what doesn't exist yet,</text>
+    <text x="564" y="340" font-size="26" fill="#E5E9EE" font-weight="500">and solving problems others miss</text>
+  </g>
+</svg>
