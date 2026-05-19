@@ -1,6 +1,6 @@
 # Maz Mavvaj - Comprehensive Career & Background Document
 
-**Last Updated:** May 13, 2026 (Infotech Director + Manager bullet rebuild session: locked new Director bullets in FINAL5_5 draft — B1 Grew market share on $250M+ portfolio, B2 Turned 20-unit obsolete product into 5,000+ platform via software ownership + hardware reinvention, B3 Forged 2M+ e-voucher platform that catalyzed terminal sales while compounding revenue three ways; locked new Manager FINAL5_5 scope + 2 bullets — B1 Cut delivery 10x via configurable platform, B2 Scaled terminals 10K→100K+ and customers 2→8 FIs at accelerating pace; Developer section confirmed unchanged from FINAL5_4; updated Summary line 3 — replaced "prevented $2M+/month, cut feature lead time over 50%" with "established vendor accountability framework unlocking $2M+/month"; previous May 12 update: Comcast + Infotech VP bullet rebuild — locked new Comcast bullets with corrected Log4Shell framing, locked new Infotech VP bullets with 5-bullet split structure; new PROMOTIONAL RESERVE section added; previous May 10 update: NG bullet rebuild — locked 5 new NG bullets with verb-led plain-English structure; new master resume `Maz_Mavvaj_Director_Resume_FINAL5_5.docx` created with new tagline architecture and bulleted summary)
+**Last Updated:** May 16, 2026 (FINAL5_5 promoted to canonical master, replacing FINAL5_4; FINAL5_5.md companion file created; cross-doc references updated to point to FINAL5_5 across `resume-tailoring.md`, `resume-validation.md`, `screening_criteria.md`, `job-search-strategy.md`; Independent Ventures section in comp doc expanded with full project details — Lighthouse Substack writeup link, MailFlow agentic AI architecture, The Cat browser-filter app, project ordering rules for JD-specific tailoring; agentic AI hard-lock softened — Jingle and MailFlow defensible; em-dash rule softened to "use sparingly"; previous May 13 update: Infotech Director + Manager bullet rebuild — locked new Director bullets, Manager 2 bullets, Summary line 3 updated; previous May 12 update: Comcast + Infotech VP bullet rebuild + PROMOTIONAL RESERVE section; previous May 10 update: NG bullet rebuild — locked 5 new NG bullets)
 **Purpose:** This document is the comprehensive record of Maz's career background, resume decisions, LinkedIn profile, interview prep, and project details. Update this document every time new career information is discussed.
 
 ---
@@ -131,10 +131,10 @@ Stepped in for change-management teams whose work wasn't reaching leadership. Cr
 **L+G Deployment Gap Analysis (interview material, not on resume):**
 Partnered with Cara and Shruti. Analyzed vendor deployment gaps. Reframed from technical presentation to operational/business narrative for senior leadership. Recognized by multiple stakeholders for bridging technical depth with executive communication.
 
-### Resume Scope — current canonical (FINAL5_4, still active)
+### Resume Scope — previous canonical (FINAL5_4, archived)
 "Own the platform that powers National Grid's $1.4B+ AMI program across architecture, data, integration, security, network, environments, and DevOps. Lead a cross-functional team of 30 supporting 8 downstream teams and 2M+ smart meters in NY and MA."
 
-### Resume Scope — draft candidate (FINAL5_5, not yet canonical)
+### Resume Scope — current canonical (FINAL5_5)
 "Own the platform that powers National Grid's metering modernization across architecture, data, integration, security, environments, network, and DevOps. Lead a cross-functional team of 30 supporting 8 downstream teams and 2M+ smart meters in NY and MA."
 
 Differences in the draft: "$1.4B+ AMI program" replaced with "metering modernization" (drops internal jargon; the "$1.4B+" scale signal moves into bullet 1). Domain order also swapped (environments before network).
@@ -151,15 +151,15 @@ Differences in the draft: "$1.4B+ AMI program" replaced with "metering moderniza
 ### FY26 Learning (for self-eval and interviews)
 Shifted from trying to drive program-wide changes to focusing on what can be controlled within own team. Built solutions that create visible team improvements. This is strategic focus, not giving up. Got smarter about leverage.
 
-### Resume Bullets — current canonical (FINAL5_4 master, still active for tailoring/submissions)
+### Resume Bullets — previous canonical (FINAL5_4, archived)
 1. Prevented $2M+ in monthly losses by building defect tracking across all AMI QA operations and reframing vendor quality failures as financial decisions for executive leadership.
 2. Tripled deployment velocity by replacing manual email-based approvals with automated workflows and real-time release visibility.
 3. Cut feature delivery lead time by over 50% and reduced post-production defects by introducing end-to-end lifecycle measurement with lead and cycle times for the first time.
 4. Shipped every major AMI program milestone on schedule, achieving 100% of key objectives across 80+ features per PI.
 
-### Resume Bullets — draft candidate (built into FINAL5_5 in 2026-05-10 rebuild session; not yet canonical)
+### Resume Bullets — current canonical (FINAL5_5, locked 2026-05-10)
 
-When FINAL5_5 is promoted to canonical master, these 5 bullets replace the 4 above:
+These 5 bullets are the canonical master at NG (replaced the 4 archived FINAL5_4 bullets):
 
 1. **Shipped every major $1.4B+ program milestone on schedule — 100% of key objectives across 80+ features per program increment.**
    - Theme: delivery completeness (the core job done, on time, at scale).
@@ -178,7 +178,7 @@ When FINAL5_5 is promoted to canonical master, these 5 bullets replace the 4 abo
 
 **Pattern across the 5 draft bullets:** did the job → improved the job → made the job faster → went beyond the job (twice). Reads as executive-altitude career arc.
 
-**NG bullet count change in draft:** FINAL5_4 has 4 bullets at NG; FINAL5_5 draft has 5. CCRE work promoted from interview-only to bullet 5 per resume-tailoring.md promotion rule.
+**NG bullet count change:** previous (FINAL5_4) had 4 bullets; current canonical (FINAL5_5) has 5. CCRE work promoted from interview-only to bullet 5 per resume-tailoring.md promotion rule.
 
 ---
 
@@ -220,13 +220,13 @@ Nothing was broken. Org-wide migration to ServiceNow. Maz led it in his teams. V
 ### Resume Scope (locked)
 "Transformed operations and built the first analytics capability for data center network engineering, then recruited by division leadership to replicate both across enterprise cybersecurity. 30+ engineers."
 
-### Resume Bullets — current canonical (FINAL5_4 master, still active for tailoring/submissions)
+### Resume Bullets — previous canonical (FINAL5_4, archived)
 1. Increased successful deployment throughput by 200% across 4 major data centers and 100+ network facilities while reducing resource allocation by 50%.
 2. Established the organization's source of truth for executive visibility and decision-making across 20+ enterprise projects, replacing static reporting with near real-time analytics.
 3. Proactively built crisis response analytics during the Log4Shell event that became the operational backbone for Comcast's enterprise-wide remediation.
 4. Cut delivery timeline for the in-house cloud network buildout from 12 months to 6 with zero disruption to parallel initiatives.
 
-### Resume Bullets — draft candidate (built into FINAL5_5 in 2026-05-12 rebuild session; not yet canonical)
+### Resume Bullets — current canonical (FINAL5_5, locked 2026-05-12)
 
 **Scope:** Transformed network deployment operations and built the analytics capability executive decisions ran on, across 4 national data centers and 100+ regional facilities. Recruited by enterprise cybersecurity leadership to replicate both, scaling to 30+ engineers.
 
@@ -242,7 +242,7 @@ Nothing was broken. Org-wide migration to ServiceNow. Maz led it in his teams. V
 4. **Broke silos to power Log4Shell remediation by building crisis reporting that surfaced vulnerabilities and tracked fixes to closure.**
    - Theme: cross-functional / cross-org boundary crossing; crisis altitude; reputation-driven invitation; load-bearing build.
 
-**Comcast bullet count change in draft:** master has 4 bullets; FINAL5_5 draft holds at 4 (different framing throughout).
+**Comcast bullet count:** previous (FINAL5_4) had 4 bullets; current canonical (FINAL5_5) holds at 4 (different framing throughout).
 
 ---
 
@@ -311,12 +311,12 @@ Maz was asked to take charge. He was indirectly familiar with the operation from
 ### Resume Scope (locked)
 "Conceived the B2C payment services venture at parent company level. Stepped in after initial leadership failed, transforming a stalled 10K-merchant operation into 120K merchants processing 150M+ annual transactions, growing volume 54x within 18 months. 50+ employees, 700+ field technicians, 12 direct reports."
 
-### Resume Bullets — current canonical (FINAL5_4 master, still active for tailoring/submissions)
+### Resume Bullets — previous canonical (FINAL5_4, archived)
 1. Recovered a critical 60K terminal contract and scaled deployment capacity to 10K per month through first-to-market innovations in predictive merchant targeting, pull-based logistics, and automated remote terminal configuration.
 2. Displaced competitor terminals by creating the market's first bank-independent payment device, consolidating multiple bank accounts into a single terminal and increasing per-terminal transactions from 20 to 90 monthly.
 3. Co-architected the national card network at the central bank's table, unifying transaction routing, settlement, and security frameworks across 30+ financial institutions. Achieved 99.5/100 across compliance, quality, and performance.
 
-### Resume Bullets — draft candidate (built into FINAL5_5 in 2026-05-12 rebuild session; not yet canonical)
+### Resume Bullets — current canonical (FINAL5_5, locked 2026-05-12)
 
 **Scope:** Conceived the B2C payment services venture at parent company level. Stepped in after initial leadership failed and turned it into a network of 120K merchants processing 150M+ annual transactions. Orchestrated an organization of 50+ employees and 700+ field technicians spanning operations, technology, vendor management, marketing, and call center; 12 direct reports.
 
@@ -335,7 +335,7 @@ Maz was asked to take charge. He was indirectly familiar with the operation from
 5. **Ranked #1 of national payment providers at 99.5/100 across every measure, having co-authored standards adopted as regulation.**
    - Theme: rule-maker + best-in-class executor (you wrote the rules AND were #1 against them).
 
-**Infotech VP bullet count change in draft:** master has 3 bullets; FINAL5_5 draft has 5 (split original B1 into rescue + scale-execution; split original B3 into infrastructure-architect + #1-ranking-against-standards). The split is justified because each new bullet carries a distinct director-altitude competency.
+**Infotech VP bullet count change:** previous (FINAL5_4) had 3 bullets; current canonical (FINAL5_5) has 5 (split original B1 into rescue + scale-execution; split original B3 into infrastructure-architect + #1-ranking-against-standards). The split is justified because each new bullet carries a distinct director-altitude competency.
 
 ---
 
@@ -397,14 +397,14 @@ Note: ~2M/month is a placeholder. Maz needs to verify exact number.
 ### Resume Scope (locked)
 "Owned product vision, strategy, and roadmap across 7 engineering teams (40+ engineers). Created the PMO that became the central delivery engine for 20+ products across 30+ financial institutions in Southwest Asia, North Africa, and Western Europe."
 
-### Resume Bullets — current canonical (FINAL5_4 master, still active for tailoring/submissions)
+### Resume Bullets — previous canonical (FINAL5_4, archived)
 1. Captured 50% market share by building a portfolio of 20+ products worth $250M+, including over 1M payment terminals, smart card solutions, network infrastructure, and value-added services.
 2. Revived an obsolete payment routing and network management product line from 20 units to 5,000+ by securing software ownership and rebuilding it with value-added capabilities no competitor could replicate.
 3. Generated multiple revenue streams by creating the e-voucher distribution platform processing 2M+ vouchers monthly, while giving banking partners a financial incentive to adopt our terminals.
 
-### Resume Bullets — draft candidate (built into FINAL5_5 in 2026-05-13 rebuild session; not yet canonical)
+### Resume Bullets — current canonical (FINAL5_5, locked 2026-05-13)
 
-When FINAL5_5 is promoted to canonical master, these 3 bullets replace the 3 above:
+These 3 bullets are the canonical master at Director (replaced the 3 archived FINAL5_4 bullets):
 
 1. **Grew market share from 5-10% to 50% on a $250M+ portfolio: 20+ products and 1M+ payment terminals supplied and supported.**
    - Theme: commercial dominance / portfolio strategy at scale.
@@ -417,7 +417,7 @@ When FINAL5_5 is promoted to canonical master, these 3 bullets replace the 3 abo
 
 **Pattern across the 3 draft bullets:** commercial dominance → strategic IP reframe → system-design with complementary lever. Reads as multi-dimensional Director-altitude career: won the market, played IP at the OEM table, designed business systems that compounded the core.
 
-**Director bullet count change in draft:** FINAL5_4 has 3 bullets at Director; FINAL5_5 draft holds at 3 (different framing throughout, sharper senior signals).
+**Director bullet count:** previous (FINAL5_4) had 3 bullets; current canonical (FINAL5_5) holds at 3 (different framing throughout, sharper senior signals).
 
 ---
 
@@ -440,21 +440,21 @@ Built the market's first configuration-driven payment application platform. Inst
 ### Context Distinction
 As Manager, Maz was selling B2B: services and technology to banks and financial institutions so THEY could operate it. Competitors were other solution providers. VP role was B2C: PSP (Payment Service Provider) providing payment services directly to merchants. Different business model, different competitive landscape.
 
-### Resume Scope — current canonical (FINAL5_4 master, still active for tailoring/submissions)
+### Resume Scope — previous canonical (FINAL5_4, archived)
 "Led 8 engineers and owned technical direction for the company's payment and terminal management products, turning delivery speed into the company's strongest competitive advantage."
 
-### Resume Scope — draft candidate (FINAL5_5, not yet canonical)
+### Resume Scope — current canonical (FINAL5_5)
 "Led 8 engineers and owned technical direction for the company's payment applications and terminal management products, turning speed into the company's strongest competitive advantage."
 
 Difference in draft: "payment and terminal management products" → "payment applications and terminal management products" (added "applications" for clarity); "delivery speed" → "speed" (tightened).
 
-### Resume Bullets — current canonical (FINAL5_4 master, still active for tailoring/submissions)
+### Resume Bullets — previous canonical (FINAL5_4, archived)
 1. Cut payment application releases from 6-8 weeks to 3-5 days and terminal deployments from 5-6 months to 2-3 weeks by creating the market's first configuration-driven development platform.
 2. Scaled the customer base from 2 to 8 major financial institutions and the terminal network from 10K to 100K+ through speed and reliability no competitor could match.
 
-### Resume Bullets — draft candidate (built into FINAL5_5 in 2026-05-13 rebuild session; not yet canonical)
+### Resume Bullets — current canonical (FINAL5_5, locked 2026-05-13)
 
-When FINAL5_5 is promoted to canonical master, these 2 bullets replace the 2 above:
+These 2 bullets are the canonical master at Manager (replaced the 2 archived FINAL5_4 bullets):
 
 1. **Cut delivery 10x — releases 6-8 weeks to 3-5 days, deployments 5-6 months to 2-3 weeks — via market's first configurable platform.**
    - Theme: dramatic speed transformation via market-first platform (10-12x cycle time collapse on both release cycles and field deployments).
@@ -462,7 +462,7 @@ When FINAL5_5 is promoted to canonical master, these 2 bullets replace the 2 abo
 2. **Scaled terminal network 10K to 100K+ and customers 2 to 8 financial institutions at accelerating pace competitors couldn't match.**
    - Theme: commercial scaling at accelerating pace (10x terminal growth + 4x customer growth, attributed to competitive advantage no rival could match).
 
-**Manager bullet count change in draft:** FINAL5_4 has 2 bullets at Manager; FINAL5_5 draft holds at 2 (different framing throughout, tighter and more outcome-led).
+**Manager bullet count:** previous (FINAL5_4) had 2 bullets; current canonical (FINAL5_5) holds at 2 (different framing throughout, tighter and more outcome-led).
 
 ---
 
@@ -497,34 +497,67 @@ Invited back by the university where Maz earned his MBA. This is about giving ba
 
 ## INDEPENDENT VENTURES
 
-### Philosophy (Project Liberté)
-Core belief: liberate users from platform lock-in, minimal data collection, users own their data, architecture avoids trapping users. These are expressions of conviction, not hobbies.
+All projects live in `~/Projects/dev-seagull/`. Maz operates Claude Code end-to-end; every line of code is AI-written. Live to real users, shipped solo, full-stack — without an engineering team. He frames the problem, sets the product direction, designs the architecture, and decides what ships and when.
 
-### Project Lighthouse
-Working app, not concept. Rethinking how large organizations manage priorities and risk, replacing traditional PMO overhead with real-time visual alignment that requires zero active interference. Maz doesn't believe traditional PMOs should exist. Lighthouse does two things: shows risk and shows direction. Enlightens teams without actively interfering.
+### Philosophy (Project Liberté)
+Core belief: liberate users from platform lock-in, minimal data collection, users own their data, architecture avoids trapping users. These are expressions of conviction, not hobbies. Project Liberté is the umbrella for user-freedom apps (Jingle, The Cat, etc.).
+
+### Project Lighthouse (the-lighthouse)
+Working app, not concept. Rethinking how large organizations manage priorities and risk, replacing traditional PMO overhead with real-time visual alignment that requires near-zero active interference. Maz doesn't believe traditional PMOs should exist. Lighthouse does two things: shows risk and shows direction. Enlightens teams without actively interfering.
+
+**Tech stack:** Cloudflare Pages, Supabase (Postgres), Dexie (local cache), vanilla JS modules. Deployed via Wrangler Direct Upload.
+
+**Production:** https://project-lighthouse.pages.dev
+**Dev:** https://develop.project-lighthouse.pages.dev
+
+**Canonical writeup:** [Project Lighthouse: The Shape of Priorities](https://mmavvaj.substack.com/p/project-lighthouse-the-shape-of-priorities) (Substack). Article + sources archived in repo `docs/published/`.
 
 **PrioritEyes feature is live and functional** — prioritization bubbles surface what matters across portfolios in real time. This is shippable software, not architecture diagrams.
 
-### Jingle
-Cross-platform music app challenging platform lock-in. Lets users own their data and move freely between Spotify, Apple Music, and YouTube. Live on TestFlight. Built on Cloudflare and Swift.
+### Jingle (the-jingle / go-jingle)
+Cross-platform music sharing and playlist sync app. Lets users own their data and move freely between Spotify, Apple Music, and YouTube. Live on TestFlight.
 
-### Libz
-Another app under the Project Liberté umbrella. Part of the same vision of user freedom and data ownership. Details TBD.
+**Core problems solved:** (a) cross-platform song sharing — Spotify user shares with Apple Music user; (b) playlist sync across services a single user uses; (c) collaborative playlists across platforms.
 
-### Resume Framing (locked)
-Intro: "What I build when the problem is too interesting to ignore."
+**Tech stack:** Cloudflare Worker (TypeScript) + D1 (SQLite, 32 tables) + KV, cron every 5 minutes. iOS SwiftUI app (iOS 16+) + Share Extension, XcodeGen-based. Magic-link auth via Fastmail JMAP + JWT sessions. OAuth integrations: Spotify (PKCE), YouTube (Google PKCE), Apple Music (MusicKit token exchange).
+
+**Production:** https://jingle.seagull.dev
+
+Part of Project Liberté.
+
+### MailFlow (the-mailflow)
+Personal email triage and intelligence system. Connects to Fastmail via JMAP, classifies emails with Claude Sonnet (Respond/Act/Know/Ignore), runs periodic reconciliation, learns patterns over time, provides a dashboard and voice interface.
+
+**Tech stack:** Python pipeline (stdlib only, zero deps) running on GitHub Actions 2x daily. Fastmail server-side sieve filter (binary: bulk → Ignore, rest → Inbox). Cloudflare D1 (SQLite) for classifications/patterns/feedback. Cloudflare Worker (TypeScript) for pattern API + cleanup + voice routing. Cloudflare Pages dashboard. Anthropic Claude (Sonnet for classification, Haiku for simple decisions — tiered LLM routing). Siri Shortcut voice interface.
+
+**Defensible agentic AI credential:** autonomous AI agent with tiered LLM routing (Sonnet + Haiku), pattern learning, voice interface — production system, not demo.
+
+### The Cat (the-cat)
+Instagram feed filter that strips suggested, sponsored, and algorithmic posts — leaves only content from accounts the user actually chose to follow. First app under Project Liberté.
+
+**Tech stack:** Browser console script + bookmarklet (vanilla JS). Roadmap includes CSS cosmetic filter (Brave shields), native iOS WKWebView app, Android version, expansion to other platforms.
 
 ### Seagull Cybernetics
-Founded 2022. Umbrella for independent projects. Dropped as company name on resume. Projects listed under Independent Ventures instead.
+Founded 2022. Umbrella for independent projects (Lighthouse, Jingle, MailFlow, The Cat, and others in early development). Dropped as company name on resume; projects listed under Independent Ventures instead.
+
+### Resume Framing (locked)
+**Intro:** "What I build when the problem is too interesting to ignore:"
+**Approach paragraph:** "Frame the problem, set the product direction, design the architecture, and decide what ships and when. Operate Claude Code end-to-end; every line of code is AI-written. Live to real users, shipped solo, full-stack — without an engineering team."
+
+### Project ordering in resume Independent Ventures section
+Default order (FINAL5_5): Lighthouse, Jingle, MailFlow. Reorder for JD-specific tailoring:
+- **Lighthouse first** when JD weights operational visibility / risk / governance / PMO
+- **Jingle first** when JD weights player-coach / hands-on / live builder / consumer-product / multi-platform integration
+- **MailFlow first** when JD weights AI / LLM / autonomous agents / agentic AI / classification systems
+- **The Cat** can be added when JD weights browser-extension / UX-control / consumer-privacy / user-agency themes
 
 ---
 
 ## MASTER RESUME FILE
 
-**Current canonical master:** `resumes/Maz_Mavvaj_Director_Resume_FINAL5_4.docx` (and `.md` markdown copy + `.pdf`).
-**Draft candidate (in progress, not yet promoted):** `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.docx` (user-built, being iterated as of 2026-05-10). Includes new tagline architecture, bulleted summary with quantified anchors, locked 5 NG bullets, renamed section headers. When finalized and promoted to canonical, references across docs (`job-search-strategy.md`, `resume-tailoring.md`, `screening_criteria.md`) need to switch and a `.md` companion to FINAL5_5 should be created for fast reading in tailoring sessions.
+**Current canonical master:** `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.docx` (and `.md` markdown copy + `.pdf`). **Promoted to canonical 2026-05-16.**
 
-**Transition state (2026-05-10):** FINAL5_4 remains the working master for any tailoring/submission. FINAL5_5 is a candidate to replace it — not yet active.
+**Previous canonical (archived):** `resumes/Maz_Mavvaj_Director_Resume_FINAL5_4.docx` (and `.md`). Kept on disk as historical reference but no longer used for tailoring or submissions.
 
 **Tailored versions:** all live in `resumes/` with naming pattern `Maz_Mavvaj_[Title]_[Company].docx`.
 
@@ -714,7 +747,7 @@ The 5-phase tailoring framework lives in `job-search-strategy.md` Rubric 2. The 
 - **Payroll-title risk:** never claim "Director" as the current NG payroll title. Functional descriptors only ("Head of AMI Products," "Head of AMI Operational Intelligence & Platform Delivery," "Head of Product, AMI Platform," etc.).
 - **Log4Shell framing (Comcast):** Maz was **invited into the response taskforce based on prior reputation** while on the Network team (cross-functional move). Build did **reporting + visibility + tracking** of vulnerabilities, NOT the fixing (taskforce did fixes). Never revert to earlier "walked in unbidden" framing.
 - **Pillar identity:** the tailored resume may reframe pillars in JD-relevant language but never claims a pillar Maz doesn't have. The 11 canonical pillars are in the strategy doc.
-  - Don't claim agentic AI track record (it's AI-augmented automation, not agentic LLM workflow design in production)
+  - **Agentic AI is defensible** based on Jingle and MailFlow (autonomous AI agent with tiered LLM routing — Sonnet + Haiku). Tools & Tech may list "Agentic AI / LLMs / GenAI / Claude Code / Anthropic API / MCP." What's still NOT claimable: production agentic LLM workflows at enterprise scale outside Maz's independent projects.
   - Don't claim healthcare-product or telehealth domain expertise
   - Don't claim waste-industry domain expertise
   - Don't claim MSSP/MDR/PTaaS specialty
@@ -746,7 +779,7 @@ The 1-page operational runbook lives at `tailor-checklist.md`. Open it at the st
 
 ## PROMOTIONAL RESERVE — MULTI-SURFACE TAILORING CANDIDATES
 
-These items were intentionally stripped from the master resume (FINAL5_5 draft) for clarity, brevity, and director-altitude messaging. They remain real, defensible career facts and can be **surfaced back into a tailored resume** when a JD weights them — in bullets, scope lines, skim zones (Tools & Tech / Core Competencies / Certifications), or interview material.
+These items were intentionally stripped from the master resume (FINAL5_5) for clarity, brevity, and director-altitude messaging. They remain real, defensible career facts and can be **surfaced back into a tailored resume** when a JD weights them — in bullets, scope lines, skim zones (Tools & Tech / Core Competencies / Certifications), or interview material.
 
 **How to use this table:**
 - Each item lists the role it lives in + the surface(s) it can appear in + when to promote.
@@ -820,6 +853,6 @@ When Maz discusses anything career-related in future conversations:
 4. Never settle for less than exceptional quality
 5. Push back and ask questions rather than present subpar work
 6. Use assertive, leader-like tone in all professional writing
-7. Never use em dashes
+7. Use em dashes sparingly — acceptable in rare occasions where they meaningfully aid clarity (e.g., setting off a tight parallel structure or vivid aside). Default to commas, periods, or restructuring. Avoid em-dash-as-narrative-flourish.
 8. Don't be cheesy, melodramatic, or overly narrative
 9. When in doubt, check the full transcript at /mnt/transcripts/2026-04-20-20-08-07-director-resume-build.txt

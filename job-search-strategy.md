@@ -27,9 +27,9 @@ The "how we operate" document. Rules, approach, reasoning, scoring logic, workin
 - Context multipliers (not pillars but JD-relevant signals):
   - EMEA / international / multilingual (Farsi native, Iranian, multi-region experience across Southwest Asia / N. Africa / W. Europe)
   - Industry-shaping / regulatory framework work (drove PCI-DSS national adoption, formal central bank seat, framework architect)
-- Founder of Seagull Cybernetics (Lighthouse, Jingle, Libz)
+- Founder of Seagull Cybernetics (Lighthouse, Jingle, MailFlow, The Cat)
 - Adjunct Instructor at Widener University
-- Master resume: `resumes/Maz_Mavvaj_Director_Resume_FINAL5_4.docx` (current canonical) and `resumes/Maz_Mavvaj_Director_Resume_FINAL5_4.md` (markdown copy for fast reading). Draft candidate `FINAL5_5.docx` exists and is being iterated — will become canonical when finalized. Tailored versions live in `resumes/` with naming pattern `Maz_Mavvaj_[Title]_[Company].docx`.
+- Master resume: `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.docx` (current canonical) and `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.md` (markdown copy for fast reading). FINAL5_4 archived as previous canonical version. Tailored versions live in `resumes/` with naming pattern `Maz_Mavvaj_[Title]_[Company].docx`.
 - Full background in project folder: `Maz_Career_Background_Comprehensive.md`
 
 ## Constraints (titles, locations, comp)

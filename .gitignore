@@ -12,3 +12,6 @@ __pycache__/
 
 # Claude local settings (may contain machine-specific paths)
 .claude/settings.local.json
+
+# Claude Code worktrees (auto-created snapshots; not source of truth)
+.claude/worktrees/

@@ -1,6 +1,6 @@
 # Screening Criteria
 
-Last updated: 2026-04-28
+Last updated: 2026-05-16
 
 **Single source of truth for screening JDs.** Read this at the start of any screening session. Other docs (`job-search-strategy.md`, `Maz_Career_Background_Comprehensive.md`, `tailor-checklist.md`) defer to this file for screening rules.
 
@@ -118,7 +118,7 @@ The user activates a JD when at least 2 of these match (direct or adjacent). Ful
 ## Procedure
 
 1. **Read the JD.** Fetch and save canonical body to `outputs/jds/{date}-{company-shorthand}-{role-shorthand}.md` for offline access. Header block: url, company, title, location, fetched_at, posting_status.
-2. **Read source materials** if not already loaded: `resumes/Maz_Mavvaj_Director_Resume_FINAL5_4.md` (current canonical master) and `Maz_Career_Background_Comprehensive.md`. Note: `FINAL5_5.docx` is a draft candidate being built; not yet promoted to canonical master.
+2. **Read source materials** if not already loaded: `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.md` (current canonical master) and `Maz_Career_Background_Comprehensive.md`. FINAL5_4 archived as previous canonical version.
 3. **Walk the High items.** Identify which trigger as knock-outs, which are clean fits, which carry friction.
 4. **Note any Low items** surfacing in this specific JD (rare).
 5. **Write a 1-2 sentence judgment note**: dominant fit signal + dominant friction signal.

@@ -1,6 +1,6 @@
 # Resume Tailoring Instructions
 
-Last updated: 2026-05-12
+Last updated: 2026-05-16
 
 This file contains the resume tailoring framework. **Resume tailoring is the activity of customizing the master resume for one specific JD so it passes AI + recruiter screens by mapping the JD's key competencies to Maz's background.**
 
@@ -45,7 +45,7 @@ This is the gate that prevents producing a tailored resume that misses key JD pr
 2. **Identify the top 6 key qualifications the hiring team and recruiter are looking for.** Read the JD comprehensively. Rank by importance to the recruiter screen. **Distinguish verb mode** for each priority — ownership ("own the roadmap," "lead," "drive"), discovery ("investigate," "analyze," "research"), execution ("ship," "deliver"), collaboration ("work closely with," "partner"). Anchor each priority with the matching verb mode in the resume.
 
 3. **Deep-read the career sources before mapping:**
-   - `resumes/Maz_Mavvaj_Director_Resume_FINAL5_4.md` (current canonical master, full body — every section). Note: `FINAL5_5.docx` is a draft candidate being built; not yet promoted to canonical master.
+   - `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.md` (current canonical master, full body — every section). FINAL5_4 is archived as the previous canonical version.
    - `Maz_Career_Background_Comprehensive.md` (career history, hard locks, reserve material list, 11 pillars)
    - Memory files at `/Users/mmavvaj/.claude/projects/-Users-mmavvaj-Projects-dev-wavygull-job-search/memory/`
 
@@ -90,10 +90,7 @@ Apply the strategy from Phase 1 to each section in order. Every change must be e
 2. **Summary**: every word earns premium real estate. Land the top JD priorities in S1-S2 of the summary so the recruiter sees them in 6 seconds (specific threshold in `resume-validation.md` Gate 1). Each sentence does work; reader effort matters more than sentence count rules.
 3. **Scope lines** (under each role): JD-relevant lens, same facts. Avoid keyword piles.
 4. **Bullets**: reorder, replace, or promote reserve material per the promotion rule.
-   - **Bullet count discipline.**
-     - **Master (FINAL5_4, current canonical):** NG=4, Comcast=4, Infotech VP=3, Director=3, Manager=2, Developer=2.
-     - **Draft (FINAL5_5, not yet canonical):** NG=5, Comcast=4, Infotech VP=5, Director=3, Manager=2, Developer=2.
-     - Default to whichever version is the active master at tailoring time. When promotion of reserve material adds a bullet vs the active master (e.g., NG 4→5), flag the count change explicitly in the strategy and in the diff. No silent count changes.
+   - **Bullet count discipline (FINAL5_5, current canonical):** NG=5, Comcast=4, Infotech VP=5, Director=3, Manager=2, Developer=2. Default to this count. When promotion of reserve material adds a bullet vs the master, flag the count change explicitly in the strategy and in the diff. No silent count changes.
    - Every modified bullet must pass the 10-point bullet framework (see `resume-validation.md`).
 5. **Independent Ventures order**:
    - Jingle first when JD wants player-coach / hands-on / live builder
@@ -239,6 +236,6 @@ Filename: `resumes/Maz_Mavvaj_[Title]_[Company].docx`
 
 Examples currently in use: `Maz_Mavvaj_Sr_PM_Leap.docx`, `Maz_Mavvaj_Director_PM_Customer_io.docx`, etc.
 
-Current canonical master: `resumes/Maz_Mavvaj_Director_Resume_FINAL5_4.docx` (and `.md` markdown copy for fast reading during Phase 1). Draft candidate `FINAL5_5.docx` exists and is being built up — when promoted to canonical master, references here will switch and a `.md` companion will be needed.
+Current canonical master: `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.docx` (and `.md` markdown copy for fast reading during Phase 1). FINAL5_4 archived as previous canonical version.
 
 After save, immediately open `resume-validation.md` and run every check.

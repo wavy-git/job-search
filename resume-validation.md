@@ -1,6 +1,6 @@
 # Tailored Resume Validation
 
-Last updated: 2026-05-12
+Last updated: 2026-05-16
 
 This file contains the validation checklist for a tailored resume. Run every gate after Phase 2 of `resume-tailoring.md`. **Do not present an un-validated resume to the user.**
 
@@ -52,10 +52,7 @@ Full hard locks list lives in `Maz_Career_Background_Comprehensive.md` § Hard L
   - Not claiming MSSP/MDR/PTaaS specialty
   - Not claiming Quote-to-Cash or Oracle NetSuite specialty
   - Not claiming cybersecurity-product specialty (Comcast cyber work was org-level analytics, not product)
-- [ ] **Bullet count discipline.** Section bullet counts:
-  - **Master (FINAL5_4, current canonical):** NG=4, Comcast=4, Infotech VP=3, Director=3, Manager=2, Developer=2.
-  - **Draft (FINAL5_5, not yet canonical):** NG=5, Comcast=4, Infotech VP=5, Director=3, Manager=2, Developer=2.
-  - Default to whichever version is the active master at tailoring time. Any count change vs the active master must be documented in the strategy.
+- [ ] **Bullet count discipline (FINAL5_5, current canonical):** NG=5, Comcast=4, Infotech VP=5, Director=3, Manager=2, Developer=2. Any count change vs the master must be documented in the strategy.
 
 ---
 
