@@ -1,6 +1,6 @@
 # Resume Tailoring Instructions
 
-Last updated: 2026-05-16
+Last updated: 2026-05-19
 
 This file contains the resume tailoring framework. **Resume tailoring is the activity of customizing the master resume for one specific JD so it passes AI + recruiter screens by mapping the JD's key competencies to Maz's background.**
 
@@ -64,12 +64,12 @@ This is the gate that prevents producing a tailored resume that misses key JD pr
 6. **Produce the tailoring strategy IN WRITING before touching the resume:**
    - Top 6 JD priorities, ranked, with verb mode noted
    - Each priority's mapping to background (direct / adjacent / pattern / bridge)
-   - Which sections of the resume highlight which JD qualification (e.g., Summary lands #1-#4 in S1-S2; Bullet X in NG section covers #5; Core Competencies skim zone carries #2 and #6)
+   - Which sections of the resume highlight which JD qualification (e.g., Header positioning block carries #1-#2 industries/disciplines; Summary intro line reinforces #1-#2 with minor edits; new S2 sentence covers #3-#5; 3 Summary bullets carry hard-number punches; Bullet X in NG section covers #6; Core Competencies skim zone carries #2 and #6)
    - Which reserve material gets promoted, where, and why (cite (a)/(b)/(c) of promotion rule explicitly)
    - Which bridge framings are needed (cite domain-bridging playbook entries)
    - Which gaps stay as gaps (don't fabricate; document and accept)
 
-7. **Full-resume audit before Phase 2.** Walk all 8 sections (title, summary, scope lines, bullets, IV order, Core Competencies, Tools & Technologies, Certifications) and document which need changes per the strategy and which stay as master. Surface this list in the Phase 1 strategy output.
+7. **Full-resume audit before Phase 2.** Walk all 9 sections (Header positioning block, title, summary, scope lines, bullets, IV order, Core Competencies, Tools & Technologies, Certifications) and document which need changes per the strategy and which stay as master. Surface this list in the Phase 1 strategy output.
 
 8. **Only after the strategy is written do you start Phase 2.**
 
@@ -77,37 +77,139 @@ This is the gate that prevents producing a tailored resume that misses key JD pr
 
 ## Phase 2: Tailor by section
 
-Apply the strategy from Phase 1 to each section in order. Every change must be earned by the strategy — no edits without strategy backing.
+Apply the strategy from Phase 1 to each section in the order below. Every change must be earned by the strategy — no edits without strategy backing.
 
 **Zone discipline:**
-- **Narrative zones** (Summary, scope lines, bullets): clean prose, hard numbers, demonstration over labeling. NEVER stuff keywords.
+- **Narrative zones** (Summary, scope lines, bullets): clean prose, hard numbers, demonstration over labeling. Do not stuff keywords.
+- **Hybrid zone — Header positioning block** (Phase 2.1): compact prose surface that IS designed to carry keyword density for AI screening.
 - **Skim zones** (Core Competencies, Tools & Technologies, Certifications): carry exact JD keyword surface. Stuffing acceptable here.
 
 **Specificity in narrative zones (additional rule).** Every noun in narrative zones needs concrete grounding. Vague abstracts ("prototypes," "workflows," "platforms," "outcomes") without specification fail. Test: can the reader picture the work from the words alone? If they ask "what specifically?" the phrase is too vague.
 
-**Section-by-section work:**
-1. **Title alignment**: match JD's title verbatim where defensible (functional descriptor, no payroll inflation). Per the hard locks (see comprehensive doc), never claim "Director" as the current NG payroll title.
-2. **Summary**: every word earns premium real estate. Land the top JD priorities in S1-S2 of the summary so the recruiter sees them in 6 seconds (specific threshold in `resume-validation.md` Gate 1). Each sentence does work; reader effort matters more than sentence count rules.
-3. **Scope lines** (under each role): JD-relevant lens, same facts. Avoid keyword piles.
-4. **Bullets**: reorder, replace, or promote reserve material per the promotion rule.
-   - **Bullet count discipline (FINAL5_5, current canonical):** NG=5, Comcast=4, Infotech VP=5, Director=3, Manager=2, Developer=2. Default to this count. When promotion of reserve material adds a bullet vs the master, flag the count change explicitly in the strategy and in the diff. No silent count changes.
-   - Every modified bullet must pass the 10-point bullet framework (see `resume-validation.md`).
-5. **Independent Ventures order**:
-   - Jingle first when JD wants player-coach / hands-on / live builder
-   - Lighthouse first when JD wants operational visibility / risk / governance / PMO
-6. **Core Competencies** (skim zone): swap to JD's exact must-have keywords. Drop master entries that don't fit. Add JD-aligned slots. **Sourcing:** keywords may be pulled from `Maz_Career_Background_Comprehensive.md` § PROMOTIONAL RESERVE table (e.g., "Lean operations," "Data-driven decision-making," "Regulatory shaping") when the underlying capability is real per the comp doc but not currently on the master.
-7. **Tools & Technologies** (skim zone): reorder to lead with JD-relevant tools. **Sourcing:** Tools/vendor names not currently in master may be pulled from the PROMOTIONAL RESERVE table (e.g., Ingenico, Gemalto, Thales, Temenos for payments JDs; "predictive analytics," "PCI-DSS," "payment switching") when JD references them or weights the underlying capability.
-8. **Certifications** (skim zone): reorder to lead with JD-relevant certs.
+### Phase 2.1: Header positioning block (NEW)
+
+The 3-line block under Maz's contact info is fully tailorable per JD. No hard locks. Run BEFORE Summary.
+
+Master (FINAL5_5):
+- Line 1: `Business & Technology Leader`
+- Line 2: `Product • Operations • Engineering • Monetization`
+- Line 3: `AI-Augmented Ops • Regulated Platforms • FinTech • Telecom • Energy`
+
+Rules:
+- **Line 1 (role identity):** swap when JD calls for a different identity ("Product Leader," "Operations Executive," "Transformation Leader"). Defensible per comp doc.
+- **Line 2 (disciplines):** reorder/swap to lead with JD's primary function. Drop irrelevant slots; replace with JD-relevant disciplines defensible per comp doc.
+- **Line 3 (industries):** reorder/swap to lead with JD's primary industry. Drop irrelevant tags; add JD-relevant industry tags defensible per comp doc.
+
+This block is a prime AI-screening keyword location — above the fold, high keyword density per square inch. Place JD's specific industry/discipline keywords here first.
+
+### Phase 2.2: Summary (REVISED)
+
+Master structure (FINAL5_5): intro line + S2 expansion sentence + 3 bullets + closing identity line. Do NOT rewrite the structure.
+
+- **S1 (intro line):** minor edits only (not rewrite). Must carry the **#1 JD priority**; may carry more if the master sentence's structure allows natural minor edits. No upper cap.
+- **S2 (expansion sentence):** write a single new sentence carrying whatever S1 didn't, up to **S1 + S2 combined = 4-5 of the top 5 priorities**. **Must read as a coherent sentence, not a comma-list.** If a priority can't fit naturally, drop it and let it land in a bullet, header, or skim zone.
+- **3 bullets:** minor edits only (not rewrite), each stays ≤1 line. If a bullet is clearly off vs JD priorities, you MAY swap one for a promoted bullet from comprehensive background. **Limit: 1 promotion in Summary bullets per tailored resume** (independent of Phase 2.3 promotion).
+- **Closing identity line:** do not change. Brand identity.
+
+**Fluency protection:** never sacrifice the fluency or power of S1 or S2 to cram priorities in. If S2 reads stuffed, drop a priority and reposition it elsewhere on page 1. Per Phase 2.4, flag the trade-off rather than silently breaking fluency.
+
+### Phase 2.3: Career progression — titles, scope, bullets (REVISED)
+
+Applies to all body roles (NG, Comcast, Infotech VP/Director/Manager/Developer).
+
+- **Role titles:** match JD's title verbatim where defensible (functional descriptor, no payroll inflation). Hard lock: never claim "Director" as NG payroll title.
+- **Scope lines:** freely tailorable. Same facts, JD-relevant lens. Avoid keyword piles.
+- **Bullets:** minor edits only (not rewrite). Strong reason required. Strong reasons include:
+  - JD-cited tool/term not in current wording (swap a noun)
+  - Verb-mode mismatch where the mismatch is **severe** (e.g., ownership-vs-collaboration). Skip when borderline (ownership-vs-execution).
+  - Reordering bullet sequence within a role to lead with JD-relevant outcome
+- **Bullet promotion (body):** AT MOST 1 promoted bullet across the entire body per tailored resume. Run detailed analysis first. **This is independent of Phase 2.2's Summary promotion — so up to 2 total promotions per tailored resume (1 Summary + 1 body).**
+
+**Bullet count discipline (FINAL5_5):** NG=5, Comcast=4, Infotech VP=5, Director=3, Manager=2, Developer=2. Master is denser than FINAL5_4; most tailorings swap/reorder, rarely add. Flag any count change in the strategy and in the diff. No silent count changes.
+
+Every modified bullet must pass the 10-point bullet framework (`resume-validation.md`).
+
+### Phase 2.4: Flag when blind rule-following misses something important (NEW)
+
+These rules are guardrails, not a script. If applying them mechanically would miss a key JD signal — **stop and flag to the user**. Examples:
+- A JD priority that cannot be reinforced by Summary S1 edits OR a single new S2 sentence (might need a 2nd promotion — flag, don't silently break the limit).
+- A JD verb mode that conflicts with multiple bullets across a role section (the pattern is wrong, not just one bullet — flag).
+- A JD-cited domain/tool/term whose closest defensible bridge isn't in the playbook (flag, propose framing, get confirmation).
+
+Surface conflicts in the Phase 1 strategy OR mid-Phase-2 when discovered.
+
+### Phase 2.5: Independent Ventures (UPDATED)
+
+Master has 3 ventures + 4-line builder-identity intro paragraph. Keep the intro intact for senior-leadership / Series A / founder JDs. Trim only for tactical IC tailorings (rare).
+
+Ordering:
+- **MailFlow first** when JD wants agentic AI / autonomous LLM systems / AI-augmented automation depth (defensible per Sonnet+Haiku tiered routing).
+- **Jingle first** when JD wants player-coach / hands-on / live builder / cross-platform consumer.
+- **Lighthouse first** when JD wants operational visibility / risk / governance / PMO.
+- **Default** (no pull): Lighthouse → Jingle → MailFlow.
+
+### Phase 2.6: Core Competencies (skim zone, UPDATED)
+
+Master = 8 fixed slots (FINAL5_5). Nothing is strictly hard-locked, but each slot has a reason and isn't easily replaced. Tailoring allowed.
+
+Master slots:
+- Operational Turnaround & Transformation
+- Executive Communication & Stakeholder Alignment
+- Product Strategy, Roadmapping, Go-to-Market and P&L
+- Vendor & Partnership Management
+- Regulated Industry Ops (Energy, Utilities, FinTech, PCI-DSS)
+- KPI/OKR-Driven Decision Making & Analytics
+- Cross-Functional Team Leadership (50+ direct/indirect)
+- AI-Augmented Operations & Process Automation
+
+Rules:
+- **Count stays at 8 slots.** Don't grow or shrink.
+- Replace slots with JD's exact must-have keywords when needed. Source from `Maz_Career_Background_Comprehensive.md` § PROMOTIONAL RESERVE when keyword isn't on master but underlying capability is real per comp doc.
+- `AI-Augmented Operations & Process Automation` is an identity slot anchored to MailFlow + Jingle in IV. Keep present unless JD has zero AI/automation surface.
+- Document each replacement in Phase 1 strategy: which JD keyword drove it, where in the comp doc the capability is anchored.
+
+### Phase 2.7: Tools & Technologies (skim zone, UPDATED)
+
+Master = 6 categorized rows (FINAL5_5).
+
+Master:
+- `Agentic AI, LLMs & GenAI, Claude Code, Anthropic API, MCP`
+- `Analytics & BI: Tableau, Power BI, eazyBI, SQL`
+- `Jira & Jira Align, Confluence, Smartsheet, Excel, ServiceNow`
+- `ANSI C, Java, Python, Swift, PowerShell, Embedded Systems`
+- `GitHub/Git, GitHub Actions, REST APIs, Xcode, TestFlight`
+- `Cloud Platforms: Cloudflare, AWS`
+
+Rules:
+- Reorder items WITHIN a row to lead with JD-relevant items.
+- Reorder ROWS to lead with the JD-relevant category (AI JDs → row 1 [master default]; payments → rows 3-4; PMO/ops → row 3).
+- Tools/vendor names not on master may be pulled from § PROMOTIONAL RESERVE (Ingenico, Gemalto, Thales, Temenos, "predictive analytics," "PCI-DSS," "payment switching") when JD references them or weights the underlying capability.
+- Primary AI-screening keyword location alongside Header. Surface JD's specific tool names here, not in narrative.
+
+### Phase 2.8: Certifications & Honors (LOCKED)
+
+Master list (FINAL5_5):
+- Beta Gamma Sigma Honors Society
+- AWS Cloud Practitioner
+- CPISI (Certified Card Payment Security Implementor, SISA)
+- CSCIP/Payments (Certified Smart Card Industry Professional)
+- PMP (Project Management Professional, PMI)
+- CSPO (Certified Scrum Product Owner, Scrum Alliance)
+- POPM (Product Owner / Product Manager, SAFe)
+- SA (Scaled Agilist, SAFe)
+
+Lock as-is. Do not tailor unless a major credential is genuinely missing OR JD knock-out requires reordering. Beta Gamma Sigma carries signal for F500 / consulting / MBA-pedigree JDs; deprioritize for builder-engineer JDs.
+
+---
 
 **Hard locks** (verify none violated; full list in `Maz_Career_Background_Comprehensive.md` § Hard Locks):
 - Hard numbers preserved verbatim
 - Companies, dates, employment facts unchanged (chronological structure)
 - No "Director" payroll-title claim at NG
 - Pillar identity respected (no claims of pillars Maz doesn't have)
+- **Agentic AI:** defensible as a master claim anchored to MailFlow + Jingle in IV. Do NOT claim agentic AI as enterprise-scale production track record at NG or Comcast.
 
-**Save** as `resumes/Maz_Mavvaj_[Title]_[Company].docx`.
-
-After Phase 2, open `resume-validation.md` and run every check before ship.
+**Save** as `resumes/Maz_Mavvaj_[Title]_[Company].docx`. Then run `resume-validation.md`.
 
 ---
 

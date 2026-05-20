@@ -1,6 +1,6 @@
 # Tailored Resume Validation
 
-Last updated: 2026-05-16
+Last updated: 2026-05-19
 
 This file contains the validation checklist for a tailored resume. Run every gate after Phase 2 of `resume-tailoring.md`. **Do not present an un-validated resume to the user.**
 
@@ -18,22 +18,34 @@ If no written strategy exists, **stop and return to Phase 1.** A tailored resume
 
 ## Gate 1: JD priority coverage
 
-- [ ] **Top 5 of top 6 JD priorities: coverage table.** Strategy identifies top 6; validation confirms top 5 land. Threshold:
-  - **Top priority lands in S1 of summary**
-  - **At least 2 of the top 5 land in S1-S2 of summary**
-  - **All 5 covered somewhere in summary (S1-S4)**
+**Top 5 of top 6 JD priorities.** Strategy identifies top 6; validation confirms top 5 land.
 
-| # | JD priority | Verb mode | Where in summary | Where in body | Pass? |
-|---|---|---|---|---|---|
-| 1 | ... | ownership/discovery/execution/collab | S? | bullet/scope/skim | |
-| 2 | ... | ... | ... | ... | |
-| 3 | ... | ... | ... | ... | |
-| 4 | ... | ... | ... | ... | |
-| 5 | ... | ... | ... | ... | |
+### Hard pass/fail
 
-- [ ] **Body reinforces summary, not contradicts.** For each top-5 priority, body sections (bullets, scope lines, skim zones) reinforce what the summary claims. No contradiction between summary and body.
+- [ ] **#1 priority lands in S1 (intro line) of the Summary.**
+- [ ] **4-5 of the top 5 priorities are covered in S1 + S2 combined.**
+- [ ] **5th priority (if not in S1+S2) lands somewhere on page 1** — Header positioning block, one of the 3 Summary bullets, scope line, or skim zone.
+- [ ] **S1 is lightly edited** (not rewritten).
+- [ ] **S2 is a new sentence** written for this JD.
+- [ ] **Closing identity line is untouched.**
+- [ ] **Summary bullets:** each ≤1 line, no rewrites, **max 1 promoted bullet across the Summary**.
+- [ ] **Bridge framings** from Phase 1 strategy appear in every section of the resume where they should (per the bridge-sweep list in the strategy).
 
-- [ ] Bridge framings from Phase 1 strategy appear in every section of the resume where they should (per the bridge-sweep list in the strategy).
+### Coverage table
+
+| # | JD priority | Verb mode | Where on page 1 | Pass? |
+|---|---|---|---|---|
+| 1 | ... | ownership/discovery/execution/collab | S1 | |
+| 2 | ... | ... | S1 or S2 | |
+| 3 | ... | ... | S2 | |
+| 4 | ... | ... | S2 | |
+| 5 | ... | ... | S2 or bullet/header/skim | |
+
+### Flags (informational; surface to user, do not fail)
+
+- [ ] **Negative test (whole resume):** anything anywhere on the resume that contradicts or distracts from the JD priorities. Examples: wrong-industry tag in Header, off-domain bullet in NG, conflicting keyword in Core Comp, irrelevant cert leading the list.
+- [ ] **Bullet off vs JD:** any Summary or body bullet that seems clearly disconnected from the JD's tone or priorities (per Phase 2.4 — don't silently bend the minor-edits-only rule).
+- [ ] **S2 reads as a stuffed list, not a coherent sentence.**
 
 ---
 
@@ -46,7 +58,7 @@ Full hard locks list lives in `Maz_Career_Background_Comprehensive.md` § Hard L
 - [ ] **No "Director" payroll-title claim at NG.** Functional descriptors only.
 - [ ] **Log4Shell framing (Comcast):** invited into response taskforce based on prior reputation while on Network team (cross-functional move). Build did reporting + visibility + tracking of vulnerabilities, NOT the fixing. Never revert to "walked in unbidden" framing.
 - [ ] **Pillar identity respected.** No claims of pillars Maz doesn't have:
-  - Not claiming agentic AI track record (it's AI-augmented automation, not agentic LLM workflow design in production)
+  - Not claiming agentic AI as enterprise-scale production track record at NG or Comcast. Agentic AI IS a defensible master claim anchored to MailFlow + Jingle in Independent Ventures.
   - Not claiming healthcare-product or telehealth domain expertise
   - Not claiming waste-industry domain expertise
   - Not claiming MSSP/MDR/PTaaS specialty
