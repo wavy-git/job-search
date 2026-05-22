@@ -68,19 +68,23 @@ Does NOT evaluate fit, chances, or rank in-zone candidates. That's `skills/scree
 
 ## In-zone filter workflow
 
-For every JD collected from any channel, apply `me/constraints.md` as the filter. The JD is in-zone if and only if ALL of these pass:
+For every JD collected from any channel, apply `me/constraints.md` as the filter. The constraint values themselves (title families, knockout lists, comp floor, locations, etc.) live in `me/constraints.md` — this file references that file for the values; it does not duplicate them.
 
-1. **Title match.** Title contains an acceptable seniority prefix (Manager / Sr Manager / Lead / Principal / Director / Head / Sr Director / VP) AND an acceptable functional family (Product / Innovation / Operations / Strategy / Transformation / Process Excellence / Platform / Program Mgmt / PMO / Project Mgmt / Product Ops / Delivery (Director+) / Implementation (Director+) / GM / Chief of Staff / Head of Business).
-2. **Altitude floor.** At or above Senior PM. For Program/PMO/Project Mgmt: floor is Director/Head/VP OR Sr Manager/Principal at big-tech.
-3. **Function NOT in knock-out list** (Marketing / Agency PMO / Engineering Mgmt / Customer Success / pure coordinator IC).
-4. **Domain NOT in knock-out list** (Security/cybersec / Tax/accounting / FP&A / Q2C/NetSuite / Biotech-pharma / Healthcare-product / Waste-industry).
-5. **Comp NOT entirely below floor.** If listed range is fully below $180K base US → out of zone. Straddles or unlisted → in-zone (verify at apply).
-6. **Location in acceptable set.** Remote-first US, Greater Philly, NYC, Seattle, SF Bay, LA, Portugal/Spain (if extraordinary). NOT Canada or onsite outside metros.
-7. **Direct-reports clause not hard-no.** JD requiring "5+ years recent direct PM management, no flex" → out of zone.
-8. **Posting state.** Must be open (no "no longer accepting"); posted within last 7 days (older → out of zone unless flagged for retroactive interest).
-9. **Recruiter-Boolean credentials.** If JD hard-requires any credential in `me/voice.md` § Recruiter-Boolean filters that Maz doesn't carry → out of zone.
+The JD is in-zone if and only if ALL of these checks pass against `me/constraints.md`:
+
+1. **Title match** — title contains an acceptable seniority prefix AND an acceptable functional family. *(Lists in `me/constraints.md` § Wanted role titles.)*
+2. **Altitude floor** — at or above the role-specific floor. *(In `me/constraints.md` § Wanted role titles § Altitude floor.)*
+3. **Function NOT in knock-out list.** *(In `me/constraints.md` § Function knock-outs.)*
+4. **Domain NOT in knock-out list.** *(In `me/constraints.md` § Domain knock-outs.)*
+5. **Comp NOT entirely below floor.** If listed range is fully below the floor → out of zone. Straddles or unlisted → in-zone (verify at apply). *(Floor in `me/constraints.md` § Compensation.)*
+6. **Location in acceptable set.** *(In `me/constraints.md` § Locations.)*
+7. **Direct-reports clause not hard-no.** *(Rule in `me/constraints.md` § Direct-reports clause.)*
+8. **Posting state.** Must be open; posted within recency window. *(In `me/constraints.md` § Posting state.)*
+9. **Recruiter-Boolean credentials.** If JD hard-requires any credential Maz doesn't carry → out of zone. *(List in `me/voice.md` § Recruiter-Boolean filters, referenced by `me/constraints.md`.)*
 
 **ALL must pass.** Any single failure → out of zone, JD goes to archive.
+
+If any constraint value seems wrong or out of date, fix it in `me/constraints.md` (via `skills/profiling/`), not here. Sourcing only applies the constraints; it does not define them.
 
 ---
 

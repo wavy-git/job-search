@@ -1,137 +1,148 @@
 # Pending
 
-Items that must survive across sessions but aren't active work right now. Active work for the current session belongs in the todo tool (volatile, lost when context compresses). Anything already documented in another file gets **referenced** here, not duplicated.
+Items that must survive across sessions but aren't already documented in a more specific home. Active session work belongs in the volatile todo tool, not here.
+
+---
 
 ## Inclusion test
 
-> Is this item (a) durable beyond a single session AND (b) not already documented in a more specific home? If yes → add here with enough detail to act on later. If no → put it where it belongs.
+> **PASSES IF:** durable item beyond a single session AND not already documented in a more specific home — deferred files / features to build later, structural decisions parked for the relevant skill's build-out, stale state to fix, placeholder names to replace, drift event log, cross-session reminders.
+>
+> **FAILS IF:** anything documented in another file (reference instead of duplicate); active-session work (→ todo tool); domain content (→ `me/` or skill); authoring rules (→ `discipline.md`); routing or operating rules (→ `CLAUDE.md`); operational state (→ pipeline files).
 
 ---
 
-## Deferred personal-data files
+## Structural decisions parked for the relevant skill build-out
 
-### `me/interview-bank.md` (not yet built)
+These were surfaced during the rebuild but deferred because the deciding context only becomes clear when the relevant feature is actively in use.
 
-Built when the interview-prep use case is rebuilt. Will contain:
+### Pipeline state file format + placement
+The maintenance skill (`skills/maintenance/`) references "pipeline state files" — candidates pool, applications funnel, outreach log, archive, weekly metrics. The OLD system had these as: `candidates.json` (structured), `applications.md` (markdown table with 500-word blob notes), `outreach.md` (markdown table), `archive.json` (structured), `weekly-metrics.md` (free-form log).
 
-- **Core stories** (from old `interview-prep.md` and `Maz_Career_Background_Comprehensive.md`):
-  - $2M vendor analysis reframing (National Grid)
-  - Log4Shell crisis response (Comcast, Dec 2021)
-  - NCC revival 20 → 5,000 units (Infotech Director)
-  - Multi-bank terminal (Infotech VP)
-  - Central bank seat / national card network (Infotech VP)
-  - Cloud platform delivery 6 vs 12 months (Comcast)
-  - Configuration-driven platform (Infotech Manager)
-  - VP Infotech turnaround (the full toxic-culture-to-120K-merchants arc)
-- **Anticipated questions and framed answers:**
-  - "Why VP to TPM?" (deliberate, MBA, US enterprise entry — answer drafted in archived doc)
-  - "Do you have direct reports?" at NG (platform-ownership framing — answer drafted)
-  - "Tell me about a failure" — **not yet developed** (see fact-verification items below)
-  - "What's your product vision at NG?" — **not yet developed**
-- **Reusable answers:**
-  - "What's a product you wish you built?" → scent technology answer (full text in archived `interview-prep.md`)
-- **Behavioral interview mapping** (which story for which prompt):
-  - Influence without authority → $2M vendor or Log4Shell
-  - Initiative → Log4Shell or CCRE
-  - Strategic product decision → NCC revival or multi-bank terminal
-  - Cross-functional program → NG AMI or Infotech national card network
-  - Turnaround → Infotech VP or Comcast deployment ops
-- **Voice/brand to express:**
-  - "The way most problems stay problems is that people stop questioning them."
-  - Gap between exceptional and average teams is imagination, not ambition.
-  - Leadership = understand vs. assume, build clarity, make decisions visible, reduce friction.
-  - Technology should serve people, not constrain them.
-- **Not to sound like:** consultant, generic product leader, apologetic about non-traditional path.
+**Decide when:** maintenance skill is being actively operated for the first time (next time a sourced JD lands in the pool).
 
-Source material: `_archive/2026-05-20-rebuild/interview-prep.md`, `_archive/2026-05-20-rebuild/Maz_Career_Background_Comprehensive.md` § Interview Preparation + Key Stories + Leadership Philosophy + Brand Identity.
+**Considerations:**
+- Top-level `pipeline/` folder vs distributed per skill vs `me/pipeline/`.
+- Markdown table vs JSON vs JSONL.
+- The applications.md "Next Action" blob problem (500-word notes per row) is the main thing to avoid — research dossiers should split out (see next item).
 
-### `me/linkedin.md` (not yet built)
+### Per-application research dossiers — placement and format
+When researching HM info, company facts, comp band research for a specific application, where does that go? OLD system buried it in `applications.md` row notes (500-word blobs).
 
-Built when the LinkedIn workstream is activated. Will contain:
+**Decide when:** outreach skill is actively producing a warm DM that needs HM research (next time a score-4-or-5 application requires it).
 
-- **Headline:** Technology Leader, Educator, Builder
-- **About** essay (full text in archived comp doc § LinkedIn Profile)
-- **Experience one-liners** per role (Head of Products at NG; Senior TPM at Comcast; VP Payment Card Services; Director Products & PMO; Manager Software Dev; Software Developer; Founder Seagull Cybernetics; Innovation & Strategy Advisor; Adjunct Instructor) — all in archived comp doc.
+**Options:**
+- Top-level `research/<jd>.md` (one file per application, applications row references it)
+- `outputs/research/<jd>.md` (consistent with `outputs/` folder for collected data)
+- `pipeline/research/<jd>.md` (with operational pipeline)
 
-Source: `_archive/2026-05-20-rebuild/Maz_Career_Background_Comprehensive.md` § LinkedIn Profile.
+### Per-JD interview artifact location
+`skills/interviewing/` produces per-JD interview plans. Output location TBD until first interview prep is generated.
+
+**Recommendation (not decided):** top-level `interviews/<jd>.md` (parallel to `resumes/<jd>.docx`).
+
+**Decide when:** first interview screen lands and interview prep is generated.
 
 ---
 
-## Structural decisions deferred to the relevant skill rebuild
+## Deferred features / files
 
-These are decisions that affect file placement / data flow. Each one waits for the skill that actually needs to use it, so we decide with full context instead of pre-committing.
+### Cover letters / application essays — `skills/composing/`
+Placeholder folder exists with stub. Real workflow + templates get built when a JD requires a cover letter or essay. Two prior examples to draw from: Customer.io ("Why this position" 3-part essay) and ElectronX ("Why ElectronX?" + scent product reuse). Captured in `_archive/2026-05-20-rebuild/applications.md` notes.
 
-### Pipeline state files — placement
-The old system had `candidates.json`, `applications.md`, `outreach.md`, `archive.json`, `weekly-metrics.md`. They are operational state, updated frequently.
-- Options: `me/pipeline/`, top-level `pipeline/`, split across owning skills.
-- Decide when building the **maintenance** and **outreach** skills.
+### Failure story (interview prep)
+`skills/interviewing/` flags this as a pending answer. Needs a real story with: real stakes, ownership of failure, clear learning, evidence the learning changed behavior. Candidates (need user input): major program at NG / Comcast / Infotech that didn't go as planned; any investment / hire / product bet / strategic decision that backfired; any time turnaround tactics didn't work.
 
-### Per-application research dossier files — placement
-We agreed on one file per application as the dossier. Placement undecided.
-- Options: `me/research/YYYY-MM-DD-company-role.md`, top-level `research/`, under `outputs/applications/`.
-- Decide when building the **outreach** skill (which uses HM research most heavily) or **screening** (which produces the first sourcing-depth notes).
+### NG product vision (interview prep)
+`skills/interviewing/` flags this as a pending answer. Forward-looking answer about platform evolution beyond ops. Options to develop: platform beyond AMI; AI-augmented utility operations; customer-facing extensibility; cross-state consolidation.
 
-### `outputs/` folder convention going forward
-Current `outputs/` has `applications/`, `jds/`, `linkedin/`, `scanner/`. Scanner is archived. Other three are live (LinkedIn alerts daily, JD bodies, application status checks).
-- Decide what stays in `outputs/`, what moves, what's renamed when building the **sourcing** skill.
+### Negotiation skill
+Not built. Skill scope: workflow for offer negotiation, decline scripts, accept patterns. Build when first offer arrives.
 
-### Master resume canonical source — `.docx` or `.md` companion
-The old system maintained both. They drift silently. Pick one canonical; the other becomes derived (or dropped).
-- Decide when building the **tailoring** skill.
-
-### Data flow between skills
-Sourcing produces JDs → screening consumes them → tailoring uses screened candidates → outreach acts on submitted ones. Composition not documented anywhere yet.
-- Each skill, when built, declares its inputs and outputs as part of its own workflow.
-
----
-
-## Stale state to fix at end of rebuild
-
-These are known-stale references that will keep firing every session until cleaned. Defer until the rebuild is far enough along to write the replacement.
-
-### `CLAUDE.md`
-Still the pre-rebuild version. Routes to files now in `_archive/2026-05-20-rebuild/`. Will be rewritten at the end of the rebuild as: project-level operating rules + routing to `me/` and `skills/`.
-
-### `.claude/settings.json` SessionStart hook
-Hook command currently prints:
-```
-=== Job Search Project — Canonical State ===
-IMPORTANT: Read CLAUDE.md first for any career-related work.
-Master resume (canonical): resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.docx (and .md companion). FINAL5_4 is archived; do not use.
-Source of truth: Maz_Career_Background_Comprehensive.md
-...
-```
-The file references (`Maz_Career_Background_Comprehensive.md`) point at archived content. Update at end of rebuild to reflect the new structure.
-
----
-
-## Open fact-verification items (referenced, not duplicated)
-
-These live at the bottom of `me/background.md` § Open / pending facts to verify. Not duplicated here. Summary:
-- E-voucher monthly volume (placeholder 2M+, needs exact figure).
-- Failure story for interviews — not yet developed.
-- NG product vision (forward-looking) — not yet developed.
+### LinkedIn profile audit
+`me/linkedin.md` exists as master content. The actual LinkedIn profile may not be in sync. User flagged earlier the LinkedIn headline was invisible to recruiter Boolean — needs an audit pass. Defer until LinkedIn workstream is activated.
 
 ---
 
 ## Placeholder names to replace
 
 ### Project Siesta
-Working name for the umbrella under Seagull Cybernetics that houses MailFlow (philosophy: "the mundane shouldn't tax a meaningful life"). Marked as placeholder in `me/background.md`. Replace when a better name lands. One find/replace when done.
+Working name for the umbrella under Seagull Cybernetics that houses MailFlow (philosophy: "the mundane shouldn't tax a meaningful life"). Marked as placeholder in `me/background.md` § Independent Ventures. Replace when a better name lands. One find/replace covers it.
 
 ---
 
-## Flagged borderline items in `me/background.md` (kept as-is per direction)
+## Open / pending facts to verify
 
-These were flagged during the v2 audit as borderline (could read as rule/framing rather than pure fact). User chose to leave them — noted here so future-Claude knows they were a conscious choice, not an oversight:
-- MailFlow "**Defensible agentic AI credential**" label.
-- Project Liberté philosophy text ("liberate users from platform lock-in...").
-- Adjunct Instructor "**Dimension of identity, not definition**" framing line.
+These live at the bottom of `me/background.md` § Open / pending. Referenced here for cross-session awareness:
+- E-voucher monthly volume (placeholder 2M+, needs exact figure).
+- Failure story (also listed under deferred features above).
+- NG product vision (also listed under deferred features above).
 
 ---
 
-## Future-structure considerations (not blocking)
+## Stale-state items resolved during 2026-05-22 rebuild
 
-- **Future Independent Ventures beyond Seagull.** Current structure has Seagull Cybernetics as one venture under `## Independent Ventures` in `me/background.md`. Future ventures (new company, advisory, fund, etc.) sit at the same level as Seagull. Nothing to do until a new venture appears.
-- **Skill self-containment.** Each skill in `skills/` will be its own folder, fully encapsulated, with its own inclusion rule, workflow, and inputs/outputs declaration. No shared "principles" or "discipline" file at the skill level — skills inherit pattern by reading each other.
-- **Word lock files in `resumes/`.** Files like `resumes/~$z_Mavvaj_VP_Embedded_Payments_JPMC.docx` are Word temp files. Harmless. Could be cleaned up on a low-priority pass.
+These were stale before the rebuild and have been fixed:
+- CLAUDE.md — was pointing at archived files (Maz_Career_Background_Comprehensive.md). Now rewritten as index + router + gatekeeper.
+- `.claude/settings.json` SessionStart hook — was printing archived file paths. Now reflects new structure.
+- `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.md` — was redundant with `me/resume.md`. Deleted from `resumes/` (master .md lives in `me/`; .docx + .pdf stay in `resumes/`).
+
+---
+
+## Stale-state items not yet addressed
+
+### `resumes/Maz_Mavvaj_Director_Resume_FINAL5_4.*` (3 files: .docx, .md, .pdf)
+Previous canonical version, archived per comp doc. Still occupying space in `resumes/`. Could move to `_archive/` or delete. Defer.
+
+### Old tailored resume `.docx` files in `resumes/`
+Tailored versions for prior applications (ElectronX, Wheel, Sourgum, Liberty, Customer_io, Forsyth_Barnes, Nava, Toast, Leap, Mastercard, JPMC). Most applications are closed (rejected or ghosted). Could be archived. Defer unless space matters.
+
+### Word lock files (`resumes/~$*.docx`)
+Word temp files created when a .docx is open. Harmless. Could be cleaned up on a low-priority pass.
+
+### Nava-related operational records
+User direction was to delete Nava data. Nava is still in `_archive/2026-05-20-rebuild/applications.md` and `outreach.md` as historical record. The pipeline state files for the new rebuild won't carry Nava forward. The .docx (`resumes/Maz_Mavvaj_Director_of_Product_Nava.docx`) is historical artifact — could be deleted.
+
+---
+
+## Drift event log
+
+Drift events found during 2026-05-22 rebuild (per discipline.md Rule 9). Canonical versions per user calls are now in the rebuilt files. This log exists so older framings don't slip back in.
+
+| Item | Old version (stale) | Canonical (current) |
+|---|---|---|
+| Log4Shell framing | "Walked in unbidden / NOT assigned" | "Invited based on reputation" |
+| Em-dash rule | Variants of "never" vs "sparingly" | **Sparingly** (per user) |
+| En-dash rule | Absent from job-search archives; "never" in global CLAUDE.md | **Sparingly** (per user) |
+| Agentic AI rule | "Don't claim agentic AI track record" | **Defensible per Jingle + MailFlow; not at enterprise scale** |
+| AI-augmented PowerShell scope | Inflated to "feature planning and delivery operations" in some tailoring | **Feature documentation specifically** (per Nava overclaim correction) |
+| Libz | Dropped in current archive comp doc | **Present** under Liberté (per user) |
+| MailFlow + The Cat | Absent in pre-rework | **Present** in IV |
+| Tailoring workflow | RT 8-step vs JSS 5-phase Rubric 2 | **RT 8-step** canonical; JSS Rubric 2 dead |
+| Validation gates | RV 11 gates vs JSS 7-step QA | **RV 11 gates** canonical; JSS Phase 4 dead |
+| Domain bridge playbook | RT 7 bridges vs JSS 5 bridges | **All 7** (RT superset) |
+| Interview story count | Comp doc had 7; interview-prep had 8 | **8 stories** including VP Infotech turnaround |
+| Scent product reusable | Only in interview-prep.md | **Canonical reusable** in `skills/interviewing/` |
+| Pillar definitions wording | SC terse vs JSS richer | **Merged**: richer JSS text trimmed where redundant (now in `skills/screening/` § 11 background pillars) |
+| Resume content (summary, bullets, scope, header, certs, IV ventures count, Core Comp wording, Tools format) | Mixed FINAL5_4 / FINAL5_5 references with drift | **FINAL5_5 across all** (per master `me/resume.md`) |
+| CCRE "on resume" status | Tracked as drift between comp doc versions | **Cut**: master resume IS authoritative for what's on it; not tracked elsewhere |
+| Don't-claim Nava additions (Government, Design, Agile-Comcast) | Surfaced from Nava overclaim notes | **Cut**: general overclaim principle covers; specific enumeration unnecessary |
+
+---
+
+## Cross-session reminders
+
+### Periodic audit
+Per `discipline.md` Rule 5 + Rule 8: periodically run an audit pass across all `me/` files and skill files to catch drift, leaked content, broken cross-references. Recommend after any significant change set.
+
+### When extending the system
+- New content → apply destination file's inclusion test (top of each file).
+- If content fits multiple destinations, apply each destination's FAILS IF to narrow.
+- If still ambiguous, surface to user.
+- Apply `discipline.md` Rules 1-9 throughout.
+
+### Pipeline activation
+Many skills reference pipeline state files (candidates pool, applications, outreach, archive, weekly metrics) but the format + placement is deferred per "Structural decisions parked" above. The first time any skill needs to write to one, settle the decision then.
+
+### Content inventory + drift triangulation work
+`_archive/content-inventory-2026-05-21.md` contains the systematic content inventory + 23 drift events found during the rebuild. Reference if questions arise about how a rule landed where it did, or what was in the pre-rebuild system.

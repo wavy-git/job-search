@@ -130,10 +130,7 @@ Apply the strategy from Phase 1 to each section in the order below. Every change
 
 The 3-line block under contact info is fully tailorable per JD. No hard locks. Run BEFORE Summary.
 
-Master (per `me/resume.md`):
-- Line 1: `Business & Technology Leader`
-- Line 2: `Products • Operations • Engineering • Monetization`
-- Line 3: `AI-Augmented Ops • Regulated Platforms • FinTech • Telecom • Energy`
+Master 3-line block lives in `me/resume.md` § Header. Read from there for the current master values; do not duplicate here.
 
 Rules:
 - **Line 1 (role identity):** swap when JD calls for a different identity ("Product Leader," "Operations Executive," "Transformation Leader"). Must be defensible per `me/background.md`.

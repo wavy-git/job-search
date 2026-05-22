@@ -145,15 +145,13 @@ feel something is real.
 
 ---
 
-## Interview-specific tone rules
+## Interview-channel-specific tactics
 
-These are interview-channel-specific applications of voice rules. Universal voice rules (em dash, no melodrama, etc.) apply too — these add on for the interview channel:
+Universal voice rules (direct, factual, no melodrama, no apologetic framing, em dash sparingly, etc.) apply in interviews — see `me/voice.md` for the full set. The items below are tactics that are interview-channel-specific and don't repeat universal voice:
 
-- **Direct, factual, leader-altitude.** No hedging. Land the story.
-- **Don't apologize for the path.** VP → TPM transition was deliberate; own it. Don't preface stories with "well, this was a long time ago but..." — leadership-altitude framing.
-- **Use breadth as evidence, not as defense.** "I've operated as B2B Director, B2C VP, Fortune 50 TPM, and platform owner — same builder pattern at every scale." Breadth proves range, not lack of focus.
-- **Specific stories carry more weight than principles.** When asked about influence, lead with the $2M vendor story (specific, quantified). Don't lead with "I believe in data-driven decision-making."
-- **Numbers anchor every story.** 250x, 54x, 10K→120K, 6 months vs 12. These do the work of credibility.
+- **Use breadth as evidence, not as defense.** "I've operated as B2B Director, B2C VP, Fortune 50 TPM, and platform owner — same builder pattern at every scale." In an interview, breadth proves range; the interviewer asking about it may be probing for focus, so frame breadth as evidence of pattern, not as a list of unconnected roles.
+- **Specific stories carry more weight than principles.** When asked about influence, lead with the $2M vendor story (specific, quantified). Don't lead with abstract principles like "I believe in data-driven decision-making." This applies more strongly in interview than in written artifacts.
+- **Land the story, don't dribble it.** Interview answers should have a clear arc: context → action → result → so-what. If you trail off without the result, the interviewer doesn't get the credibility moment.
 
 ---
 
