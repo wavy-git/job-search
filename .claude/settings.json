@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '=== Job Search Project — Canonical State ===' && echo 'IMPORTANT: Read CLAUDE.md first for any career-related work.' && echo '' && echo 'Master resume (canonical): resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.docx (and .md companion). FINAL5_4 is archived; do not use.' && echo 'Source of truth: Maz_Career_Background_Comprehensive.md' && echo '' && echo 'Comp doc Last Updated:' && grep -m1 'Last Updated' Maz_Career_Background_Comprehensive.md | head -c 300 && echo '' && echo '' && echo 'Git working tree:' && git status --short 2>/dev/null | head -10"
+            "command": "echo '=== Job Search System ===' && echo 'Read CLAUDE.md first. It indexes everything and routes to the right skill.' && echo '' && echo 'Structure:' && echo '  me/         = source of truth (background, voice, constraints, resume, linkedin)' && echo '  skills/     = workflows (profiling, sourcing, screening, tailoring, outreach, interviewing, maintenance, composing)' && echo '  resumes/    = master .docx + tailored .docx per JD' && echo '  outputs/    = collected sourcing data (jds, linkedin, applications, scanner)' && echo '  discipline.md = authoring rules' && echo '  pending.md   = deferred items, drift log, open decisions' && echo '  _archive/   = pre-rebuild system (reference only; do not modify)' && echo '' && echo 'Git status:' && git status --short 2>/dev/null | head -10"
           }
         ]
       },
@@ -15,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '=== Session resumed — current canonical state ===' && echo 'Master: FINAL5_5 (FINAL5_4 archived). Source of truth: Maz_Career_Background_Comprehensive.md. Read CLAUDE.md.' && git status --short 2>/dev/null | head -5"
+            "command": "echo '=== Session resumed ===' && echo 'Read CLAUDE.md for index + routing. me/ = source of truth; skills/ = workflows.' && git status --short 2>/dev/null | head -5"
           }
         ]
       },
@@ -24,7 +24,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '=== Session cleared — canonical state reminder ===' && echo 'Master: FINAL5_5. Source of truth: Maz_Career_Background_Comprehensive.md. Read CLAUDE.md.'"
+            "command": "echo '=== Session cleared ===' && echo 'Read CLAUDE.md for index + routing. me/ = source of truth; skills/ = workflows.'"
           }
         ]
       }
