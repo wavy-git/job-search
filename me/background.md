@@ -1,21 +1,24 @@
 # Maz Mavvaj — Background
 
-Pure career facts. What happened, when, where, with whom, with what numbers. Source of truth for facts about Maz.
+Source of truth for facts about Maz. What he's done, when, where, with whom, with what numbers.
 
-Other files (resumes, tailoring strategies, interview answers, outreach drafts) derive from this. This file does not derive from any of them.
+Other files (resumes, tailoring strategies, interview plans, outreach drafts) derive from this. This file does not derive from any of them.
 
 ---
 
-## Inclusion test (operational)
+## Inclusion test
 
-> **Would this content remain true and relevant if Maz never wrote another resume, did another interview, or sent another DM in his life? If yes → it's a fact, belongs here. If no — if it's a rule about how Maz communicates / wants to be represented → `me/voice.md`. If it's a screening parameter (comp, location, what he won't take) → `me/constraints.md`. If it's a JD-specific tailoring decision → `skills/tailoring/`.**
+> **PASSES IF:** it's a positive fact about Maz — career history, role facts, achievements with numbers, projects, tech stacks, vendor names, personal info, education, certifications — true independent of any artifact, role pursuit, or audience.
+>
+> **FAILS IF:** rule about how Maz communicates or is represented (→ `me/voice.md`); screening parameter (→ `me/constraints.md`); curated resume content / wording choice (→ `me/resume.md`); LinkedIn profile content (→ `me/linkedin.md`); workflow or framework (→ `skills/`); operational state (→ pipeline files); per-JD tailoring decision (→ `skills/tailoring/`); authoring discipline (→ `discipline.md`).
 
 Examples:
-- "Vendor: Landis+Gyr" → still true if no more applications. Fact. Keep.
-- "Always spell it with a plus sign" → writing rule. Voice.
-- "Built AI-augmented PowerShell + Jira automation that eliminated manual documentation across 80+ features per PI" → fact. Keep.
-- "Don't claim AI workflow at enterprise scale" → representation rule. Voice.
-- "Comp floor is $180K" → screening parameter. Constraints.
+- "Vendor: Landis+Gyr" → fact. Keep.
+- "Spell L+G with the plus sign" → writing rule. Voice.
+- "Built AI-augmented PowerShell + Jira automation, scope was feature documentation" → fact. Keep.
+- "Never claim Director as NG payroll title" → representation rule. Voice.
+- "$180K comp floor" → screening parameter. Constraints.
+- "When JD is healthcare, frame as regulated infrastructure" → tailoring bridge. Voice (paired with don't-claim).
 
 ---
 
@@ -38,14 +41,14 @@ Examples:
 
 ```
 2004 – 2006     Software Developer            Infotech International
-2006 – 2009     Manager, Software Dev          Infotech International
-2009 – 2013     Director, Products & PMO       Infotech International
-2013 – 2015     Vice President, Payment Card   Infotech International
-2015 – 2017     MBA                            Widener University (+ Innovation & Strategy Advisor, Infotech)
-2017 – 2022     Senior Technical PM            Comcast (contractor, not employee)
-2021 – present  Adjunct Instructor             Widener University
-2022 – present  Head of Products               National Grid
-2022 – present  Founder + Independent          Seagull Cybernetics
+2006 – 2009     Manager, Software Dev         Infotech International
+2009 – 2013     Director, Products & PMO      Infotech International
+2013 – 2015     Vice President, Payment Card  Infotech International
+2015 – 2017     MBA                           Widener University (+ Innovation & Strategy Advisor, Infotech)
+2017 – 2022     Senior Technical PM           Comcast (contractor)
+2021 – present  Adjunct Instructor            Widener University
+2022 – present  Head of Products              National Grid
+2022 – present  Founder + Independent         Seagull Cybernetics
 ```
 
 The VP → Senior TPM transition was deliberate. Maz left a VP role internationally, relocated to the US, earned an MBA, deliberately entered the US enterprise market. Step-back partly visa/legal-status driven. Comcast was contractor, not employee.
@@ -76,10 +79,10 @@ Two market firsts that opened the company's entire business:
 ## Director, Products & Program Management Office | Infotech International | 2009 – 2013
 
 - B2B operation. Owned product vision, strategy, and roadmap.
-- 7 engineering teams (40+ engineers) had their own technical director at the same level as Maz. Maz owned WHAT to build, WHY, and WHEN, plus internal (tech ↔ sales) and external (customers, partners) relationships.
+- 7 engineering teams (40+ engineers) each had their own technical director at the same level as Maz. Maz owned WHAT to build, WHY, and WHEN, plus internal relationships (tech ↔ sales) and external relationships (customers, partners).
 - Anticipating unsustainable growth, **created the PMO** that became the central delivery and operations engine. Led 10+ product and project managers. Created before the growth became a crisis, not in reaction.
 - Starting market share: 5-10%. Ending: 50% during this period.
-- Total addressable market: ~2M terminals. Maz's company sold ~1M = 50%.
+- Total addressable market: ~2M terminals. Company sold ~1M = 50%.
 - Portfolio: 20+ products worth $250M+ (1M terminals × ~$200 + $50M other products/contracts).
 - 30+ financial institutions across Southwest Asia, North Africa, Western Europe (W. Europe mostly partners, not customers).
 - Revenue primarily domestic, with international customers and partners.
@@ -87,24 +90,20 @@ Two market firsts that opened the company's entire business:
 ### NCC / NMS revival (Director-level signature move)
 - NCC = Network Communication Concentrator (payment transaction router). NMS = Network Management System.
 - Both Ingenico products, considered obsolete, only 20 units deployed.
-- Maz and the company owner negotiated directly with Ingenico leadership. Secured **software ownership** while Ingenico retained hardware ownership.
-- Rebuilt with value-added capabilities completely outside the original products' intended purpose:
-  - Gas station distribution processing on top of payment routing hardware
-  - Smart card processing systems
-  - Transaction monitoring
-  - Blacklist / whitelist management
+- Negotiated directly with Ingenico leadership. Secured **software ownership**; Ingenico retained hardware.
+- Rebuilt with value-added capabilities completely outside the original products' intended purpose: gas station distribution processing on top of payment routing hardware; smart card processing; transaction monitoring; blacklist / whitelist management.
 - No competitor could replicate — they didn't own the source code.
 - Result: 20 units → **5,000+** (250x). Also co-created new NCC hardware devices for the lineup.
 
 ### E-Voucher distribution platform
 Three-layer business model from one product:
-1. Revenue from selling vouchers on own 1M-terminal network (~2M vouchers/month, half on own network).
-2. Premium distributor status from volume gave lower buy prices.
+1. Revenue from selling vouchers on the 1M-terminal network (~2M vouchers/month, half on own network).
+2. Premium distributor status from volume yielded lower buy prices.
 3. Sold excess at margin to smaller distributors who couldn't get that pricing.
 
 Simultaneously gave banking partners financial incentive to adopt terminals (win-win model).
 
-(~2M/month is a placeholder figure pending exact verification.)
+(2M/month is a placeholder figure pending exact verification.)
 
 ### Other products built during this period
 - Top-up services (phone charges, tickets, etc. sold on terminals)
@@ -117,7 +116,7 @@ Simultaneously gave banking partners financial incentive to adopt terminals (win
 - **Ingenico** — payment terminals (hardware)
 - **Gemalto** — smart card solutions (later acquired by Thales)
 - **Thales** — security / HSMs
-- **Temenos** — core banking software and payment processing (trusted by 950+ banks globally)
+- **Temenos** — core banking software and payment processing (used by 950+ banks globally)
 
 ---
 
@@ -144,7 +143,7 @@ Simultaneously gave banking partners financial incentive to adopt terminals (win
 1. **Predictive merchant targeting** — data analytics and predictive models to grade merchants and target deployments based on grading. Data-driven, not gut feel.
 2. **Pull-based logistics** — replaced bulk shipping (costly: large shipments raised inventory cost, small premium shipments raised unit cost). Created demand-triggered pull mechanism.
 3. **Automated pre-configuration + remote load** — built automated pre-config line. When a pull triggered shipment, technicians did not manually configure. Terminal plugged in at merchant site, system auto-detected and loaded configuration. First in market.
-4. **Multi-bank payment device** — market's first bank-independent terminal. Merchants with multiple bank accounts previously needed separate terminal per bank. Maz created one device consolidating all accounts. Three outcomes: (a) attracted merchants (convenience), (b) multiplied transaction volume per terminal (20 → 90), (c) made every competitor terminal obsolete.
+4. **Multi-bank payment device** — market's first bank-independent terminal. Merchants with multiple bank accounts previously needed separate terminal per bank. One device consolidating all accounts. Three outcomes: attracted merchants (convenience); multiplied transaction volume per terminal (20 → 90); made every competitor terminal obsolete.
 
 ### Culture
 Inherited toxic culture. Created safe, collaborative environment. Used technology and innovative solutions to support operations.
@@ -158,7 +157,7 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 - Covered **30+ financial institutions**.
 - **99.5/100** comprehensive score against the new standards: compliance + quality + performance.
 - Maz's company ranked **#1 of all national payment service providers** against these standards.
-- Maz was one of the key faces championing PCI-DSS until it became nationally regulated. Didn't just achieve compliance — drove the industry to adopt it.
+- Championed PCI-DSS until it became nationally regulated. Didn't just achieve compliance — drove the industry to adopt it.
 
 ---
 
@@ -166,7 +165,7 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 
 - Strategic Leadership & Business Process Innovation.
 - Relocated to US to operate at a scale where the impact could be global, not just regional.
-- During this time also advised Infotech International on payment systems modernization (Innovation & Strategy Advisor). The Advisor role was removed from the resume because it had no quantified outcome; the MBA dates fill the timeline gap naturally.
+- During this time also advised Infotech International on payment systems modernization (Innovation & Strategy Advisor). The Advisor role had no quantified outcome; the MBA dates fill the timeline gap naturally.
 
 ---
 
@@ -183,7 +182,7 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 - Two types: legacy device replacement, and new build / DC expansion (cloud was one such expansion).
 - Original successful weekly throughput: <4 with failures. Effective successful output went to 8+ per week.
 - **200% increase (3x effective output), 50% fewer resources.**
-- Philosophy: Lean flow (WIP limits, finish before starting), quality gates, ownership-based accountability, cultural transformation (cooperation vs blame), bottom-up improvement, adaptive load management. Complete operational philosophy overhaul, not process tweaks.
+- Methodology: **Lean flow** — WIP limits, finish before starting; quality gates; ownership-based accountability; cultural transformation (cooperation vs blame); bottom-up improvement; adaptive load management. Complete operational philosophy overhaul, not process tweaks. (Lean flow — not agile.)
 
 ### Cloud network buildout
 - Data center network portion of Comcast's strategic in-house cloud platform (routing, switching, capacity expansion). Not the whole cloud platform.
@@ -280,8 +279,8 @@ Results: lead time from 4 PIs to 2, or 2-3 PIs to 1 (over 50% reduction). Reduce
 **100% of key PI objectives.**
 Every major AMI program milestone shipped on schedule. **80+ features per PI** consistently.
 
-**AI-augmented PowerShell + Jira / Jira Align API automation** (feature-documentation scope).
-Auto-extracts feature information from PI planning meetings and standups. Eliminated manual documentation of 80+ features per PI. Improved accuracy and consistency. **Scope is feature documentation specifically — not broader feature planning and delivery operations.**
+**AI-augmented PowerShell + Jira / Jira Align API automation.**
+Auto-extracts feature information from PI planning meetings and standups. Eliminated manual documentation of 80+ features per PI. Improved accuracy and consistency. **Scope: feature documentation specifically.**
 
 **CCRE change management — cross-team tooling and analytics.**
 Stepped in for change-management teams whose work wasn't reaching leadership. Cross-team, beyond core platform role. Three layers of help:
@@ -337,7 +336,7 @@ Your data belongs to you. Architecture avoids trapping users; minimal data colle
   - Public writeup: "Project Liberté: Music Without Walls."
 
 - **The Cat** (`the-cat`) — Instagram feed filter. Strips suggested, sponsored, and algorithmic posts. Leaves only content from accounts the user chose to follow.
-  - Tech: Browser console script + bookmarklet (vanilla JS). Roadmap includes CSS cosmetic filter (Brave shields), native iOS WKWebView app, Android version, expansion to other platforms.
+  - Tech: Browser console script + bookmarklet (vanilla JS). Roadmap: CSS cosmetic filter (Brave shields), native iOS WKWebView app, Android version, expansion to other platforms.
 
 - **Libz** — early development. Unifies multiple Claude storages / contexts so users can use them as one. Same data-freedom philosophy applied to AI tooling.
 
@@ -353,7 +352,7 @@ Two stated responsibilities for "PMO as Lighthouse":
 
 **Tools under Lighthouse:**
 
-- **PrioritEyes** — first Lighthouse tool. A canvas view (not a list) of an organization's priorities. Each initiative is a bubble: size = priority weight, position = relative weight (layered concentric layout, largest at center), splashes on the surface = accumulated risk, arcs around the edge = contributors. Replaces ranked-list prioritization with multi-dimensional visual encoding using pre-attentive perception. Underlay/Overlay toggles, Streams alternate view, Details per-bubble. **Live.**
+- **PrioritEyes** — first Lighthouse tool. A canvas view (not a list) of an organization's priorities. Each initiative is a bubble: size = priority weight; position = relative weight (layered concentric layout, largest at center); splashes on the surface = accumulated risk; arcs around the edge = contributors. Replaces ranked-list prioritization with multi-dimensional visual encoding using pre-attentive perception. Underlay/Overlay toggles, Streams alternate view, Details per-bubble. **Live.**
   - Lexicon redesign parallel to PrioritEyes (uses navigation vocabulary instead of production-line vocabulary): Exploring (instead of "In Progress"), Docked (instead of "Done"), Up for Grabs (instead of "Unassigned"), Sunk (didn't make it), Trash (shouldn't have been there).
   - Tech: Cloudflare Pages, Supabase (Postgres), Dexie (local cache), vanilla JS modules. Deployed via Wrangler Direct Upload.
   - Production: https://project-lighthouse.pages.dev
@@ -398,7 +397,7 @@ AI handles the noise so you can be present for what matters. Rejects the idea th
 
 ---
 
-## Open fact-verification items
+## Open / pending facts to verify
 
 - E-voucher monthly volume (placeholder 2M+, needs exact figure).
 - Failure story for interviews — not yet developed.

@@ -110,6 +110,21 @@ This rule applies most aggressively during a rebuild but also when extending the
 
 ---
 
+## Rule 9 — Triangulate at the item level, not the file level
+
+Rule 3 ("read every relevant file end-to-end") applied at the file level was insufficient. The em-dash drift slipped through because I read one file's version of a rule and lifted it without checking other files for the same rule.
+
+For every individual rule, fact, constraint, workflow item, or framework component:
+
+1. Identify **every source** where it appears across all relevant files.
+2. Compare versions; document any wording differences as drift.
+3. Pick the canonical version with reasoning (or pause and ask the user when drift is real and the choice is non-obvious).
+4. Then write — once, in its single canonical home.
+
+A rule that lives in 5 files in 4 different wordings is not safely lifted from any single appearance. Per-item triangulation is the only way to catch drift before it gets baked into the new system.
+
+---
+
 ## Maintenance
 
 This file is itself subject to its own rules. To add a new rule:
