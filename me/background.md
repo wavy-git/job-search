@@ -182,7 +182,7 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 - Two types: legacy device replacement, and new build / DC expansion (cloud was one such expansion).
 - Original successful weekly throughput: <4 with failures. Effective successful output went to 8+ per week.
 - **200% increase (3x effective output), 50% fewer resources.**
-- Methodology: **Lean flow** — WIP limits, finish before starting; quality gates; ownership-based accountability; cultural transformation (cooperation vs blame); bottom-up improvement; adaptive load management. Complete operational philosophy overhaul, not process tweaks. (Lean flow — not agile.)
+- Methodology: **Lean flow** — WIP limits, finish before starting; quality gates; ownership-based accountability; cultural transformation (cooperation vs blame); bottom-up improvement; adaptive load management. Complete operational philosophy overhaul, not process tweaks.
 
 ### Cloud network buildout
 - Data center network portion of Comcast's strategic in-house cloud platform (routing, switching, capacity expansion). Not the whole cloud platform.
@@ -280,7 +280,7 @@ Results: lead time from 4 PIs to 2, or 2-3 PIs to 1 (over 50% reduction). Reduce
 Every major AMI program milestone shipped on schedule. **80+ features per PI** consistently.
 
 **AI-augmented PowerShell + Jira / Jira Align API automation.**
-Auto-extracts feature information from PI planning meetings and standups. Eliminated manual documentation of 80+ features per PI. Improved accuracy and consistency. **Scope: feature documentation specifically.**
+Auto-extracts feature information from PI planning meetings and standups. Eliminated manual documentation of 80+ features per PI. Improved accuracy and consistency.
 
 **CCRE change management — cross-team tooling and analytics.**
 Stepped in for change-management teams whose work wasn't reaching leadership. Cross-team, beyond core platform role. Three layers of help:
@@ -369,9 +369,8 @@ AI handles the noise so you can be present for what matters. Rejects the idea th
 
 **Tools under Siesta:**
 
-- **MailFlow** (`the-mailflow`) — personal email triage and intelligence system. Connects to Fastmail via JMAP. Classifies emails with Claude Sonnet (Respond / Act / Know / Ignore). Periodic reconciliation, pattern learning, dashboard + voice interface.
-  - Defensible agentic AI credential: autonomous AI agent with tiered LLM routing, pattern learning, voice interface. Production system, not demo.
-  - Tech: Python pipeline (stdlib only, zero deps) on GitHub Actions 2x daily. Fastmail server-side sieve filter (binary: bulk → Ignore, rest → Inbox). Cloudflare D1 (SQLite) for classifications/patterns/feedback. Cloudflare Worker (TypeScript) for pattern API + cleanup + voice routing. Cloudflare Pages dashboard. Anthropic Claude (Sonnet for classification, Haiku for simple decisions — tiered LLM routing). Siri Shortcut voice interface.
+- **MailFlow** (`the-mailflow`) — personal email triage and intelligence system. Autonomous AI agent that connects to Fastmail via JMAP, classifies emails with Claude Sonnet (Respond / Act / Know / Ignore), runs periodic reconciliation, learns patterns over time, exposes a dashboard and voice interface. Tiered LLM routing (Sonnet for classification, Haiku for simple decisions). Production system.
+  - Tech: Python pipeline (stdlib only, zero deps) on GitHub Actions 2x daily. Fastmail server-side sieve filter (binary: bulk → Ignore, rest → Inbox). Cloudflare D1 (SQLite) for classifications/patterns/feedback. Cloudflare Worker (TypeScript) for pattern API + cleanup + voice routing. Cloudflare Pages dashboard. Anthropic Claude (Sonnet + Haiku). Siri Shortcut voice interface.
 
 - *Future Siesta tools:* other daily-life mundane absorbers (calendar, notes, reminders, focus management, errands).
 
