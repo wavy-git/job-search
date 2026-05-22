@@ -165,7 +165,7 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 
 - Strategic Leadership & Business Process Innovation.
 - Relocated to US to operate at a scale where the impact could be global, not just regional.
-- During this time also advised Infotech International on payment systems modernization (Innovation & Strategy Advisor). The Advisor role had no quantified outcome; the MBA dates fill the timeline gap naturally.
+- During this time also advised Infotech International on payment systems modernization (Innovation & Strategy Advisor). The Advisor role had no quantified outcome.
 
 ---
 
@@ -314,9 +314,7 @@ Partnered with Cara and Shruti. Analyzed vendor deployment gaps. Reframed from t
 
 ## Independent Ventures
 
-**What qualifies:** a self-directed undertaking outside W-2 employment where Maz frames the problem, owns direction, and decides what ships.
-
-**Approach (across all ventures):** Operates Claude Code end-to-end; every line of code is AI-written. Live to real users, shipped solo, full-stack — without an engineering team. Frames the problem, sets product direction, designs architecture, decides what ships and when. All projects live in `~/Projects/dev-seagull/`.
+Self-directed work outside W-2 employment. Maz frames the problem, sets product direction, designs architecture, and decides what ships and when. Every line of code is AI-written via Claude Code end-to-end. Shipped solo, full-stack, no engineering team. All projects live in `~/Projects/dev-seagull/`.
 
 ### Seagull Cybernetics (2022 – present)
 
@@ -399,5 +397,3 @@ AI handles the noise so you can be present for what matters. Rejects the idea th
 ## Open / pending facts to verify
 
 - E-voucher monthly volume (placeholder 2M+, needs exact figure).
-- Failure story for interviews — not yet developed.
-- NG product vision (forward-looking) — not yet developed.
