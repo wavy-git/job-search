@@ -115,5 +115,3 @@ A JD's title must combine an acceptable seniority prefix with an acceptable func
 ## Recruiter-Boolean credentials Maz cannot carry
 
 Required credentials in a JD that Maz does not hold and cannot honestly claim. If a JD requires any of these as a hard gate, it's out of zone. The list lives in `me/voice.md` § Recruiter-Boolean filters. **This file references it; the canonical list is voice.**
-
-PMP (which Maz holds) is the inverse: a credential MATCH, not a knock-out. Treat "PMP required" as a positive signal.

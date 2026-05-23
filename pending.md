@@ -59,6 +59,14 @@ Placeholder folder exists with stub. Real workflow + templates get built when a 
 ### Negotiation skill
 Not built. Skill scope: workflow for offer negotiation, decline scripts, accept patterns. Build when first offer arrives.
 
+### Hardlock enforcement for stable files (Rule 11 teeth)
+Rule 11 in `discipline.md` defines the hardlock for stable files (me/, skills/, CLAUDE.md, design.md, discipline.md, pending.md) — edits require user approval, Rule 5 audit report, Rule 4 sentence-level test pass, and Read-after-edit. Currently the enforcement is discipline-level. To add real teeth:
+
+- **PreToolUse hook on Write/Edit** that blocks edits to any stable file unless a "validated" marker is present in the recent conversation (e.g., user said "apply fixes" or similar approval phrase). If absent, hook prints "edit to stable file blocked — requires user approval marker" and aborts.
+- **Per-file marker at the top of each stable file:** *"STABLE — changes require user approval + Rule 4 audit + completion report per Rule 5."* Reminds anyone (or any Claude session) reading the file that direct edits aren't free.
+
+**Decide when:** after the current validation pass completes for all `me/` files and skills, when the system is stable enough to bolt on enforcement. Avoid implementing during a validation pass since validation requires many legitimate edits.
+
 ### LinkedIn profile audit
 `me/linkedin.md` exists as master content. The actual LinkedIn profile may not be in sync. User flagged earlier the LinkedIn headline was invisible to recruiter Boolean — needs an audit pass. Defer until LinkedIn workstream is activated.
 
@@ -120,7 +128,6 @@ Drift events found during 2026-05-22 rebuild (per discipline.md Rule 9). Canonic
 | MailFlow + The Cat | Absent in pre-rework | **Present** in IV |
 | Tailoring workflow | RT 8-step vs JSS 5-phase Rubric 2 | **RT 8-step** canonical; JSS Rubric 2 dead |
 | Validation gates | RV 11 gates vs JSS 7-step QA | **RV 11 gates** canonical; JSS Phase 4 dead |
-| Domain bridge playbook | RT 7 bridges vs JSS 5 bridges | **All 7** (RT superset) |
 | Interview story count | Comp doc had 7; interview-prep had 8 | **8 stories** including VP Infotech turnaround |
 | Scent product reusable | Only in interview-prep.md | **Canonical reusable** in `skills/interviewing/` |
 | Pillar definitions wording | SC terse vs JSS richer | **Merged**: richer JSS text trimmed where redundant (now in `skills/screening/` § 11 background pillars) |

@@ -21,15 +21,14 @@ Other files (resumes, tailoring strategies, outreach drafts, interview plans) de
 - **Factual over narrative.** Concrete facts and outcomes carry more weight than adjectives.
 - **No melodrama.** No "I'm thrilled to," "passionate about," "deeply committed to," "honored," "humbled."
 - **No apologetic or deferential framing.** No "I might be wrong but," "if it's not too much trouble," "I hate to ask."
-- **Don't ship mediocre.** If a draft isn't exceptional, name what's missing and fix it before showing.
 
 ### Punctuation
 - **Em dashes:** use sparingly. Acceptable when they meaningfully aid clarity (e.g., a tight parallel structure or vivid aside). Never as a narrative flourish.
 - **En dashes:** use sparingly. Same rule as em dashes — only when they meaningfully aid clarity.
 
 ### Words and phrases to never use
-- Buzzwords: "synergize," "leverage" (as a verb), "streamline," "circle back," "low-hanging fruit," "move the needle," "boil the ocean," "best-in-class," "world-class," "rockstar," "ninja," "thought leader."
-- Melodrama openers: "I'm thrilled," "excited," "honored," "humbled," "passionate."
+- Buzzwords: "synergize," "leverage" (as a verb), "streamline," "circle back," "low-hanging fruit," "move the needle," "boil the ocean," "best-in-class," "world-class," "rockstar," "ninja," "thought leader," and similar.
+- Melodrama openers: "I'm thrilled," "excited," "honored," "humbled," "passionate," and similar.
 - Consultant-speak: "operational picture," "strategic product call," and similar.
 
 ---
@@ -83,8 +82,8 @@ The specific title variant per role-type (e.g., "Head of AMI Innovation & Delive
 - Never claim "Director" as Maz's National Grid payroll title. Payroll title is Principal/Staff Product Manager. Use functional descriptors (Maz's functional/external title is "Head of Products").
 
 ### Log4Shell framing (Comcast, Dec 2021)
-- Maz was **invited into the response taskforce based on prior reputation** while on the Network team (cross-functional move).
-- Build did **reporting + visibility + tracking** of vulnerabilities. The taskforce did the fixing.
+- Frame as: **invited into the response taskforce based on prior reputation** while on the Network team (cross-functional move).
+- Frame the build as: **reporting + visibility + tracking** of vulnerabilities. The taskforce did the fixing.
 - Never use "walked in unbidden" or "NOT assigned" framing.
 
 ### AI / agentic AI scope
@@ -101,10 +100,7 @@ For each domain Maz hasn't worked in, two complementary rules: don't claim it di
 | Don't claim | Bridge framing (use instead when audience is in that domain) |
 |---|---|
 | Healthcare-product / telehealth domain expertise | "Regulated infrastructure at national scale" (NG is regulated; HIPAA / healthcare-product is not Maz's) |
-| MSSP / MDR / PTaaS / SASE specialty | "Operational intelligence in cybersecurity" (Comcast Log4Shell pattern, not product/services delivery) |
-| Cybersecurity-product specialty | Same as above — analytics on top of others' tooling, not product |
-| Quote-to-Cash / NetSuite / billing-systems specialty | No defensible bridge — domain knockout at screening; if forced, lean on "fintech / payments infrastructure" without claiming Q2C |
-| Waste-industry domain expertise | "B2B SaaS marketplace" (Infotech B2C PSP serving merchants is multi-sided; multi-bank terminal is consolidation in fragmented market) |
+| Cybersecurity-product specialty | "Operational intelligence in cybersecurity" — Comcast Log4Shell pattern, analytics on top of others' tooling, not product/services delivery |
 | AI / automation product (agentic AI at enterprise scale) | "AI-augmented operations + automation builder" (NG PowerShell+Jira automation; Jingle/MailFlow as independent agentic credential) |
 | Marketplace SaaS | "B2B SaaS marketplace" (same Infotech B2C PSP framing) |
 | Energy / commodities exchange | "Regulated payments + energy intersection" (NG energy + Infotech payments + central bank seat) |
@@ -127,7 +123,5 @@ Credentials and pedigrees that appear in recruiter Boolean searches and required
 - Federal CMS / CDC contract PM history
 - Gaming dev management
 - Real-estate MLS
-
-(PMP — which Maz holds — is the inverse: a credential MATCH, not friction. Treat "PMP required" as a positive signal.)
 
 `me/constraints.md` references this list for screening knock-outs (if a JD requires any of these, drop).

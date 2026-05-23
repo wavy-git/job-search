@@ -19,7 +19,7 @@ This file is the index, router, and gatekeeper for the job search system. It tel
 ### Personal data (source of truth about Maz)
 - `me/background.md` — facts about Maz (career history, achievements, projects, tech stacks, vendors, personal info, education, certifications)
 - `me/voice.md` — how Maz communicates and is represented (universal writing-style, claim / don't-claim rules, bridges, brand identity, core beliefs, hard locks)
-- `me/constraints.md` — what defines Maz's career zone (comp, locations, wanted titles, function knock-outs, domain knock-outs, direct-reports clause, posting state, recruiter-Boolean credentials)
+- `me/constraints.md` — hard filter parameters that determine if a JD is in or out of Maz's career zone (comp floor, locations, wanted title families, function knock-outs, domain knock-outs, direct-reports clause, posting state, recruiter-Boolean credentials)
 - `me/resume.md` — master resume content in markdown (mirror of master `.docx`)
 - `me/linkedin.md` — master LinkedIn profile content (headline, About, experience one-liners)
 
@@ -106,6 +106,13 @@ These prevent skill/feature duplication and drift. Apply BEFORE writing any new 
 
 These aren't workflow content but apply across every interaction:
 
+- **Listen first. Analyze. Then respond.**
+  - Read the user's message carefully before answering. Re-read if nuanced.
+  - Consider multiple interpretations and scenarios. Identify the actual question, not the easy one to answer.
+  - Ask clarifying questions if the picture isn't fully captured.
+  - Only respond once you understand.
+  - Respond with honesty, responsibility, and professionalism.
+  - Push back when your analysis doesn't support the user's framing. Capitulating to seem agreeable is noise, not agreement. It erodes trust and quality over time.
 - **Voice dictation interpretation.** Maz often uses voice dictation in chat. Transcription artifacts (extra words, missing punctuation, homophones) appear in source material. Don't pattern-match those into voice rules or facts — interpret intent.
 - **Hard-lock-wins-over-user-input.** If user input contradicts a hard lock in `me/voice.md` (e.g., asks to claim "Director" as NG payroll title, asks to use the old "walked in unbidden" Log4Shell framing), surface the conflict and ask before applying. The hard lock wins by default.
 - **Time zone.** Present times in Eastern Standard Time unless otherwise specified.

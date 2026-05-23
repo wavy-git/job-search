@@ -6,7 +6,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '=== Job Search System ===' && echo 'Read CLAUDE.md first. It indexes everything and routes to the right skill.' && echo '' && echo 'Structure:' && echo '  me/         = source of truth (background, voice, constraints, resume, linkedin)' && echo '  skills/     = workflows (profiling, sourcing, screening, tailoring, outreach, interviewing, maintenance, composing)' && echo '  resumes/    = master .docx + tailored .docx per JD' && echo '  outputs/    = collected sourcing data (jds, linkedin, applications, scanner)' && echo '  discipline.md = authoring rules' && echo '  pending.md   = deferred items, drift log, open decisions' && echo '  _archive/   = pre-rebuild system (reference only; do not modify)' && echo '' && echo 'Git status:' && git status --short 2>/dev/null | head -10"
+            "command": "bash .claude/hooks/session-start.sh"
           }
         ]
       },
@@ -15,7 +15,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '=== Session resumed ===' && echo 'Read CLAUDE.md for index + routing. me/ = source of truth; skills/ = workflows.' && git status --short 2>/dev/null | head -5"
+            "command": "bash .claude/hooks/session-start.sh"
           }
         ]
       },
@@ -24,7 +24,7 @@
         "hooks": [
           {
             "type": "command",
-            "command": "echo '=== Session cleared ===' && echo 'Read CLAUDE.md for index + routing. me/ = source of truth; skills/ = workflows.'"
+            "command": "bash .claude/hooks/session-start.sh"
           }
         ]
       }

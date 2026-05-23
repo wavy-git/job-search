@@ -125,6 +125,35 @@ A rule that lives in 5 files in 4 different wordings is not safely lifted from a
 
 ---
 
+## Rule 10 — Default to keep; move only when both gates check out
+
+When considering whether content in file X belongs in file Y instead:
+
+1. Apply X's inclusion test to the content first. If X's PASSES IF triggers and no FAILS IF triggers, the content belongs in X. Keep it. Do not look for a "better" home.
+2. If X's inclusion test does not support the content, only then consider Y. Load Y's actual inclusion test by reading the top of file Y. Walk the content through Y's PASSES IF and FAILS IF.
+3. Move only if X's inclusion test FAILS the content AND Y's inclusion test PASSES it. If either check is unverified, or both checks fail, surface to the user.
+
+CLAUDE.md and design.md descriptions are routing pointers, not substitutes for inclusion tests. Content-inventory tags are analytic categorizations, not destination assignments. The only valid destination check is the destination file's own inclusion test.
+
+This rule exists because skipping it produced repeated cross-file errors (PMP rule misplaced; constraints conflated with screening). The remedy is mechanical: always walk the test before claiming a destination.
+
+---
+
+## Rule 11 — Stable files are hardlocked
+
+Files in `me/`, `skills/<skill>/`, `CLAUDE.md`, `design.md`, `discipline.md`, and `pending.md` are stable artifacts. Edits to these files require:
+
+1. Explicit user approval per change.
+2. Audit report per Rule 5 (sentences walked, kept, cut; cuts placed; sources cross-checked; mechanical checks performed; open items flagged).
+3. Sentence-level inclusion test pass per Rule 4.
+4. Re-Read of the file after edit, before referencing it again in the same session.
+
+The default for any edit to a stable file is **do not edit without ceremony**. The ceremony exists because these files are the system's load-bearing truth. Drift between in-session memory and on-disk state is prevented by step 4.
+
+(Enforcement teeth — PreToolUse hook and per-file marker — are tracked in `pending.md` as future work.)
+
+---
+
 ## Maintenance
 
 This file is itself subject to its own rules. To add a new rule:
