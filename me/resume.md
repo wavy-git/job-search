@@ -19,7 +19,7 @@ When master content changes, regenerate the master `.docx` from this file.
 ```
 Maz Mavvaj
 Business & Technology Leader
-Products • Operations • Engineering • Monetization
+Product • Operations • Engineering • Monetization
 AI-Augmented Ops • Regulated Platforms • FinTech • Telecom • Energy
 +1 (856) 638-8304
 mmavvaj@gmail.com
@@ -30,7 +30,7 @@ linkedin.com/in/mmavvaj
 
 ## SUMMARY
 
-Multidisciplinary leader who has built solutions and scaled services across products, businesses, operations, engineering and platforms, in multiple regulated industries and four continents.
+Multidisciplinary leader who has built solutions and scaled services across products, businesses, operations, engineering and platforms — in multiple regulated industries and four continents.
 
 - Scaled a stalled fintech 10K → 120K merchants in 18 months; co-architected national payment network across 30+ FIs.
 - Tripled Fortune 50 deployment throughput at half the resources; built crisis-response analytics enterprise-wide.
@@ -46,11 +46,11 @@ Multidisciplinary leader who has built solutions and scaled services across prod
 
 Own the platform that powers National Grid's metering modernization across architecture, data, integration, security, environments, network, and DevOps. Lead a cross-functional team of 30 supporting 8 downstream teams and 2M+ smart meters in NY and MA.
 
-- Shipped every major $1.4B+ program milestone on schedule; 100% of key objectives across 80+ features per program increment.
+- Shipped every major $1.4B+ program milestone on schedule — 100% of key objectives across 80+ features per program increment.
 - Cut feature turnaround by over 50% by introducing end-to-end measurements that reshaped how teams plan, build, and ship.
 - Achieved 4x deployment throughput by replacing email-based change management with full automation and visibility.
-- Built vendor performance accountability the program lacked; every deliverable accelerated; $2M+/month was one of many gains.
-- Stepped up to lead change-management tooling and analytics; teams stopped drowning in reports, leadership stopped flying blind.
+- Built vendor performance accountability the program lacked — every deliverable accelerated; $2M+/month was one of many gains.
+- Stepped up to lead change-management tooling and analytics — teams stopped drowning in reports, leadership stopped flying blind.
 
 ### Senior Technical Program Manager | Comcast | 2017 – 2022
 
@@ -67,7 +67,7 @@ Relocated to the US to operate at a scale where the impact could be global, not 
 
 ### Vice President, Payment Card Services | Infotech International | 2013 – 2015
 
-Conceived the B2C payment services venture at parent company level. Stepped in after initial leadership failed and turned it into a network of 120K merchants processing 150M+ annual transactions. Orchestrated an organization of 50+ employees and 700+ field technicians spanning operations, technology, vendor management, marketing, and call center; 12 direct reports.
+Conceived the B2C payment services venture at parent company level. Stepped in after initial leadership failed and turned it into a network of 120K merchants, processing 150M+ annual transactions. Orchestrated an organization of 50+ employees and 700+ field technicians spanning operations, technology, vendor management, marketing, and call center; 12 direct reports.
 
 - Recovered a make-or-break 60K terminal contract stalled at 10K and on the brink, by overhauling an embattled business in months.
 - Scaled deployments to 10K/month and grew transaction volume 54x in 18 months through first-to-market product innovations.
@@ -85,10 +85,10 @@ Owned product vision, strategy, and roadmap across 7 engineering teams (40+ engi
 
 ### Manager, Software Development | Infotech International | 2006 – 2009
 
-Led 8 engineers and owned technical direction for the company's payment applications and terminal management products, turning speed into the company's strongest competitive advantage.
+Led 8 engineers and owned technical direction for the company’s payment applications and terminal management products, turning speed into the company’s strongest competitive advantage.
 
-- Cut delivery 10x; releases 6-8 weeks to 3-5 days, deployments 5-6 months to 2-3 weeks; via market's first configurable platform.
-- Scaled terminal network 10K to 100K+ and customers 2 to 8 financial institutions at accelerating pace competitors couldn't match.
+- Cut delivery 10x — releases 6-8 weeks to 3-5 days, deployments 5-6 months to 2-3 weeks — via market's first configurable platform.
+- Scaled terminal network 10K to 100K+ and customers 2 to 8 financial institutions at accelerating pace competitors couldn’t match.
 
 ### Software Developer | Infotech International | 2004 – 2006
 
@@ -103,11 +103,11 @@ Delivered two market firsts:
 
 What I build when the problem is too interesting to ignore:
 
-Frame the problem, set the product direction, design the architecture, and decide what ships and when. Operate Claude Code end-to-end; every line of code is AI-written. Live to real users, shipped solo, full-stack, without an engineering team.
+Frame the problem, set the product direction, design the architecture, and decide what ships and when. Operate Claude Code end-to-end; every line of code is AI-written. Live to real users, shipped solo, full-stack — without an engineering team.
 
 - **Project Lighthouse:** Rethinking how large organizations manage priorities and risk, replacing traditional PMO overhead with real-time visual alignment that requires near-zero active interference.
 - **Jingle:** Challenging platform lock-in by building a cross-platform music app that lets users own their data and move freely between Spotify, Apple Music, and YouTube. Live on TestFlight.
-- **MailFlow:** Reframing inbox as Respond / Act / Know / Ignore actions via autonomous AI agent with tiered LLM routing (Sonnet + Haiku).
+- **MailFlow:** Reframing inbox as Respond/Act/Know/Ignore actions via autonomous AI agent with tiered LLM routing (Sonnet + Haiku).
 
 ---
 
@@ -120,7 +120,7 @@ Invited back by the university to design and teach graduate and undergraduate co
 - Designed and launched Innovation Toolbox, a graduate course in design thinking, problem solving, Lean, and Agile principles.
 - Modernized Database Management Systems curriculum with hands-on applied learning.
 
-### Education
+**Education:**
 
 - MBA, Strategic Leadership & Business Process Innovation | Widener University, 2017
 - BS, Software Engineering | Azad University, 2005
