@@ -71,6 +71,8 @@ If these verbs DOMINATE the JD's primary responsibilities, downgrade or drop:
 
 **Exception:** regulatory translation is acceptable signal (e.g., "translate regulatory requirements into product requirements" — that's policy-to-product mapping, not coordinator work).
 
+**[PLACEHOLDER from `me/constraints.md` audit 2026-05-24 — scrutinize during comprehensive screening audit, do not delete until reviewed.]** **Coordinator-IC multi-signal pattern:** if a JD has ALL of (a) red-flag verbs dominating responsibilities, AND (b) IC altitude (no team or scope ownership), AND (c) small company, AND (d) comp at the $180K floor (not significantly above), apply the cap rule (score 1, drop). This is stronger than the verb-dominance downgrade above and was moved here from constraints during the 2026-05-24 audit.
+
 ---
 
 ## Score bands (1-5)
@@ -96,6 +98,8 @@ A single hard knock-out caps the score at 1, regardless of other strengths. (Har
 - **Stale-employer-already-applied** (already applied to a role at this co recently): drop ~1 band.
 - **Comp ambiguous and likely below floor** (no listed range, company stage suggests below-floor): drop ~0.5 band.
 - **Location friction** (in-zone but inconvenient — Western Philly suburbs, hybrid requiring relocation): drop ~0.5 band.
+- **[PLACEHOLDER from `me/constraints.md` audit 2026-05-24 — scrutinize during comprehensive screening audit, do not delete until reviewed.]** **Soft people-leadership language** (JD uses "mentor," "coach," or "guide" the team instead of hard direct-management language, no formal direct-report requirement): drop ~0.5 band. Friction is no recent direct reports since 2015.
+- **[PLACEHOLDER from `me/constraints.md` audit 2026-05-24 — scrutinize during comprehensive screening audit, do not delete until reviewed.]** **Posting age 8-14 days:** drop ~0.5 band (older posting = more applicants already submitted, lower response odds).
 
 ---
 
@@ -136,3 +140,4 @@ A single hard knock-out caps the score at 1, regardless of other strengths. (Har
 
 - Warm-path scoring as a separate signal layer (conceptually relevant — strategy doc says cold ATS converts 2-5%, referrals 20-40%). Could surface roles where Maz has a 1st/2nd connection at the company as a separate boost.
 - Tier-A target company list (108 companies in `_archive/2026-05-20-rebuild/target-companies.md`) — referenced for warm-path and prioritization. Reactivation TBD.
+- **[PLACEHOLDER from `me/constraints.md` audit 2026-05-24 — scrutinize during comprehensive screening audit, do not delete until reviewed.]** **Altitude signals not captured by `me/constraints.md`.** Constraints handles altitude via title prefix list + comp floor + function knock-outs only. Six altitude signals are NOT in constraints and may need handling here: scope (team size, budget, geographic reach), reporting line (proximity to CEO/CTO/CPO), decision authority (decide vs recommend vs facilitate), strategic vs tactical orientation, time horizon (years vs days), stakeholder altitude (C-suite, board, regulators). Evaluate during the screening audit: pillar expansion vs new friction factor vs new dedicated section.

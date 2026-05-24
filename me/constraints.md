@@ -10,7 +10,7 @@ It does NOT score fit, evaluate chances, or rank in-zone candidates. That's `ski
 
 ## Inclusion test
 
-> **PASSES IF:** it's a hard parameter that defines Maz's career zone — comp floor, locations, wanted title families, function knock-outs, domain knock-outs, direct-reports clause, posting state, recruiter-Boolean credentials he can't carry.
+> **PASSES IF:** it's a hard parameter that defines Maz's career zone — comp floor, locations, wanted title families, function knock-outs, domain knock-outs, posting state, recruiter-Boolean credentials he can't carry.
 >
 > **FAILS IF:** screening fit/chances logic (pillar match scoring, JD red-flag verbs, score bands → `skills/screening/`); fact about Maz (→ `me/background.md`); representation rule (→ `me/voice.md`); workflow (→ a skill); operational state (→ pipeline files); current-cycle strategic objectives (→ `pending.md`).
 
@@ -18,26 +18,22 @@ It does NOT score fit, evaluate chances, or rank in-zone candidates. That's `ski
 
 ## Compensation
 
-- **US base hard floor:** $180K. If the JD lists a comp range and the entire range is below $180K → out of zone. If the range straddles $180K, in-zone (verify at apply time). If unlisted, in-zone (verify at apply time).
-- **US base target (aspirational, not a gate):** $200K+.
-- **Portugal / Spain Director base floor:** €120K-€140K (local market rate).
-- **Total comp** matters more than base alone at offer stage. For sourcing/screening, base floor governs.
+- **Base hard floor:** $180K USD (or local-currency equivalent). If the JD lists a comp range and the entire range is below this floor → out of zone. If the range straddles the floor, in-zone. If unlisted, in-zone.
 
 ---
 
 ## Locations
 
-### In zone (US)
-- Remote-first US (priority).
+### In zone
+- Remote-first (priority).
 - Greater Philadelphia (60-mile radius from Marlton, NJ).
 - NYC.
 - Seattle.
 - SF Bay Area.
 - LA.
-
-### In zone (EU, only if extraordinary)
-- Portugal (Lisbon).
-- Spain (Madrid, Barcelona).
+- Lisbon (Portugal).
+- Madrid (Spain).
+- Barcelona (Spain).
 
 ### Soft friction (in zone but inconvenient)
 - Western suburbs of Philly (Berwyn / Malvern / Radnor) — friction, not knock-out.
@@ -50,27 +46,29 @@ It does NOT score fit, evaluate chances, or rank in-zone candidates. That's `ski
 
 ## Wanted role titles (in zone)
 
-A JD's title must combine an acceptable seniority prefix with an acceptable functional family.
+In-zone title requires an acceptable seniority signal AND a function matching one of the wanted families (either by title string or by responsibilities described in the JD body).
 
-**Acceptable seniority prefixes:** Manager, Senior Manager, Lead, Principal, Director, Head, Senior Director, VP.
+### Acceptable seniority prefixes (IN)
+Manager, Senior Manager, Lead, Principal, Director, Head, Senior Director, VP, Group, Staff, Founding. No-prefix titles like "Product Manager" also qualify.
 
-**Acceptable functional families:**
-- Product
-- Innovation
-- Operations
-- Strategy / Strategic Initiatives
-- Transformation / Business Transformation / Digital Transformation
-- Process Excellence / Process Improvement / Continuous Improvement / Lean
-- Platform
-- Program Management / PMO / Project Management
-- Product Operations
-- Delivery / Implementation (at Director+ altitude only)
-- General Manager / Chief of Staff
-- Head of Business / Business Head
+### Excluded seniority prefixes (OUT)
+Associate, Junior, Entry-Level, Intern, Coordinator, Assistant.
 
-### Altitude floor
-- Below Senior Product Manager → out of zone.
-- For Program Management / PMO / Project Management specifically: floor is Director / Head / VP at any company size, OR Senior Manager / Principal at big-tech (Amazon / Apple / Microsoft / Google / Meta) where comp typically lands $200-300K.
+### Acceptable functional families (with responsibility definitions)
+- **Product** — owns product strategy, roadmap, what gets built and why.
+- **Innovation** — owns 0-to-1 initiatives or new bets outside the BAU portfolio.
+- **Operations** — owns operational systems, throughput, or process performance for the business or a function. Excludes Sales / Revenue / People-Ops variants (see § Function knock-outs).
+- **Strategy / Strategic Initiatives** — owns multi-year direction or cross-org initiatives.
+- **Transformation (Business / Digital)** — owns large-scale change programs reshaping how the org works.
+- **Process Excellence / Process Improvement / Continuous Improvement / Lean** — owns process design, flow, quality, throughput improvements.
+- **Platform** — owns shared infrastructure or capability serving multiple downstream teams.
+- **Program Management / PMO / Project Management / TPM** — owns multi-program or portfolio-level delivery (Director+ floor; or Senior Manager / Principal where comp meets the $180K floor).
+- **Product Operations** — owns the operational layer enabling product teams.
+- **Growth** — owns cross-functional growth ownership (acquisition, retention, monetization) as a distinct function.
+- **Business Operations / BizOps** — owns cross-functional operational leverage (planning, analytics, strategic execution) for a business or function.
+- **Delivery / Implementation** (Director+ only) — owns customer-facing delivery of a product/program at scale.
+- **General Manager / Chief of Staff** — owns a P&L or executes on behalf of an executive.
+- **Head of Business / Business Head** — owns a business unit or line of business.
 
 ---
 
@@ -80,7 +78,9 @@ A JD's title must combine an acceptable seniority prefix with an acceptable func
 - Agency PMO / adtech-pipeline PMO.
 - Engineering Management.
 - Customer Success.
-- Pure coordinator IC roles regardless of title (JD reads "support / facilitate / chair sync" and altitude is IC at small co with comp at floor).
+- People Operations / HR Operations.
+- Revenue Operations.
+- Sales Operations.
 
 ---
 
@@ -96,19 +96,10 @@ A JD's title must combine an acceptable seniority prefix with an acceptable func
 
 ---
 
-## Direct-reports clause
-
-- JD says "must currently manage X PMs" or "5+ years recent direct PM management required, no flex" → **out of zone.**
-- Soft mentor / coach / guide language → **in zone with friction** (pursue with the people-management story front-loaded).
-
-(Maz's last direct people management ended 2015. He has 12 direct reports + 50+ employees + 700+ field technicians at Infotech VP as the defensible team-build evidence. Recent management at NG is matrixed, not HR-direct.)
-
----
-
 ## Posting state
 
 - Posting must be **open** at evaluation time. LinkedIn "No longer accepting applications" red badge → out of zone (mark as `stale`).
-- Posted **within last 7 days** preferred. Older = out of zone unless explicitly flagged for retroactive interest.
+- Posting must be **within the last 14 days**. Older = out of zone unless explicitly flagged for retroactive interest.
 
 ---
 
