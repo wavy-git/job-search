@@ -1,8 +1,8 @@
 # Tailoring
 
-Workflow + frameworks + quality tools for producing a tailored resume `.docx` from `me/resume.md` + the JD. Validation is a phase within this skill (not a separate skill).
+Workflow + frameworks + quality tools for producing a tailored resume `.docx` from a JD. Inputs and outputs detailed below. Validation is a phase within this skill (not a separate skill).
 
-Tailoring assumes the JD has already passed sourcing (in-zone) and screening (score 4-5). Tailoring is the production step.
+Tailoring is the production step. Typically invoked for high-fit JDs but can be invoked for any JD by user direction. Tailoring trusts user judgment on which JDs to tailor for and does not re-evaluate JD fit.
 
 ---
 
@@ -25,8 +25,11 @@ Tailoring assumes the JD has already passed sourcing (in-zone) and screening (sc
 
 ## Outputs
 
-- Tailored resume `.docx` in `resumes/Maz_Mavvaj_<Title>_<Company>.docx`
-- Phase 1 written strategy (saved alongside or in the per-application research dossier)
+- Tailored resume `.docx` in `resumes/<Candidate_Name>_<Title>_<Company>.docx`
+  - Example: `resumes/Maz_Mavvaj_Director_PM_Mastercard.docx`
+- Written tailoring strategy saved to `outputs/applications/<jd>.md`
+  - Example: `outputs/applications/2026-05-25-mastercard-director-pm.md`
+- Validation summary (pass/fail per gate, presented alongside the diff)
 - Side-by-side diff presented to user for review before ship
 
 ---
@@ -85,6 +88,21 @@ This is the gate that prevents producing a tailored resume that misses key JD pr
 
 ### Phase 1 steps
 
+Copy this checklist and track your progress through Phase 1:
+
+```
+Phase 1 Progress:
+- [ ] Step 1: Verify JD body is canonical
+- [ ] Step 2: Identify the top 6 key qualifications
+- [ ] Step 3: Distinguish verb mode for each priority
+- [ ] Step 4: Deep-read career sources (me/ files)
+- [ ] Step 5: Map each priority against background (incl. credential check, bridges, reserve)
+- [ ] Step 6: Ask user clarifying questions if any priority is thin/ambiguous
+- [ ] Step 7: Produce the tailoring strategy in writing
+- [ ] Step 8: Full-resume audit before Phase 2
+- [ ] Step 9: Confirm written strategy exists, then start Phase 2
+```
+
 1. **Verify JD body is canonical.** Pulled from company ATS (Ashby / Greenhouse / Lever / Workday), not LinkedIn abbreviations. Saved to `outputs/jds/<date>-<co>-<role>.md` with header.
 
 2. **Identify the top 6 key qualifications.** Read the JD comprehensively. Rank by importance to recruiter screen.
@@ -123,6 +141,20 @@ This is the gate that prevents producing a tailored resume that misses key JD pr
 ## Phase 2 — Tailor by section
 
 Apply the strategy from Phase 1 to each section in the order below. Every change must be earned by the strategy — no edits without strategy backing.
+
+Copy this checklist and track your progress through Phase 2:
+
+```
+Phase 2 Progress:
+- [ ] 2.1: Tailor Header positioning block
+- [ ] 2.2: Tailor Summary
+- [ ] 2.3: Tailor Career progression (titles, scope, bullets)
+- [ ] 2.4: Flag if blind rule-following misses something important
+- [ ] 2.5: Tailor Independent Ventures
+- [ ] 2.6: Tailor Core Competencies
+- [ ] 2.7: Tailor Tools & Technologies
+- [ ] 2.8: Tailor Certifications & Honors
+```
 
 **Specificity in narrative zones.** Every noun in narrative zones needs concrete grounding. Vague abstracts ("prototypes," "workflows," "platforms," "outcomes") without specification fail. Test: can the reader picture the work from the words alone?
 
@@ -210,8 +242,25 @@ Lock as-is. Do not tailor unless a major credential is genuinely missing OR JD k
 
 Run every gate after Phase 2. **Do not present an un-validated resume to the user.** If any gate fails, fix it before continuing. Re-run any gate whose section was modified by a fix.
 
+Copy this checklist and track validation progress:
+
+```
+Validation Progress:
+- [ ] Gate 0: Strategy exists in writing
+- [ ] Gate 1: JD priority coverage
+- [ ] Gate 2: Hard locks applied
+- [ ] Gate 3: 10-point bullet framework
+- [ ] Gate 4: Recruiter-shoe test on summary
+- [ ] Gate 5: 6-second mock scan
+- [ ] Gate 6: JD must-have coverage
+- [ ] Gate 7: Knock-out check
+- [ ] Gate 8: Length and trim
+- [ ] Gate 9: Verify file state, then side-by-side diff
+- [ ] Gate 10: Apply user feedback
+```
+
 ### Gate 0 — Strategy exists in writing
-Phase 1 produced a written strategy mapping top 6 JD qualifications with verb modes, sections needing changes, promotions cited, bridges cited. **If no written strategy, return to Phase 1.**
+Phase 1 MUST have produced a written strategy mapping top 6 JD qualifications, verb modes, sections needing changes, promotions cited, bridges cited. **If no written strategy exists, STOP and return to Phase 1. Do not proceed.**
 
 ### Gate 1 — JD priority coverage
 - #1 priority lands in Summary S1.
@@ -223,7 +272,7 @@ Phase 1 produced a written strategy mapping top 6 JD qualifications with verb mo
 - Coverage table filled in (priority / verb mode / where on page 1 / pass).
 
 ### Gate 2 — Hard locks
-Open and read `me/voice.md` § Hard locks now. Apply every hard lock to the tailored resume. Bullet count discipline: counts match the current master (`me/resume.md`) unless a count change is documented per Phase 2.3.
+**MUST open and read `me/voice.md` § Hard locks now.** Apply every hard lock to the tailored resume. **A hard-lock violation is a non-negotiable fail; STOP and fix before proceeding.** Bullet count discipline: counts match the current master (`me/resume.md`) unless a count change is documented per Phase 2.3.
 
 ### Gate 3 — 10-point bullet framework (every modified bullet)
 Each modified bullet passes all 10 (see 10-point framework below).
