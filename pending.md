@@ -26,15 +26,8 @@ The maintenance skill (`skills/maintenance/`) references "pipeline state files" 
 - Markdown table vs JSON vs JSONL.
 - The applications.md "Next Action" blob problem (500-word notes per row) is the main thing to avoid — research dossiers should split out (see next item).
 
-### Per-application research dossiers — placement and format
-When researching HM info, company facts, comp band research for a specific application, where does that go? OLD system buried it in `applications.md` row notes (500-word blobs).
-
-**Decide when:** outreach skill is actively producing a warm DM that needs HM research (next time a score-4-or-5 application requires it).
-
-**Options:**
-- Top-level `research/<jd>.md` (one file per application, applications row references it)
-- `outputs/research/<jd>.md` (consistent with `outputs/` folder for collected data)
-- `pipeline/research/<jd>.md` (with operational pipeline)
+### Per-application research dossiers — placement and format — RESOLVED 2026-05-25
+Decided during the tailoring audit: per-application content (tailoring strategy + research + HM info + status) lives in `outputs/applications/<jd>.md` (one file per application, JD identifier in filename, matches the `outputs/jds/<jd>.md` pattern). Decision applied in `skills/tailoring/tailoring.md` § Outputs.
 
 ### Per-JD interview artifact location
 `skills/interviewing/` produces per-JD interview plans. Output location TBD until first interview prep is generated.
@@ -81,10 +74,10 @@ Working name for the umbrella under Seagull Cybernetics that houses MailFlow (ph
 
 ## Open / pending facts to verify
 
-These live at the bottom of `me/background.md` § Open / pending. Referenced here for cross-session awareness:
+Referenced from `me/background.md` § Open / pending facts to verify:
 - E-voucher monthly volume (placeholder 2M+, needs exact figure).
-- Failure story (also listed under deferred features above).
-- NG product vision (also listed under deferred features above).
+
+(Failure story and NG product vision are interview-prep gaps, tracked above under Deferred features — they're not facts to verify but content to develop.)
 
 ---
 
@@ -146,10 +139,13 @@ Per `discipline.md` Rule 5 + Rule 8: periodically run an audit pass across all `
 - New content → apply destination file's inclusion test (top of each file).
 - If content fits multiple destinations, apply each destination's FAILS IF to narrow.
 - If still ambiguous, surface to user.
-- Apply `discipline.md` Rules 1-9 throughout.
+- Apply `discipline.md` Rules 1-11 throughout.
 
 ### Pipeline activation
 Many skills reference pipeline state files (candidates pool, applications, outreach, archive, weekly metrics) but the format + placement is deferred per "Structural decisions parked" above. The first time any skill needs to write to one, settle the decision then.
 
 ### Content inventory + drift triangulation work
 `_archive/content-inventory-2026-05-21.md` contains the systematic content inventory + 23 drift events found during the rebuild. Reference if questions arise about how a rule landed where it did, or what was in the pre-rebuild system.
+
+### Tailoring skill end-to-end behavioral test
+`skills/tailoring/tailoring.md` was structurally audited and validated against its inclusion test 2026-05-25. The skill has NOT been behaviorally tested by running it end-to-end against a real JD to produce a real tailored resume. Recommend doing this before relying on the skill in production. Per the user's STEP 2 order, this test is the first item after `me/` files (preceding sourcing / screening / outreach / maintenance / interviewing / profiling audits).
