@@ -92,29 +92,35 @@ Copy this checklist and track your progress through Phase 1:
 
 ```
 Phase 1 Progress:
-- [ ] Step 1: Verify JD body is canonical
-- [ ] Step 2: Identify the top 6 key qualifications
-- [ ] Step 3: Distinguish verb mode for each priority
-- [ ] Step 4: Deep-read career sources (me/ files)
-- [ ] Step 5: Map each priority against background (incl. credential check, bridges, reserve)
-- [ ] Step 6: Ask user clarifying questions if any priority is thin/ambiguous
-- [ ] Step 7: Produce the tailoring strategy in writing
-- [ ] Step 8: Full-resume audit before Phase 2
-- [ ] Step 9: Confirm written strategy exists, then start Phase 2
+- [ ] Step 1: Capture the full JD body
+- [ ] Step 2: Identify company stage
+- [ ] Step 3: Identify hidden-employer status
+- [ ] Step 4: Identify the top 6 key qualifications
+- [ ] Step 5: Distinguish verb mode for each priority
+- [ ] Step 6: Deep-read career sources (me/ files)
+- [ ] Step 7: Map each priority against background (incl. credential check, bridges, reserve)
+- [ ] Step 8: Pause for clarification if any priority is thin/ambiguous
+- [ ] Step 9: Produce the tailoring strategy in writing
+- [ ] Step 10: Strategy coverage check before Phase 2
+- [ ] Step 11: Phase 2 entry-precondition (verify strategy + coverage check)
 ```
 
-1. **Verify JD body is canonical.** Pulled from company ATS (Ashby / Greenhouse / Lever / Workday), not LinkedIn abbreviations. Saved to `outputs/jds/<date>-<co>-<role>.md` with header.
+1. **Capture the full JD body.** Source preferred: company ATS (Ashby / Greenhouse / Lever / Workday) when available — original posting is more detailed and a useful tracked artifact. LinkedIn / pasted text also fine if content is full. Save to `outputs/jds/<date>-<co>-<role>.md` with header noting source.
 
-2. **Identify the top 6 key qualifications.** Read the JD comprehensively. Rank by importance to recruiter screen.
+2. **Identify company stage** (Series A / Mid-stage / F500 / FAANG / Academic). Feeds the Tailor flavor by company stage table below.
 
-3. **Distinguish verb mode for each priority** — ownership ("own the roadmap," "lead," "drive"), discovery ("investigate," "analyze," "research"), execution ("ship," "deliver"), collaboration ("work closely with," "partner"). Anchor each priority with the matching verb mode in the resume.
+3. **Identify hidden-employer status.** Determine if the JD is direct (employer named) or recruiter-fronted (e.g., recruiter firm listing the role without naming the actual employer). Hidden employer triggers § Hidden-employer handling.
 
-4. **Deep-read the career sources before mapping:**
+4. **Identify the top 6 key qualifications.** Read the JD comprehensively. Rank by importance to recruiter screen.
+
+5. **Distinguish verb mode for each priority** — ownership ("own the roadmap," "lead," "drive"), discovery ("investigate," "analyze," "research"), execution ("ship," "deliver"), collaboration ("work closely with," "partner"). Anchor each priority with the matching verb mode in the resume.
+
+6. **Deep-read the career sources before mapping:**
    - `me/resume.md` (current master, full body — every section)
    - `me/background.md` (full facts, promotional reserve)
    - `me/voice.md` (hard locks, don't-claim, bridges)
 
-5. **Map each of the top 6 against background:**
+7. **Map each of the top 6 against background:**
    - Which background items hit each qualification (direct match, adjacent, or via bridge framing)
    - **Look for patterns across multiple roles**, not just single items
    - **Credential check (both directions).** Open and read `me/background.md` § Certifications & Honors AND `me/linkedin.md` § Licenses & Certifications now. (a) **Forward:** for any credential the JD requires, verify it's already held (don't flag as gap if held). (b) **Reverse:** scan all held credentials — regardless of whether the JD explicitly mentions specific certs — for any that would strengthen the resume for this JD. Held credentials not yet on the master resume are candidates for the tailored resume's Certifications section (Phase 2.8) or Core Competencies (Phase 2.6) — both skim zones designed to carry exact keyword surface.
@@ -122,19 +128,19 @@ Phase 1 Progress:
    - Identify which bridge framings are needed (per `me/voice.md` § Don't-claim list + bridges)
    - Identify which reserve material is a promotion candidate (per promotion rule below)
 
-6. **If any priority's evidence is thin or ambiguous, ask the user clarifying questions before tailoring.** Don't fabricate. Don't guess.
+8. **Pause for clarification when needed.** If any of the top 6 priorities has thin or ambiguous evidence after mapping (Step 7), STOP and ask the user clarifying questions before producing the strategy. MUST NOT fabricate or guess — fabrication is a process failure.
 
-7. **Produce the tailoring strategy IN WRITING:**
+9. **Produce the tailoring strategy IN WRITING:**
    - Top 6 JD priorities, ranked, with verb mode noted
    - Each priority's mapping to background (direct / adjacent / pattern / bridge)
-   - Which sections of the resume highlight which JD qualification (e.g., Header carries #1-#2 industries/disciplines; Summary intro reinforces #1-#2; new S2 sentence covers #3-#5; 3 Summary bullets carry hard-number punches; Bullet X in NG section covers #6; Core Competencies skim zone carries #2 and #6)
+   - Which sections of the resume highlight which JD qualification (e.g., Header carries #1-#2 industries/disciplines; Summary intro reinforces #1-#2; new S2 sentence covers #3-#5; 3 Summary bullets carry hard-number punches; Bullet X in <role-section> covers #6; Core Competencies skim zone carries #2 and #6)
    - Which reserve material gets promoted, where, and why (cite (a)/(b)/(c) of promotion rule explicitly)
    - Which bridge framings are needed (cite the specific bridge from voice.md)
    - Which gaps stay as gaps (don't fabricate; document and accept)
 
-8. **Full-resume audit before Phase 2.** Walk all 9 sections (Header positioning block, title, summary, scope lines, bullets, IV order, Core Competencies, Tools & Technologies, Certifications) and document which need changes per the strategy and which stay as master.
+10. **Strategy coverage check before Phase 2.** Walk every section of the master (`me/resume.md`). For each section, verify the strategy from Step 9 explicitly states either "tailor per X" or "no change." No section may be unaddressed by the strategy. If gaps found, return to Step 9.
 
-9. **Only after the written strategy is produced do you start Phase 2.**
+11. **Phase 2 entry-precondition.** Verify the written strategy (Step 9) and the strategy coverage check (Step 10) both exist before starting Phase 2. If either is missing, STOP and complete them. Phase 2 cannot begin without both.
 
 ---
 
@@ -173,13 +179,16 @@ This block is a prime AI-screening keyword location — above the fold, high key
 
 ### Phase 2.2 — Summary
 
-Master structure: prose opener + 3 quantified bullets + closing identity line. Do NOT rewrite the structure.
+**Master structure** (in `me/resume.md`): S1 (prose opener) + 3 quantified bullets + S3 (closing identity line).
 
-- **S1 (prose opener):** minor edits only (not rewrite). Must carry the **#1 JD priority**. May carry more if the master sentence allows natural minor edits.
-- **3 quantified bullets:** minor edits only (not rewrite), each stays ≤1 line. If a bullet is clearly off vs JD priorities, you MAY swap one for a promoted bullet from background. **Limit: 1 promotion in Summary bullets per tailored resume** (independent of Phase 2.3 promotion).
-- **Closing identity line:** do not change. Brand identity.
+**Tailored structure adds S2** between S1 and the 3 bullets: S1 + S2 + 3 quantified bullets + S3.
 
-**Fluency protection:** never sacrifice the fluency or power of S1 to cram priorities in. If S1 reads stuffed, drop a priority and reposition it elsewhere on page 1.
+- **S1 (prose opener):** minor edits only (not rewrite). Must carry the #1 JD priority at minimum. May carry more if simple minor edits allow without compromising fluency.
+- **S2 (new sentence, JD-specific):** completely new sentence written for this JD. Maps the resume to JD priorities. Covers additional priorities not in S1. **S1 + S2 together target 3-5 of top JD priorities.**
+- **3 quantified bullets:** minor edits only (not rewrite), each stays ≤1 line. **Purpose: reinforce the JD priorities surfaced in S1 and S2.** If a bullet is clearly off vs S1+S2 priorities, you MAY swap one for a promoted bullet from background. **Limit: 1 promotion in Summary bullets per tailored resume.**
+- **S3 (closing identity line):** do not change. Brand identity.
+
+**Fluency protection:** never sacrifice the fluency or power of S1 or S2 to cram priorities in. If S1 reads stuffed, push the priority into S2. If S2 reads stuffed, drop a priority and reposition it elsewhere on page 1 (Header, summary bullet, scope line, skim zone).
 
 ### Phase 2.3 — Career progression — titles, scope, bullets
 
@@ -191,7 +200,7 @@ Applies to all body roles in the career progression section of the master.
   - JD-cited tool/term not in current wording (swap a noun)
   - Verb-mode mismatch where the mismatch is **severe** (e.g., ownership vs collaboration). Skip when borderline (ownership vs execution).
   - Reordering bullet sequence within a role to lead with JD-relevant outcome
-- **Bullet promotion (body):** AT MOST 1 promoted bullet across the entire body per tailored resume. Run detailed analysis first. Independent of Phase 2.2's Summary promotion (so up to 2 total promotions per tailored resume).
+- **Bullet promotion (body):** Body bullets may be added (not just swapped) when reserve material clearly and strongly improves JD compatibility. Run detailed analysis first. **Total promotion budget across the entire resume (Summary + body combined): AT MOST 2 promoted bullets.** If more than 2 strong candidates exist, flag and discuss before adding.
 
 **Bullet count discipline:** match the per-role bullet counts in the current master (`me/resume.md`). Most tailorings swap/reorder, rarely add. Flag any count change in the strategy and the diff. No silent count changes.
 
@@ -208,7 +217,11 @@ These rules are guardrails, not a script. If applying them mechanically would mi
 
 Master has 3 ventures + builder-identity intro paragraph. Keep the intro intact for senior-leadership / Series A / founder JDs.
 
-Ordering: reorder ventures to lead with whichever best matches the JD's primary signal. Capability per venture is in `me/background.md` § Independent Ventures. Default (no clear pull): master order from `me/resume.md` § Independent Ventures.
+**Ordering:** reorder ventures to lead with whichever best matches the JD's primary signal. Capability per venture is in `me/background.md` § Independent Ventures. Default (no clear pull): master order from `me/resume.md` § Independent Ventures.
+
+**Per-venture description (the one-line bullet under each venture name):** minor edits only (not rewrite) to reinforce JD priorities. Structure and ≤1-line discipline preserved.
+
+**Bullet count:** 3 ventures stay 3 ventures. No additions to IV during tailoring.
 
 ### Phase 2.6 — Core Competencies (skim zone)
 
@@ -271,8 +284,12 @@ Phase 1 MUST have produced a written strategy mapping top 6 JD qualifications, v
 - Bridge framings appear in every section they should.
 - Coverage table filled in (priority / verb mode / where on page 1 / pass).
 
-### Gate 2 — Hard locks
-**MUST open and read `me/voice.md` § Hard locks now.** Apply every hard lock to the tailored resume. **A hard-lock violation is a non-negotiable fail; STOP and fix before proceeding.** Bullet count discipline: counts match the current master (`me/resume.md`) unless a count change is documented per Phase 2.3.
+### Gate 2 — Voice rules (hard locks + universal writing-style)
+**MUST open and read `me/voice.md` now.** Verify the tailored resume against:
+- **§ Hard locks:** apply every hard lock. A hard-lock violation is a non-negotiable fail; STOP and fix before proceeding.
+- **§ Universal writing-style preferences:** check em-dash usage (sparingly); verify no entries from the don't-use lists (buzzwords, melodrama openers, consultant-speak).
+
+Bullet count discipline: counts match the current master (`me/resume.md`) unless a count change is documented per Phase 2.3.
 
 ### Gate 3 — 10-point bullet framework (every modified bullet)
 Each modified bullet passes all 10 (see 10-point framework below).
@@ -326,9 +343,9 @@ Every modified bullet must pass all 10:
 2. **Scale signal** — shows the size of impact.
 3. **So what** — recruiter would care.
 4. **One idea** — says one thing clearly.
-5. **Scannable** — 1.5 lines max.
+5. **Scannable** — 1 line max.
 6. **Executive tone** — sounds like a leader wrote it.
-7. **Decision-maker signal** — shows Maz made a choice.
+7. **Decision-maker signal** — shows the candidate made a choice.
 8. **Altitude** — right level of abstraction.
 9. **Defensible** — can be backed up in interview.
 10. **Pattern reinforcement** — supports the career thesis.
@@ -452,5 +469,4 @@ After user approves the diff and confirms submit:
 
 ## Open / parked items
 
-- Per-application tailoring strategy file placement (currently buried in application notes; could move to a per-application research dossier or `me/research/` style location) — see `pending.md`.
 - "Used at" promotion log — when reserve material gets promoted for a specific role, track which item was promoted at which company so it's reusable next time. Placement TBD.
