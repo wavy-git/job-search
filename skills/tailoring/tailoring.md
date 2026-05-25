@@ -8,7 +8,7 @@ Tailoring assumes the JD has already passed sourcing (in-zone) and screening (sc
 
 ## Inclusion test
 
-> **PASSES IF:** generic, reusable tailoring workflow content — process steps (Phase 1 / Phase 2 / validation gates / ship / post-ship); decision criteria (10-point bullet framework, promotion rule, tailor flavor by company stage, skim vs narrative zone discipline); tailoring-specific edge-case handling (hidden employer, fluency protection, count-change documentation); references to required inputs and produced outputs; structural requirements tailoring imposes on the master (line counts, slot counts, row counts, expected sections); output format conventions (save format, naming, side-by-side diff format, validation summary); the modern ATS reality that shapes how tailoring works.
+> **PASSES IF:** generic, reusable tailoring workflow content — process steps (Phase 1 / Phase 2 / validation gates / ship / post-ship); decision criteria (10-point bullet framework, promotion rule, tailor flavor by company stage, skim vs narrative zone discipline); tailoring-specific edge-case handling (hidden employer, fluency protection, count-change documentation); references to required inputs and produced outputs; structural requirements tailoring imposes on the master (line counts, slot counts, row counts, expected sections); output format conventions (save format, naming, side-by-side diff format, validation summary); the modern ATS reality that shapes how tailoring works; illustrative examples using concrete profile content to clarify a workflow, format, or convention (kept minimal; the rule/convention itself stays generic).
 >
 > **FAILS IF:** any fact about Maz — credentials, employers, projects, vendors, dates, numbers, honors, IV projects, anywhere in the file in any form (→ `me/background.md` or `me/linkedin.md`); master resume content (→ `me/resume.md`); voice rules or hard-lock restatements (→ `me/voice.md`); constraint parameters (→ `me/constraints.md`); the JD body (→ `outputs/jds/`); the tailored output (→ `resumes/`); per-application strategy / research / status (→ `outputs/applications/<jd>.md`); other skills' workflows (sourcing / screening / outreach / interviewing / composing / profiling / maintenance — each owns its own); cross-cutting authoring discipline (→ `discipline.md`).
 
@@ -99,7 +99,7 @@ This is the gate that prevents producing a tailored resume that misses key JD pr
 5. **Map each of the top 6 against background:**
    - Which background items hit each qualification (direct match, adjacent, or via bridge framing)
    - **Look for patterns across multiple roles**, not just single items
-   - **Credential check before flagging a gap** (PMP, AWS, CSPO already held — see `me/background.md` § Certifications)
+   - **Credential check (both directions).** Open and read `me/background.md` § Certifications & Honors AND `me/linkedin.md` § Licenses & Certifications now. (a) **Forward:** for any credential the JD requires, verify it's already held (don't flag as gap if held). (b) **Reverse:** scan all held credentials — regardless of whether the JD explicitly mentions specific certs — for any that would strengthen the resume for this JD. Held credentials not yet on the master resume are candidates for the tailored resume's Certifications section (Phase 2.8) or Core Competencies (Phase 2.6) — both skim zones designed to carry exact keyword surface.
    - Note gaps where no defensible match exists
    - Identify which bridge framings are needed (per `me/voice.md` § Don't-claim list + bridges)
    - Identify which reserve material is a promotion candidate (per promotion rule below)
@@ -151,9 +151,9 @@ Master structure: prose opener + 3 quantified bullets + closing identity line. D
 
 ### Phase 2.3 — Career progression — titles, scope, bullets
 
-Applies to all body roles (NG, Comcast, Infotech VP/Director/Manager/Developer).
+Applies to all body roles in the career progression section of the master.
 
-- **Role titles:** match JD's title verbatim where defensible (functional descriptor, no payroll inflation). Hard lock per `me/voice.md`: never claim "Director" as NG payroll title.
+- **Role titles:** match JD's title verbatim where defensible (functional descriptor, no payroll inflation). Apply all hard locks per `me/voice.md` § Hard locks — open and read voice.md now.
 - **Scope lines:** freely tailorable. Same facts, JD-relevant lens. Avoid keyword piles.
 - **Bullets:** minor edits only (not rewrite). Strong reason required:
   - JD-cited tool/term not in current wording (swap a noun)
@@ -161,7 +161,7 @@ Applies to all body roles (NG, Comcast, Infotech VP/Director/Manager/Developer).
   - Reordering bullet sequence within a role to lead with JD-relevant outcome
 - **Bullet promotion (body):** AT MOST 1 promoted bullet across the entire body per tailored resume. Run detailed analysis first. Independent of Phase 2.2's Summary promotion (so up to 2 total promotions per tailored resume).
 
-**Bullet count discipline** (current master): NG=5, Comcast=4, Infotech VP=5, Director=3, Manager=2, Developer=2. Most tailorings swap/reorder, rarely add. Flag any count change in the strategy and the diff. No silent count changes.
+**Bullet count discipline:** match the per-role bullet counts in the current master (`me/resume.md`). Most tailorings swap/reorder, rarely add. Flag any count change in the strategy and the diff. No silent count changes.
 
 Every modified bullet must pass the 10-point bullet framework (below).
 
@@ -176,13 +176,7 @@ These rules are guardrails, not a script. If applying them mechanically would mi
 
 Master has 3 ventures + builder-identity intro paragraph. Keep the intro intact for senior-leadership / Series A / founder JDs.
 
-Ordering rules (per JD signal):
-- **MailFlow first** when JD wants agentic AI / autonomous LLM systems / AI-augmented automation depth.
-- **Jingle first** when JD wants player-coach / hands-on / live builder / cross-platform consumer.
-- **Lighthouse first** when JD wants operational visibility / risk / governance / PMO.
-- **Default** (no pull): Lighthouse → Jingle → MailFlow.
-
-The Cat can be added when JD weights browser-extension / UX-control / consumer-privacy / user-agency themes (not on master by default; promotable to tailored).
+Ordering: reorder ventures to lead with whichever best matches the JD's primary signal. Capability per venture is in `me/background.md` § Independent Ventures. Default (no clear pull): master order from `me/resume.md` § Independent Ventures.
 
 ### Phase 2.6 — Core Competencies (skim zone)
 
@@ -191,7 +185,7 @@ Master = 8 fixed slots (per `me/resume.md`). Tailoring allowed.
 Rules:
 - **Count stays at 8 slots.** Don't grow or shrink.
 - Replace slots with JD's exact must-have keywords when needed. Source from `me/background.md` when keyword isn't on master but underlying capability is real.
-- "AI-Augmented Operations & Process Automation" is an identity slot anchored to MailFlow + Jingle in IV. Keep present unless JD has zero AI/automation surface.
+- Identity-anchored slots in Core Competencies represent capabilities present in the candidate's background — could anchor to career roles, Independent Ventures, credentials, honors, or any combination. Keep an identity-anchored slot present unless the JD has zero surface for the underlying capability.
 - Document each replacement in Phase 1 strategy: which JD keyword drove it, where in background the capability is anchored.
 
 ### Phase 2.7 — Tools & Technologies (skim zone)
@@ -200,15 +194,15 @@ Master = 6 categorized rows (per `me/resume.md`).
 
 Rules:
 - Reorder items WITHIN a row to lead with JD-relevant items.
-- Reorder ROWS to lead with the JD-relevant category (AI JDs → Agentic AI row [master default]; payments → ANSI C / Java / Python row; PMO/ops → Jira / Confluence row).
-- Tools/vendor names not on master may be pulled from background when JD references them or weights the underlying capability (Ingenico, Gemalto, Thales, Temenos, "predictive analytics," "PCI-DSS," "payment switching").
+- Reorder ROWS to lead with the JD-relevant category.
+- Tools/vendor names not on master may be pulled from `me/background.md` or `me/linkedin.md` when the JD references them or weights the underlying capability.
 - Primary AI-screening keyword location alongside Header. Surface JD's specific tool names here, not in narrative.
 
 ### Phase 2.8 — Certifications & Honors (LOCKED)
 
 Master list (per `me/resume.md`): 8 items in order.
 
-Lock as-is. Do not tailor unless a major credential is genuinely missing OR JD knock-out requires reordering. Beta Gamma Sigma carries signal for F500 / consulting / MBA-pedigree JDs; deprioritize for builder-engineer JDs.
+Lock as-is. Do not tailor unless a major credential is genuinely missing OR JD knock-out requires reordering. If academic / pedigree honors are present in the master, surface them for JDs where pedigree signals positively; deprioritize for JDs that prioritize practical builder capability over credentials.
 
 ---
 
@@ -229,21 +223,14 @@ Phase 1 produced a written strategy mapping top 6 JD qualifications with verb mo
 - Coverage table filled in (priority / verb mode / where on page 1 / pass).
 
 ### Gate 2 — Hard locks
-Per `me/voice.md`:
-- Hard numbers preserved verbatim
-- Companies, dates, employment facts unchanged
-- No "Director" payroll claim at NG
-- Log4Shell framing as invited-based-on-reputation
-- AI / agentic AI scope correct (defensible per Jingle+MailFlow; feature-documentation specifically)
-- Don't-claim list respected (no healthcare, MSSP, etc.)
-- Bullet count discipline (NG=5, Comcast=4, VP=5, Director=3, Manager=2, Developer=2 unless documented count change)
+Open and read `me/voice.md` § Hard locks now. Apply every hard lock to the tailored resume. Bullet count discipline: counts match the current master (`me/resume.md`) unless a count change is documented per Phase 2.3.
 
 ### Gate 3 — 10-point bullet framework (every modified bullet)
 Each modified bullet passes all 10 (see 10-point framework below).
 
 ### Gate 4 — Recruiter-shoe test on summary
 Read the summary as a recruiter with 6 seconds and zero domain context.
-- Every term decodes in 2 seconds by a non-domain reader (no NG / PI / FIs without expansion; no unexplained Lighthouse / Jingle).
+- Every term decodes in 2 seconds by a non-domain reader (no internal abbreviations without expansion; no unexplained product or project names).
 - Every word earns premium real estate.
 - Specificity check (no vague nouns without grounding).
 - Each sentence clear; no compound clauses requiring re-parse.
@@ -335,37 +322,9 @@ For every **skim-zone** promotion, note in the strategy which keyword(s) came fr
 
 ---
 
-## Promotional reserve — key candidate items (curated from `me/background.md`)
+## Promotional reserve — where to find candidates
 
-The full reserve is `me/background.md` minus what's already in `me/resume.md`. Most commonly promoted candidates:
-
-### Infotech VP reserve
-- Predictive merchant targeting (data analytics + grading models) — for AI / data analytics / ML / merchant intelligence JDs
-- Pull-based logistics (demand-triggered) — for supply chain / operations / logistics JDs
-- Automated remote terminal configuration — for IoT / device automation / remote operations JDs
-- Multi-bank consolidation mechanism — for payments-specific product innovation JDs
-- Transaction routing — for payments infrastructure JDs
-- Settlement systems — for payments infrastructure JDs
-- Security frameworks (payment context) — for payments security / compliance JDs
-- PCI-DSS championing to national regulation — for security / compliance / regulatory JDs
-
-### Vendor & Technology Partners reserve
-- Ingenico — for payments JDs referencing vendor ecosystems
-- Gemalto — for payments / identity / smart card JDs
-- Thales — for payment security / HSM / cryptography JDs
-- Temenos — for core banking / fintech infrastructure JDs
-
-### Comcast reserve
-- Lean flow / WIP limits / quality gates — for Lean / Six Sigma / transformation / ops excellence JDs
-- Ownership-based accountability — for org transformation / culture leadership JDs
-- "Source of truth" framing (analytics platform) — for operational visibility / BI JDs
-- Static reporting → real-time analytics — for ops intelligence / BI transformation JDs
-- "Operational backbone" (Log4Shell descriptor) — for infrastructure / crisis-leadership / security JDs
-
-### NG reserve
-- AI-augmented PowerShell + Jira/Jira Align API automation (feature-documentation scope) — for AI / automation JDs
-- CCRE change management (currently on master as bullet 5; reserve framing variants for tailoring)
-- L+G deployment gap analysis — when JD weights exec translation specifically
+The full reserve is `me/background.md` content NOT already in `me/resume.md`. For each JD, open and read background; scan for items that strengthen JD match per the promotion rule above. Document selections in the strategy with citations to background sections. Also check `me/linkedin.md` for additional reserve content (Projects, Recommendations, Honors) not already in resume or background.
 
 ---
 
@@ -373,12 +332,16 @@ The full reserve is `me/background.md` minus what's already in `me/resume.md`. M
 
 Sanity-check AFTER the Phase 1 strategy is written. Not the starting point.
 
-| Stage | Recruiter type | What dominates the tailoring |
-|---|---|---|
-| Series A (≤100 ppl) | Founder review | Cover letter + Summary punch + IV lead with Jingle/Lighthouse working apps; mission fit |
-| Mid-stage SaaS (100-1K) | Hiring manager review | Bullets + Core Competencies with agile/B2B SaaS keywords; platform thinking; KPIs |
-| F500 corporate (5K+) | ATS keyword surface + recruiter scan | Skim zones heavy; narrative tight; scale signals; regulated-industry credibility |
-| FAANG / Big Tech | Bar-raiser interview prep | Bullets must mirror leadership principles; technical depth surfaced; data rigor |
+Company stage determines who reads the tailored resume first and how they read it. For the JD's stage: identify the likely first reader, read the tailored resume through that reader's lens, and surface relevant prior experience by matching the JD stage to role stage tags in `me/background.md`. Adjust emphasis where the read doesn't match what they value seeing.
+
+| JD Stage | Likely first reader | How they read | What they value seeing | Where to find in background |
+|---|---|---|---|---|
+| Series A (≤100 ppl) | Founder / co-founder | End-to-end, fast, gut-check | Builder credibility, mission fit, concrete shipped work, low-ceremony | Roles whose stage tag contains "Series A" |
+| Mid-stage (100-1K) | Hiring manager | Selective, scanning for domain fit | Domain depth, KPI ownership, platform thinking, scaling track record | Roles whose stage tag contains "Mid-stage" |
+| F500 corporate (5K+) | ATS + recruiter 6-second scan, then HM | Keyword match first, then narrative | Skim-zone keyword surface, scale signals, regulated/enterprise credibility | Roles whose stage tag contains "F500 / Large-corporate" |
+| FAANG / Big Tech | Bar-raiser + leveling team | Bullets as behavioral prompts | Leadership-principle behaviors, technical depth, data rigor | Roles whose stage tag contains "FAANG / Big Tech" |
+
+If the candidate has no roles directly tagged at the JD's stage, surface roles whose work content best fits "what they value seeing" — read role descriptions in `me/background.md` and select on substance.
 
 Starting from flavor produces a stage-template tailoring that may miss actual JD priorities. Strategy first; flavor checks alignment.
 
@@ -386,7 +349,7 @@ Starting from flavor produces a stage-template tailoring that may miss actual JD
 
 ## Hidden-employer handling
 
-For recruiter-fronted roles where the actual employer is hidden (Forsyth Barnes, Liberty Personnel, Wayoh, aggregator listings):
+For recruiter-fronted roles where the actual employer is hidden:
 
 1. **Infer the industry from JD content.** Use responsibilities, tech stack, comp range, regulatory references, problem domain.
 2. **Apply industry-appropriate framing** in the tailored resume. Fintech reads → fintech frame; enterprise SaaS reads → enterprise SaaS frame.
@@ -397,7 +360,7 @@ For recruiter-fronted roles where the actual employer is hidden (Forsyth Barnes,
 
 ## Side-by-side diff — canonical format
 
-When presenting the tailored resume to the user, use this exact format. Locked because it's the only format that renders correctly in Maz's Claude Code desktop renderer.
+When presenting the tailored resume to the user, use this exact format. Locked because it's the only format that renders correctly in the Claude Code desktop renderer.
 
 - **Removed text:** wrap in `~~***[...]***~~` — produces strikethrough + bold-italic + square brackets
 - **Added text:** wrap in `***[...]***` — produces bold-italic + square brackets
@@ -417,11 +380,11 @@ Present the diff **with the validation-pass summary** so the user knows every ga
 
 ## Save format and naming convention
 
-Filename: `resumes/Maz_Mavvaj_<Title>_<Company>.docx`
+Filename: `resumes/<Candidate_Name>_<Title>_<Company>.docx`
 
 Examples: `Maz_Mavvaj_Sr_PM_Leap.docx`, `Maz_Mavvaj_Director_PM_Customer_io.docx`, `Maz_Mavvaj_Director_AI_Product_Definition_Mastercard.docx`.
 
-Master canonical: `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.docx` (regenerated from `me/resume.md` when master changes).
+Master canonical: per `me/resume.md`.
 
 After save, immediately run validation gates and prepare the side-by-side diff.
 

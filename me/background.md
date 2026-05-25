@@ -57,6 +57,8 @@ The VP → Senior TPM transition was deliberate. Maz left a VP role internationa
 
 ## Software Developer | Infotech International | 2004 – 2006
 
+**Stage:** Series A / Mid-stage
+
 Two market firsts that opened the company's entire business:
 - First remote terminal management system, eliminating physical servicing nationwide.
 - First domestic POS application to process live transactions through the national payment switch.
@@ -64,6 +66,8 @@ Two market firsts that opened the company's entire business:
 ---
 
 ## Manager, Software Development | Infotech International | 2006 – 2009
+
+**Stage:** Series A / Mid-stage
 
 - Led 8 engineers.
 - Owned technical direction for payment applications and terminal management products.
@@ -77,6 +81,8 @@ Two market firsts that opened the company's entire business:
 ---
 
 ## Director, Products & Program Management Office | Infotech International | 2009 – 2013
+
+**Stage:** Series A / Mid-stage
 
 - B2B operation. Owned product vision, strategy, and roadmap.
 - 7 engineering teams (40+ engineers) each had their own technical director at the same level as Maz. Maz owned WHAT to build, WHY, and WHEN, plus internal relationships (tech ↔ sales) and external relationships (customers, partners).
@@ -122,6 +128,8 @@ Simultaneously gave banking partners financial incentive to adopt terminals (win
 
 ## Vice President, Payment Card Services | Infotech International | 2013 – 2015
 
+**Stage:** Series A / Mid-stage
+
 - B2C role. PSP (Payment Service Provider) providing payment services directly to merchants. Different model from Director-era B2B.
 - **Conceived the B2C payment services venture** at parent company level (Infotech was B2B before this).
 - Parent hired someone else to establish and run the new company. After a year: wrong direction, losing contracts, bleeding money, toxic culture, bank-customer confidence dropping, critical 60K terminal contract stalled at 10K deployed.
@@ -163,6 +171,8 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 
 ## MBA | Widener University | 2015 – 2017
 
+**Stage:** Academic / N/A
+
 - Strategic Leadership & Business Process Innovation.
 - Relocated to US to operate at a scale where the impact could be global, not just regional.
 - During this time also advised Infotech International on payment systems modernization (Innovation & Strategy Advisor). The Advisor role had no quantified outcome.
@@ -170,6 +180,8 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 ---
 
 ## Senior Technical Program Manager | Comcast | 2017 – 2022
+
+**Stage:** F500 / Large-corporate
 
 - **Employment type:** Contractor (not employee).
 - DC Network Engineering team: ~12 engineers.
@@ -214,6 +226,8 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 
 ## Adjunct Instructor | Widener University | 2021 – present
 
+**Stage:** Academic / N/A
+
 - Invited back by the university where Maz earned his MBA.
 - **Innovation Toolbox** (graduate): designed and launched by Maz. Design thinking, problem solving, Lean, Agile principles.
 - **Database Management Systems**: modernized curriculum with hands-on applied learning.
@@ -221,6 +235,8 @@ Inherited toxic culture. Created safe, collaborative environment. Used technolog
 ---
 
 ## Head of Products | National Grid | 2022 – present
+
+**Stage:** F500 / Large-corporate
 
 - **Payroll title:** Principal / Staff Product Manager.
 - **Functional / external title:** Head of Products.
@@ -313,6 +329,8 @@ Partnered with Cara and Shruti. Analyzed vendor deployment gaps. Reframed from t
 ---
 
 ## Independent Ventures
+
+**Stage:** Series A
 
 Self-directed work outside W-2 employment. Maz frames the problem, sets product direction, designs architecture, and decides what ships and when. Every line of code is AI-written via Claude Code end-to-end. Shipped solo, full-stack, no engineering team. All projects live in `~/Projects/dev-seagull/`.
 

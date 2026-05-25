@@ -1,6 +1,6 @@
 # Maz Mavvaj — Master Resume
 
-Master resume content in markdown. Source of truth for the master FINAL5_5 `.docx` in `resumes/`. Tailored per-JD `.docx` files in `resumes/` are derived from this + JD-specific tailoring decisions (per `skills/tailoring/`).
+Master resume content in markdown. Source of truth for the master `.docx`: `resumes/Maz_Mavvaj_Director_Resume_FINAL5_5.docx`. Tailored per-JD `.docx` files in `resumes/` are derived from this + JD-specific tailoring decisions (per `skills/tailoring/`).
 
 When master content changes, regenerate the master `.docx` from this file.
 
